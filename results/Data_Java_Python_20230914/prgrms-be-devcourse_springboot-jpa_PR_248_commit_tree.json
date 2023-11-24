@@ -1,0 +1,295 @@
+{
+    "PR_URL": "https://github.com/prgrms-be-devcourse/springboot-jpa/pull/248",
+    "Commit_Tree": {
+        "sha": "bff862267341d221ab5fbcb261c0b81601b3c94c",
+        "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/bff862267341d221ab5fbcb261c0b81601b3c94c",
+        "tree": [
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c2065bc26202b2d072aca3efc3d1c2efad3afcbf",
+                "size": 444,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/c2065bc26202b2d072aca3efc3d1c2efad3afcbf"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "cd88cd2117b024d3441e372f124fccfd8959c331",
+                "size": 1123,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/cd88cd2117b024d3441e372f124fccfd8959c331"
+            },
+            {
+                "path": "build.gradle",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "59c215546cdf49dd82311be52d951d92697f0599",
+                "size": 845,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/59c215546cdf49dd82311be52d951d92697f0599"
+            },
+            {
+                "path": "gradle",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "139fb02db1bf4659830c1f42f14c0971bb8c20ab",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/139fb02db1bf4659830c1f42f14c0971bb8c20ab"
+            },
+            {
+                "path": "gradle/wrapper",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "49fbc5cc79281b2dbd41cf390a83608ddc491a6c",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/49fbc5cc79281b2dbd41cf390a83608ddc491a6c"
+            },
+            {
+                "path": "gradle/wrapper/gradle-wrapper.jar",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c1962a79e29d3e0ab67b14947c167a862655af9b",
+                "size": 62076,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/c1962a79e29d3e0ab67b14947c167a862655af9b"
+            },
+            {
+                "path": "gradle/wrapper/gradle-wrapper.properties",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "37aef8d3f0c9fffa920a8290320a6c78095e1591",
+                "size": 223,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/37aef8d3f0c9fffa920a8290320a6c78095e1591"
+            },
+            {
+                "path": "gradlew",
+                "mode": "100755",
+                "type": "blob",
+                "sha": "aeb74cbb43e3931a2455a838345c3f6b8131aaa2",
+                "size": 8496,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/aeb74cbb43e3931a2455a838345c3f6b8131aaa2"
+            },
+            {
+                "path": "gradlew.bat",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "93e3f59f135dd2dd498de4beb5c64338cc33beeb",
+                "size": 2776,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/93e3f59f135dd2dd498de4beb5c64338cc33beeb"
+            },
+            {
+                "path": "settings.gradle",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e08948df8edd0d2809c7e10d2e6753fb5e3566ab",
+                "size": 31,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/e08948df8edd0d2809c7e10d2e6753fb5e3566ab"
+            },
+            {
+                "path": "src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "54f29e5b07874dff68d93823150bad5f0c80408e",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/54f29e5b07874dff68d93823150bad5f0c80408e"
+            },
+            {
+                "path": "src/main",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "da4a5536bb76bfab07d4517fafcb6e500a23e34d",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/da4a5536bb76bfab07d4517fafcb6e500a23e34d"
+            },
+            {
+                "path": "src/main/java",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "46060a4d689418c5aeb7546295abaf2bfde7ae10",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/46060a4d689418c5aeb7546295abaf2bfde7ae10"
+            },
+            {
+                "path": "src/main/java/kr",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "93849fb40ef1abb7dd6e7787a8decb4058858216",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/93849fb40ef1abb7dd6e7787a8decb4058858216"
+            },
+            {
+                "path": "src/main/java/kr/co",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "cf0e7bb34e6222d051da22b377adb1871ec51108",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/cf0e7bb34e6222d051da22b377adb1871ec51108"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "3f5495f8cfa1dedeccda1b646b0fbae62ac70929",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/3f5495f8cfa1dedeccda1b646b0fbae62ac70929"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "7e3953742a80c59209cb364902c11a04e5d3f992",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/7e3953742a80c59209cb364902c11a04e5d3f992"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro/JpaIntroApplication.java",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ccbd9c46d5d01d3b651df563f3366d80d5495b48",
+                "size": 330,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/ccbd9c46d5d01d3b651df563f3366d80d5495b48"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro/config",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "bc5f5bc59dfa5eea193898e5a252257ce95affd4",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/bc5f5bc59dfa5eea193898e5a252257ce95affd4"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro/config/DataSourceConfig.java",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e9c886d2f4c351bc4169d06e833eceab6bd9e611",
+                "size": 2628,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/e9c886d2f4c351bc4169d06e833eceab6bd9e611"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro/domain",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "8263cbf1803c51cd3e2daa7fc254e12059dff84c",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/8263cbf1803c51cd3e2daa7fc254e12059dff84c"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro/domain/Customer.java",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f0a5d5471a52114136aa0b04f7b1d6e101e3f2d8",
+                "size": 1928,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/f0a5d5471a52114136aa0b04f7b1d6e101e3f2d8"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro/domain/CustomerRepository.java",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "18ede29c7eabd6907f51fd71e604d364a90f7d7a",
+                "size": 180,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/18ede29c7eabd6907f51fd71e604d364a90f7d7a"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro/exception",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "14796e2c0267474478f09f2ed61fdc013d169aa7",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/14796e2c0267474478f09f2ed61fdc013d169aa7"
+            },
+            {
+                "path": "src/main/java/kr/co/prgrms/jpaintro/exception/IllegalNameException.java",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9e43e4a410852653d9408af0a1d6b6a2c860115b",
+                "size": 185,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/9e43e4a410852653d9408af0a1d6b6a2c860115b"
+            },
+            {
+                "path": "src/main/resources",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "06960c391f8ecf2670b5c6989223a2278e22202f",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/06960c391f8ecf2670b5c6989223a2278e22202f"
+            },
+            {
+                "path": "src/main/resources/application.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dda09279b7453c279c0698bb98c9820cf07ec59e",
+                "size": 377,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/dda09279b7453c279c0698bb98c9820cf07ec59e"
+            },
+            {
+                "path": "src/test",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "3cadb0ec8bc87a263d7b077168b13c42046989aa",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/3cadb0ec8bc87a263d7b077168b13c42046989aa"
+            },
+            {
+                "path": "src/test/java",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "d4c24a8d427b04f826cccc38fb047910fadfe9da",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/d4c24a8d427b04f826cccc38fb047910fadfe9da"
+            },
+            {
+                "path": "src/test/java/kr",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a2fac6ae08edd7bb0c92261cdf821c986fabbe38",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/a2fac6ae08edd7bb0c92261cdf821c986fabbe38"
+            },
+            {
+                "path": "src/test/java/kr/co",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "00c3bc012afcd248be989f95e648edb5fd415929",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/00c3bc012afcd248be989f95e648edb5fd415929"
+            },
+            {
+                "path": "src/test/java/kr/co/prgrms",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a426a4cda48a63afd4b7273d0c4eede09e4ad2fc",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/a426a4cda48a63afd4b7273d0c4eede09e4ad2fc"
+            },
+            {
+                "path": "src/test/java/kr/co/prgrms/jpaintro",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "03164836c62222438deeee20745939807765bfb9",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/03164836c62222438deeee20745939807765bfb9"
+            },
+            {
+                "path": "src/test/java/kr/co/prgrms/jpaintro/JpaIntroApplicationTests.java",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "44aa986173105c50d3edd48a6155d26b7044d256",
+                "size": 224,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/44aa986173105c50d3edd48a6155d26b7044d256"
+            },
+            {
+                "path": "src/test/java/kr/co/prgrms/jpaintro/domain",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "67eb16ce4df1425142220647b47e37e53d94548d",
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/trees/67eb16ce4df1425142220647b47e37e53d94548d"
+            },
+            {
+                "path": "src/test/java/kr/co/prgrms/jpaintro/domain/CustomerRepositoryTest.java",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a7a0ac922d603f3a9fe927a7654cb18e5bf2d08b",
+                "size": 3205,
+                "url": "https://api.github.com/repos/prgrms-be-devcourse/springboot-jpa/git/blobs/a7a0ac922d603f3a9fe927a7654cb18e5bf2d08b"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        ".gitignore",
+        "settings.gradle",
+        "src/main/java/kr/co/prgrms/jpaintro/exception/IllegalNameException.java",
+        "src/main/java/kr/co/prgrms/jpaintro/config/DataSourceConfig.java",
+        "build.gradle",
+        "src/main/java/kr/co/prgrms/jpaintro/domain/CustomerRepository.java",
+        "src/main/java/kr/co/prgrms/jpaintro/domain/Customer.java",
+        "gradlew",
+        "src/main/java/kr/co/prgrms/jpaintro/JpaIntroApplication.java",
+        "gradle/wrapper/gradle-wrapper.jar",
+        "gradle/wrapper/gradle-wrapper.properties",
+        "gradlew.bat",
+        "src/test/java/kr/co/prgrms/jpaintro/JpaIntroApplicationTests.java",
+        "src/main/resources/application.yml",
+        "src/test/java/kr/co/prgrms/jpaintro/domain/CustomerRepositoryTest.java"
+    ]
+}

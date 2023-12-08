@@ -1,0 +1,327 @@
+name: Download test workflow
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - "Cargo.*"
+      - "crates/download/**"
+      - "scripts/downloads/*"
+      - ".github/workflows/download_test.yml"
+defaults:
+  run:
+    shell: bash
+jobs:
+  download-releases:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: 通常ダウンロード
+            os: windows-latest
+            download_command: cargo run -vv -p download
+            download_dir: voicevox_core
+            check_items: |
+              voicevox_core.dll
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+            # https://github.com/VOICEVOX/voicevox_core/pull/411#issuecomment-1412457592
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+          - name: CpuArch指定
+            os: windows-latest
+            download_command: cargo run -vv -p download -- --cpu-arch x86
+            download_dir: voicevox_core
+            check_items: |
+              voicevox_core.dll
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+          - name: output先指定ダウンロード
+            os: windows-latest
+            download_command: cargo run -vv -p download -- -o other_output
+            download_dir: other_output
+            check_items: |
+              voicevox_core.dll
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+          - name: Min option確認
+            os: windows-latest
+            download_command: cargo run -vv -p download -- --min
+            download_dir: voicevox_core
+            check_items: |
+              voicevox_core.dll
+              model/metas.json
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+              open_jtalk_dic_utf_8-1.11
+          - name: DirectML option確認
+            os: windows-latest
+            download_command: cargo run -vv -p download -- --device directml
+            download_dir: voicevox_core
+            check_items: |
+              voicevox_core.dll
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+              DirectML.dll
+              DirectML_LICENSE.txt
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+          - name: DirectMLかつMin option確認
+            os: windows-latest
+            download_command: cargo run -vv -p download -- --device directml --min
+            download_dir: voicevox_core
+            check_items: |
+              voicevox_core.dll
+              model/metas.json
+              README.txt
+            check_not_exists_items: |
+              *cuda*
+              *cudnn*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+              Directml.dll
+              DirectML_LICENSE.txt
+              open_jtalk_dic_utf_8-1.11
+          - name: cuda option確認
+            os: windows-latest
+            download_command: cargo run -vv -p download -- --device cuda
+            download_dir: voicevox_core
+            check_items: |
+              voicevox_core.dll
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+              EULA.txt
+              NVIDIA_SLA_cuDNN_Support.txt
+              cublas64_*.dll
+              cublasLt64_*.dll
+              cudart64_*.dll
+              cudnn64_*.dll
+              cudnn_adv_infer64_*.dll
+              cudnn_cnn_infer64_*.dll
+              cudnn_ops_infer64_*.dll
+              cufft64_*.dll
+              curand64_*.dll
+            check_not_exists_items: |
+              *directml*
+          - name: cudaかつmin option確認
+            os: windows-latest
+            download_command: cargo run -vv -p download -- --device cuda --min
+            download_dir: voicevox_core
+            check_items: |
+              voicevox_core.dll
+              model/metas.json
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              EULA.txt
+              NVIDIA_SLA_cuDNN_Support.txt
+              cublas64_*.dll
+              cublasLt64_*.dll
+              cudart64_*.dll
+              cudnn64_*.dll
+              cudnn_adv_infer64_*.dll
+              cudnn_cnn_infer64_*.dll
+              cudnn_ops_infer64_*.dll
+              cufft64_*.dll
+              curand64_*.dll
+              open_jtalk_dic_utf_8-1.11
+          - name: 通常ダウンロード
+            os: ubuntu-latest
+            download_command: ./scripts/downloads/download.sh
+            download_dir: voicevox_core
+            check_items: |
+              libvoicevox_core.so
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *onnxruntime*providers*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+          - name: CPUArch指定
+            os: ubuntu-latest
+            download_command: ./scripts/downloads/download.sh --cpu-arch x64
+            download_dir: voicevox_core
+            check_items: |
+              libvoicevox_core.so
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *onnxruntime*providers*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+          - name: output先指定ダウンロード
+            os: ubuntu-latest
+            download_command: ./scripts/downloads/download.sh --output other_output
+            download_dir: other_output
+            check_items: |
+              libvoicevox_core.so
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *onnxruntime*providers*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+          - name: min option確認
+            os: ubuntu-latest
+            download_command: ./scripts/downloads/download.sh --min
+            download_dir: voicevox_core
+            check_items: |
+              libvoicevox_core.so
+              model/metas.json
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              *cuda*
+              *cudnn*
+              *onnxruntime*providers*
+              *eula*
+              *nvidia*
+              *cufft*
+              *curand*
+              open_jtalk_dic_utf_8-1.11
+          - name: cuda option確認
+            os: ubuntu-latest
+            download_command: ./scripts/downloads/download.sh --device cuda
+            download_dir: voicevox_core
+            check_items: |
+              libvoicevox_core.so
+              model/metas.json
+              open_jtalk_dic_utf_8-1.11
+              README.txt
+              EULA.txt
+              NVIDIA_SLA_cuDNN_Support.txt
+              libcublas.so.*
+              libcublasLt.so.*
+              libcudnn.so.*
+              libcudnn_adv_infer.so.*
+              libcudnn_cnn_infer.so.*
+              libcudnn_ops_infer.so.*
+              libcufft.so.*
+              libcurand.so.*
+            check_not_exists_items: |
+              *directml*
+          - name: cudaかつmin option確認
+            os: ubuntu-latest
+            download_command: ./scripts/downloads/download.sh --device cuda --min
+            download_dir: voicevox_core
+            check_items: |
+              libvoicevox_core.so
+              model/metas.json
+              README.txt
+            check_not_exists_items: |
+              *directml*
+              EULA.txt
+              NVIDIA_SLA_cuDNN_Support.txt
+              libcublas.so.*
+              libcublasLt.so.*
+              libcudnn.so.*
+              libcudnn_adv_infer.so.*
+              libcudnn_cnn_infer.so.*
+              libcudnn_ops_infer.so.*
+              libcufft.so.*
+              libcurand.so.*
+              open_jtalk_dic_utf_8-1.11
+    runs-on: ${{ matrix.os }}
+    name: ${{ matrix.name }}-${{ matrix.os }}
+    env:
+      EXPECTED_VOICEVOX_CORE_VERSION: latest
+      # See https://github.com/VOICEVOX/voicevox_core/issues/310
+      #EXPECTED_VOICEVOX_CORE_VERSION: ${{ matrix.expected_version || 'latest' }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Rust
+        if: ${{ startsWith(matrix.download_command, 'cargo ') }}
+        uses: ./.github/actions/rust-toolchain-from-file
+      - name: Execute download command
+        run: ${{ matrix.download_command }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Get latest version
+        if: ${{ env.EXPECTED_VOICEVOX_CORE_VERSION == 'latest' }}
+        run: |
+          echo "EXPECTED_VOICEVOX_CORE_VERSION=$(gh release view --repo VOICEVOX/voicevox_core --json 'tagName' --jq '.tagName')" >> "$GITHUB_ENV"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Check downloaded version
+        run: |
+          [ -e "${{ matrix.download_dir }}/VERSION" ]
+          [ "$(cat "${{ matrix.download_dir }}/VERSION")" = "${{ env.EXPECTED_VOICEVOX_CORE_VERSION }}" ]
+      - name: Check downloaded files
+        run: |
+          mapfile -t items < <(echo -n '${{ matrix.check_items }}')
+          for item in "${items[@]}"
+          do
+            echo "check exists ${{ matrix.download_dir }}/${item}..."
+            # shellcheck disable=SC2086
+            [ -e "${{ matrix.download_dir }}"/${item} ]
+          done
+      - name: Check should not exists files
+        run: |
+          mapfile -t items < <(echo -n '${{ matrix.check_not_exists_items }}')
+          for item in "${items[@]}"
+          do
+            echo "check should not exists ${{ matrix.download_dir }}/${item}..."
+            # shellcheck disable=SC2086
+            [ ! -e "${{ matrix.download_dir }}"/${item} ]
+          done

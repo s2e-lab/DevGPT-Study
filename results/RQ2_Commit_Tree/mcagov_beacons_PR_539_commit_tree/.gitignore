@@ -1,0 +1,28 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+# Module directory
+.terraform/
+
+# Coverage
+coverage/
+
+# MacOS
+**/.DS_Store
+
+# JetBrains
+.idea/
+*.iml
+service/.run
+
+
+#Eclipse
+service/.metadata
+
+# Node Modules
+node_modules
+.env
+
+#Test results
+tests/cypress/screenshots/

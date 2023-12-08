@@ -1,5 +1,6 @@
 import org.objectweb.asm.*;
 
+
 public class ExecutorClassGenerator {
 
     public static byte[] generateExecutorFor(Class<?> targetClass) {

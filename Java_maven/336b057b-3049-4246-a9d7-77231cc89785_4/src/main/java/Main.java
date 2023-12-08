@@ -1,8 +1,16 @@
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+import java.security.interfaces.RSAPrivateKey;
+import java.security.interfaces.RSAPublicKey;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        // Replace with your RSA public and private keys
-        RSAPublicKey rsaPublicKey = getRSAPublicKey();
-        RSAPrivateKey rsaPrivateKey = getRSAPrivateKey();
+        // Generate RSA keys
+        KeyPair keyPair = generateRSAKeyPair();
+        RSAPublicKey rsaPublicKey = (RSAPublicKey) keyPair.getPublic();
+        RSAPrivateKey rsaPrivateKey = (RSAPrivateKey) keyPair.getPrivate();
 
         UserRepository userRepository = new UserRepository();
         JwtUtils jwtUtils = new JwtUtils(rsaPublicKey, rsaPrivateKey);
@@ -37,5 +45,55 @@ public class Main {
         }
     }
 
-    // Your getRSAPublicKey() and getRSAPrivateKey() methods here
+    private static KeyPair generateRSAKeyPair() {
+        try {
+            KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
+            keyPairGenerator.initialize(2048);
+            return keyPairGenerator.generateKeyPair();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    static class UserRepository {
+        List<User> getAllUsers() {
+
+            return null;
+        }
+    }
+
+    static class JwtUtils {
+        JwtUtils(RSAPublicKey rsaPublicKey, RSAPrivateKey rsaPrivateKey) {
+
+        }
+
+
+    }
+
+    static class AuthenticationService {
+        AuthenticationService(UserRepository userRepository, JwtUtils jwtUtils) {
+
+        }
+
+        String authenticate(String username, String password) {
+
+            return null;
+        }
+
+        boolean isTokenValid(String token) {
+
+            return false;
+        }
+
+        String extractUserIdFromToken(String token) {
+
+            return null;
+        }
+    }
+
+    static class User {
+
+    }
 }

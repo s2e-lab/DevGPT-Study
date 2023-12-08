@@ -1,5 +1,5 @@
 public class Main {
-   public static void main(string [] args) {
+   public static void main(String [] args) {
         MyObject myObject = new MyObject();
         Mono<MyObject> objectMono = Mono.just(myObject);
 

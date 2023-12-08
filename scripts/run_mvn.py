@@ -5,7 +5,7 @@ import os
 import time
 import csv
 
-maven_project_path = "Java_maven"
+maven_project_path = "/Users/lindsayroney/research/DevGPT-Study/Java_maven"
 
 tested_projects = set()  # Initialize an empty set to keep track of tested projects
 output = []  # Accumulates all results
@@ -32,7 +32,7 @@ for root, dirs, files in os.walk(maven_project_path):
             process_output, process_error = process.communicate(timeout=45)
 
             # Handle output or errors if needed
-            print(process_output.decode('utf-8'))
+            # print(process_output.decode('utf-8'))
             print(process_error.decode('utf-8'))
 
             # Add the tested project to the set
@@ -40,7 +40,7 @@ for root, dirs, files in os.walk(maven_project_path):
 
             # Parse the compilation output for errors (example)
             # Modify this part based on your actual error parsing logic
-            lines = process_error.decode('utf-8').split('\n')
+            lines = process_output.decode('utf-8').split('\n')
             for line in lines:
                 if line.startswith("[ERROR]"):
                     output.append([project, line])  # Adjust output format as needed

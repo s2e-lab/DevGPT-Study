@@ -4,8 +4,9 @@ public class MyClass {
     public static void staticMethod() { // A static method
         // Method code here
     }
-}
 
-// Accessing the static variable and method without creating an instance
-MyClass.staticVar = 10;
-MyClass.staticMethod();
+    public static void main(String[] args) {
+        MyClass.staticVar = 10; // Accessing the static variable
+        MyClass.staticMethod(); // Calling the static method
+    }
+}

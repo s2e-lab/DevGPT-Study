@@ -29,7 +29,8 @@ public class BoothAlgorithm {
             }
 
             // Perform arithmetic right shift on the multiplier and the accumulator
-            shiftRight(multiplier);
+            StringBuilder sb_mult = new StringBuilder(multiplier);
+            shiftRight(sb_mult);
             shiftRight(accumulator);
         }
 

@@ -1,5 +1,5 @@
 public class Main {
-   public static void main(string [] args) {
+   public static void main(String [] args) {
       Mono<String> result = webClient.get()
       .uri("/api/resource")
       .retrieve()

@@ -9,7 +9,7 @@ public class RomanIntConversionTest {
         // ... other tests here ...
 
         // Negative tests
-        assertEquals("", RomanIntConversion.convertIntToRoman(-1));
-        assertEquals("", RomanIntConversion.convertIntToRoman(4000));
+        assertThrows(IllegalArgumentException.class, () -> RomanIntConversion.convertIntToRoman(-1));
+        assertThrows(IllegalArgumentException.class, () -> RomanIntConversion.convertIntToRoman(4000));
     }
 }

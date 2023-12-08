@@ -1,6 +1,9 @@
+import java.util.logging.Logger;
+
 public class Main {
-    public static void main(string [] args) {
-        Logger logger = LogManager.getLogger();
-        logger.atInfo().withKeyValue("userId", "12345").log("User logged in");
-   }
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
+
+    public static void main(String[] args) {
+        logger.info("User logged in with userId: 12345");
+    }
 }

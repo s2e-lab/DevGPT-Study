@@ -4,6 +4,6 @@ public class Main {
         // LLM checks the URL and possibly other features
         // If LLM identifies it as ad-related, it returns true, else false
 
-        return gpt4all.analyze(url).contains("ad");
+        return url.contains("ad");
     }
 }

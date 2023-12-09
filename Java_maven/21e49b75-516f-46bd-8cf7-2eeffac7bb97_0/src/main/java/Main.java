@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(string [] args) {
+    public static void main(String [] args) {
         String className = "com.example.package.YourClassName";
         try {
             Class<?> clazz = Class.forName(className);

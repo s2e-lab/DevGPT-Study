@@ -5,8 +5,3 @@ public class MyClass {
         // Method code here
     }
 }
-
-// Extending a final class is not allowed
-public class SubClass extends MyClass { // This will give an error
-    // Some code here
-}

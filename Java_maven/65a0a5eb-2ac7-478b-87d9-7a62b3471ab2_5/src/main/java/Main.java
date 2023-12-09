@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(string [] args) {
+    public static void main(String [] args) {
         DependencyNode rootNode = dependencyResult.getRoot();
         TreeDependencyVisitor visitor = new TreeDependencyVisitor(
                 new TreeDependencyVisitorFactory().newInstance(session, true));

@@ -1,0 +1,8 @@
+https://github.com/Miller-RS/DistributedMiningNetwork/pull/8
+https://github.com/adobe/aem-core-forms-components/pull/878
+https://github.com/datastax/cassandra/pull/752
+https://github.com/dotCMS/core/pull/25432
+https://github.com/mcagov/beacons/pull/539
+https://github.com/opensearch-project/opensearch-migrations/pull/297
+https://github.com/prgrms-be-devcourse/springboot-jpa/pull/248
+https://github.com/yzpocket/spring-cafeservice/pull/21

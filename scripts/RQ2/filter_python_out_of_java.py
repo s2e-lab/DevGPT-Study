@@ -37,7 +37,7 @@ def copy_json_if_python_files(json_file, dest_dir):
 
 
 source_dir = './Data_Java_Python'
-dest_dir = 'new_destination_folder'
+dest_dir = 'Data_Python'
 
 os.makedirs(dest_dir, exist_ok=True)
 

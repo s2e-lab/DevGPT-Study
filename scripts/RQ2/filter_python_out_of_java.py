@@ -5,7 +5,9 @@ import shutil
 
 def list_json_files(root_dir):
     """ List all JSON files in the specified directory and its subdirectories. """
+    print(f"Searching in directory: {root_dir}")
     for dirpath, dirnames, filenames in os.walk(root_dir):
+        print(f"Checking directory: {dirpath}")
         for filename in filenames:
             if filename.endswith('.json'):
                 json_file_path = os.path.join(dirpath, filename)
@@ -34,12 +36,10 @@ def copy_json_if_python_files(json_file, dest_dir):
             shutil.copyfile(json_file, dest_path)
 
 
-source_dir = 'RQ2/Data_Java_Python'
+source_dir = './Data_Java_Python'
 dest_dir = 'new_destination_folder'
 
-# Create destination directory if it doesn't exist
 os.makedirs(dest_dir, exist_ok=True)
 
-# Process each JSON file
 for json_file in list_json_files(source_dir):
     copy_json_if_python_files(json_file, dest_dir)

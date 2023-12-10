@@ -1,0 +1,200 @@
+{
+    "PR_URL": "https://github.com/erobitschek/med-ml/pull/5",
+    "Commit_Tree": {
+        "sha": "8a055e82f2939d7281a962524c4616e3ae0d9c7a",
+        "url": "https://api.github.com/repos/erobitschek/med-ml/git/trees/8a055e82f2939d7281a962524c4616e3ae0d9c7a",
+        "tree": [
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f678bd1c1be548f32eb175f12dedbbaa78f9bbf7",
+                "size": 3241,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/f678bd1c1be548f32eb175f12dedbbaa78f9bbf7"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7a1be9f91ad5f5a0243762d3eaaa887856c57aee",
+                "size": 7670,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/7a1be9f91ad5f5a0243762d3eaaa887856c57aee"
+            },
+            {
+                "path": "src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "5a56503c29ede3983fc1127f946f146ae239a0ae",
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/trees/5a56503c29ede3983fc1127f946f146ae239a0ae"
+            },
+            {
+                "path": "src/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "src/configs",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "b25a4d6ca81b23c26c92b14680b2018957bf100a",
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/trees/b25a4d6ca81b23c26c92b14680b2018957bf100a"
+            },
+            {
+                "path": "src/configs/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "src/configs/config_scaffold.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5cf753a5003d1994caa147c0bdad36340efc0429",
+                "size": 2577,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/5cf753a5003d1994caa147c0bdad36340efc0429"
+            },
+            {
+                "path": "src/configs/experiment_config_example.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dde2e7cfc1d124271618ebba9087e2685cb8b895",
+                "size": 754,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/dde2e7cfc1d124271618ebba9087e2685cb8b895"
+            },
+            {
+                "path": "src/configs/experiment_config_lgbm.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5867818d7f10fa59de743910008c5e550d5ad041",
+                "size": 1091,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/5867818d7f10fa59de743910008c5e550d5ad041"
+            },
+            {
+                "path": "src/configs/experiment_config_torch_example.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a582c5ffec2762260cbe486cbda59768e76d7d00",
+                "size": 631,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/a582c5ffec2762260cbe486cbda59768e76d7d00"
+            },
+            {
+                "path": "src/data.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8b8b7ef2da0f9fb1d8e3bd785abfacbe77c3726c",
+                "size": 10660,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/8b8b7ef2da0f9fb1d8e3bd785abfacbe77c3726c"
+            },
+            {
+                "path": "src/environment.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "664e3c56109a2035fe4a54117037252ede706f5d",
+                "size": 286,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/664e3c56109a2035fe4a54117037252ede706f5d"
+            },
+            {
+                "path": "src/eval.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "423ab65d27bbf4cd30c68c3eb0cebc3c22ee454e",
+                "size": 3315,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/423ab65d27bbf4cd30c68c3eb0cebc3c22ee454e"
+            },
+            {
+                "path": "src/models.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "56929dac1920074b10fac2ef39fb08449aba86cf",
+                "size": 1358,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/56929dac1920074b10fac2ef39fb08449aba86cf"
+            },
+            {
+                "path": "src/predict.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b4315c15c1c78ad32144cdb1baed50eafdda8527",
+                "size": 2562,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/b4315c15c1c78ad32144cdb1baed50eafdda8527"
+            },
+            {
+                "path": "src/run_analysis.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "33190c212a7d2783b6e5f9c4a103b0f90724a2e2",
+                "size": 4779,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/33190c212a7d2783b6e5f9c4a103b0f90724a2e2"
+            },
+            {
+                "path": "src/run_simple.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8ea9af5ec333f7052f3879be8476e77cdbaa3cca",
+                "size": 5884,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/8ea9af5ec333f7052f3879be8476e77cdbaa3cca"
+            },
+            {
+                "path": "src/run_torch.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2997676fa51a8357c3fe3f482b5a38804ad6de09",
+                "size": 4344,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/2997676fa51a8357c3fe3f482b5a38804ad6de09"
+            },
+            {
+                "path": "src/tests.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2bc4e7db443e25c52b3589e63bda95547b1de1a1",
+                "size": 751,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/2bc4e7db443e25c52b3589e63bda95547b1de1a1"
+            },
+            {
+                "path": "src/train.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "38422774808d06eb5680ab88013250f19c053b9a",
+                "size": 9271,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/38422774808d06eb5680ab88013250f19c053b9a"
+            },
+            {
+                "path": "src/utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "538593ded88faae5ced169a6a79617e83d6cd8f7",
+                "size": 6137,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/538593ded88faae5ced169a6a79617e83d6cd8f7"
+            },
+            {
+                "path": "src/vis.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e8bcfba5c8d148767e173b33ef68a0c33752cc8d",
+                "size": 1232,
+                "url": "https://api.github.com/repos/erobitschek/med-ml/git/blobs/e8bcfba5c8d148767e173b33ef68a0c33752cc8d"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "src/configs/experiment_config_lgbm.py",
+        "src/configs/experiment_config_example.py",
+        "src/data.py",
+        "src/run_analysis.py",
+        "src/run_torch.py",
+        "src/train.py",
+        "src/run_simple.py",
+        "src/configs/config_scaffold.py",
+        "src/predict.py",
+        "src/utils.py",
+        "src/tests.py",
+        "src/models.py",
+        "src/vis.py",
+        "src/eval.py"
+    ]
+}

@@ -1,0 +1,554 @@
+{
+    "PR_URL": "https://github.com/Email-Generation/email_generation/pull/2",
+    "Commit_Tree": {
+        "sha": "4a318af10ae526eef735eb4a384beb834ad9cfef",
+        "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/4a318af10ae526eef735eb4a384beb834ad9cfef",
+        "tree": [
+            {
+                "path": ".github",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "880125d18e34a4e5c09e8b738de603115508684b",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/880125d18e34a4e5c09e8b738de603115508684b"
+            },
+            {
+                "path": ".github/workflows",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "1e08a4715d0b562afd1af4814bc445266630541f",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/1e08a4715d0b562afd1af4814bc445266630541f"
+            },
+            {
+                "path": ".github/workflows/backend-email-gen-test.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f74bc3354bd04ccc4ed5cb6c9bbf481a02433b55",
+                "size": 821,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/f74bc3354bd04ccc4ed5cb6c9bbf481a02433b55"
+            },
+            {
+                "path": ".github/workflows/lint-format-checks.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "65b9615a628764c622dcfd37dfd9c3f0d4804461",
+                "size": 1583,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/65b9615a628764c622dcfd37dfd9c3f0d4804461"
+            },
+            {
+                "path": ".github/workflows/node.js.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "65591f42f4816952e79800965137f3439500753c",
+                "size": 991,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/65591f42f4816952e79800965137f3439500753c"
+            },
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d0772b803a86bd12c5febc6b0722a0490041b5b9",
+                "size": 5784,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/d0772b803a86bd12c5febc6b0722a0490041b5b9"
+            },
+            {
+                "path": ".vscode",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "c729d06e7ebee6485bc37cb52d3794a31a95697b",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/c729d06e7ebee6485bc37cb52d3794a31a95697b"
+            },
+            {
+                "path": ".vscode/settings.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f90ed3fca6621f37d01b95eb21758c1756b98b7b",
+                "size": 535,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/f90ed3fca6621f37d01b95eb21758c1756b98b7b"
+            },
+            {
+                "path": "LICENSE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "67e229556c4df2e53fcc6cce6639dd5f4bce9813",
+                "size": 1511,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/67e229556c4df2e53fcc6cce6639dd5f4bce9813"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "13376142c3825fff5d01a3e89f10cd4650b1cd7b",
+                "size": 11907,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/13376142c3825fff5d01a3e89f10cd4650b1cd7b"
+            },
+            {
+                "path": "backend",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a1d04ea6791c3cb1f85b8b2d846fac5c2c5d1704",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/a1d04ea6791c3cb1f85b8b2d846fac5c2c5d1704"
+            },
+            {
+                "path": "backend/.dockerignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7c071f68a270f7558b76a59810b3b05244e961dc",
+                "size": 32,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/7c071f68a270f7558b76a59810b3b05244e961dc"
+            },
+            {
+                "path": "backend/Dockerfile.dev",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "13d5b85d7c1818a4c911912985d1de1c9e4933e2",
+                "size": 467,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/13d5b85d7c1818a4c911912985d1de1c9e4933e2"
+            },
+            {
+                "path": "backend/Dockerfile.lambda.dev",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d302b9b0a01738449ae48248fffc63db3c8e4a76",
+                "size": 473,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/d302b9b0a01738449ae48248fffc63db3c8e4a76"
+            },
+            {
+                "path": "backend/app",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "bd3c647ae120040adc1cb8f3976dbbf1d6337954",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/bd3c647ae120040adc1cb8f3976dbbf1d6337954"
+            },
+            {
+                "path": "backend/app/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "backend/app/config",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "02277a776dddac9c2e3ef4a0df257ae6e3da8c83",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/02277a776dddac9c2e3ef4a0df257ae6e3da8c83"
+            },
+            {
+                "path": "backend/app/config/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "backend/app/config/logging",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "e83a14b96f3d7f6a0e6706ae7b72223de663da3f",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/e83a14b96f3d7f6a0e6706ae7b72223de663da3f"
+            },
+            {
+                "path": "backend/app/config/logging/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3d58b409c0cf7740725a2e870163f8df3e29f001",
+                "size": 50,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/3d58b409c0cf7740725a2e870163f8df3e29f001"
+            },
+            {
+                "path": "backend/app/config/logging/logger.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "72d17a1c8bb8e5751697b23e00de87913a882bb7",
+                "size": 1649,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/72d17a1c8bb8e5751697b23e00de87913a882bb7"
+            },
+            {
+                "path": "backend/app/config/logging/logging.yaml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "982ee26b34438e0c8f84eec51cf1832cffec105b",
+                "size": 990,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/982ee26b34438e0c8f84eec51cf1832cffec105b"
+            },
+            {
+                "path": "backend/app/config/settings.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "041c0fc0cf7dfd5ab326a80482f1c2a3653d7817",
+                "size": 928,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/041c0fc0cf7dfd5ab326a80482f1c2a3653d7817"
+            },
+            {
+                "path": "backend/app/main.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "58d4b6a1e28843500c7cb1a7c72e1276cd5fa410",
+                "size": 1282,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/58d4b6a1e28843500c7cb1a7c72e1276cd5fa410"
+            },
+            {
+                "path": "backend/app/models",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "1d07dc904866787917ad97ad4c94880ae5f8128e",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/1d07dc904866787917ad97ad4c94880ae5f8128e"
+            },
+            {
+                "path": "backend/app/models/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "backend/app/models/schemas.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9a44803e3d76cd2b545d71b221f2d2460bc4c5dc",
+                "size": 229,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/9a44803e3d76cd2b545d71b221f2d2460bc4c5dc"
+            },
+            {
+                "path": "backend/app/routes",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "e9a3ebfc7eb38eee5a9f45b124baf2be25620fbe",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/e9a3ebfc7eb38eee5a9f45b124baf2be25620fbe"
+            },
+            {
+                "path": "backend/app/routes/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "backend/app/routes/email_routes.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "aed8b794b6d922a37640ad5512d1f439024d2898",
+                "size": 313,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/aed8b794b6d922a37640ad5512d1f439024d2898"
+            },
+            {
+                "path": "backend/app/services",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "36654a078024b8f7ac3975a6e8b74741c7f243b4",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/36654a078024b8f7ac3975a6e8b74741c7f243b4"
+            },
+            {
+                "path": "backend/app/services/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "backend/app/services/openai_service.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "08b4d30a76e2e35080f0f28065988fc63c7e4ec8",
+                "size": 1133,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/08b4d30a76e2e35080f0f28065988fc63c7e4ec8"
+            },
+            {
+                "path": "backend/dev-requirements.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "71ef555e4714a7a5bd14f943658bbafe152f4d81",
+                "size": 20,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/71ef555e4714a7a5bd14f943658bbafe152f4d81"
+            },
+            {
+                "path": "backend/requirements.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5f72afa178f61cd478ca075cb69c9c6f85194ba6",
+                "size": 111,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/5f72afa178f61cd478ca075cb69c9c6f85194ba6"
+            },
+            {
+                "path": "backend/tests",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f0d572fdb181840b0af5c15be6281d6c1f9a3785",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/f0d572fdb181840b0af5c15be6281d6c1f9a3785"
+            },
+            {
+                "path": "backend/tests/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "backend/tests/test_email_routes.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0185c942d52bbafe933355c4b5a5018048348ec8",
+                "size": 437,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/0185c942d52bbafe933355c4b5a5018048348ec8"
+            },
+            {
+                "path": "backend/tests/test_openai_service.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ce50c2df0d270e9fe342a8ae32de260d51a483d8",
+                "size": 592,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/ce50c2df0d270e9fe342a8ae32de260d51a483d8"
+            },
+            {
+                "path": "docker-compose.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4d949450a1ebc96779f368fdd9327498dda5e8cc",
+                "size": 651,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/4d949450a1ebc96779f368fdd9327498dda5e8cc"
+            },
+            {
+                "path": "example.env",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4bf2bcb7e96d0e6beaf2393e5edb4115f131f658",
+                "size": 76,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/4bf2bcb7e96d0e6beaf2393e5edb4115f131f658"
+            },
+            {
+                "path": "frontend",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "3b4f1c814e92a0689dd371b1d7003c6c5760d1fe",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/3b4f1c814e92a0689dd371b1d7003c6c5760d1fe"
+            },
+            {
+                "path": "frontend/.dockerignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ccb2c800f0b94a3025ec1b541aece4157a060efe",
+                "size": 31,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/ccb2c800f0b94a3025ec1b541aece4157a060efe"
+            },
+            {
+                "path": "frontend/.eslintrc.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f7481d9f2fccb3e622326ee2630af6cf9bae3fa8",
+                "size": 338,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/f7481d9f2fccb3e622326ee2630af6cf9bae3fa8"
+            },
+            {
+                "path": "frontend/.prettierrc",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "48a894b17416b021b733feb0e59d2c6a8ddbfeec",
+                "size": 963,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/48a894b17416b021b733feb0e59d2c6a8ddbfeec"
+            },
+            {
+                "path": "frontend/Dockerfile.dev",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4168e7f61b327dbd3c706c83b67993def7bc4c9a",
+                "size": 464,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/4168e7f61b327dbd3c706c83b67993def7bc4c9a"
+            },
+            {
+                "path": "frontend/package-lock.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d43d0ee86046bca58c1312634b0b15aa03e7b8b5",
+                "size": 2048852,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/d43d0ee86046bca58c1312634b0b15aa03e7b8b5"
+            },
+            {
+                "path": "frontend/package.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1684e64abbb575fa16e16868c6219aa2425fd8c8",
+                "size": 1318,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/1684e64abbb575fa16e16868c6219aa2425fd8c8"
+            },
+            {
+                "path": "frontend/public",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a523a7f78be4e1ac948f98f3014fb84f9b8eabd2",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/a523a7f78be4e1ac948f98f3014fb84f9b8eabd2"
+            },
+            {
+                "path": "frontend/public/favicon.ico",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a11777cc471a4344702741ab1c8a588998b1311a",
+                "size": 3870,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/a11777cc471a4344702741ab1c8a588998b1311a"
+            },
+            {
+                "path": "frontend/public/index.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d221edb07f96fc4b659608a9f827646aae7397a4",
+                "size": 1728,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/d221edb07f96fc4b659608a9f827646aae7397a4"
+            },
+            {
+                "path": "frontend/public/logo192.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fc44b0a3796c0e0a64c3d858ca038bd4570465d9",
+                "size": 5347,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/fc44b0a3796c0e0a64c3d858ca038bd4570465d9"
+            },
+            {
+                "path": "frontend/public/logo512.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a4e47a6545bc15971f8f63fba70e4013df88a664",
+                "size": 9664,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/a4e47a6545bc15971f8f63fba70e4013df88a664"
+            },
+            {
+                "path": "frontend/public/manifest.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7c866422a99b1b32bdfbfecc70e434564a4751ee",
+                "size": 445,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/7c866422a99b1b32bdfbfecc70e434564a4751ee"
+            },
+            {
+                "path": "frontend/public/robots.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e",
+                "size": 67,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e"
+            },
+            {
+                "path": "frontend/src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "af67f966ab6dbfde795e55d4737414f12b9ed9e4",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/af67f966ab6dbfde795e55d4737414f12b9ed9e4"
+            },
+            {
+                "path": "frontend/src/App.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5becf5555d7008279444af4da162acff10844db1",
+                "size": 3030,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/5becf5555d7008279444af4da162acff10844db1"
+            },
+            {
+                "path": "frontend/src/App.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1b90d06cbe32d066661483493b9fe3bece8ebe22",
+                "size": 2325,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/1b90d06cbe32d066661483493b9fe3bece8ebe22"
+            },
+            {
+                "path": "frontend/src/App.test.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5ab6dd8081362e9b174951bdd005c5077e448b3e",
+                "size": 792,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/5ab6dd8081362e9b174951bdd005c5077e448b3e"
+            },
+            {
+                "path": "frontend/src/index.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fd2c06f6b39b6b04f1f85344b8f822ec899288f7",
+                "size": 355,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/fd2c06f6b39b6b04f1f85344b8f822ec899288f7"
+            },
+            {
+                "path": "frontend/src/index.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9c55c9935fa87c65e2a905ec8d2f3abbd014e7c7",
+                "size": 531,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/9c55c9935fa87c65e2a905ec8d2f3abbd014e7c7"
+            },
+            {
+                "path": "frontend/src/reportWebVitals.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0266c3a625d0da486a058706927e798e90640544",
+                "size": 356,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/0266c3a625d0da486a058706927e798e90640544"
+            },
+            {
+                "path": "frontend/src/setupTests.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1dd407a63ef3dfe125f2044471689923a3c507a9",
+                "size": 241,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/1dd407a63ef3dfe125f2044471689923a3c507a9"
+            },
+            {
+                "path": "frontend/src/skelotonLoader.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3bdc689222c5d85a9a05e40a50c54a059714ee88",
+                "size": 528,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/3bdc689222c5d85a9a05e40a50c54a059714ee88"
+            },
+            {
+                "path": "frontend/src/useAutosizeTextArea.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "333e17b2c7b2ab27d574e09ba82246f1e770f969",
+                "size": 339,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/333e17b2c7b2ab27d574e09ba82246f1e770f969"
+            },
+            {
+                "path": "test-events-lambda",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "bc206839fb4d9a049b7ed27d6ce6ebcd670bfce2",
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/trees/bc206839fb4d9a049b7ed27d6ce6ebcd670bfce2"
+            },
+            {
+                "path": "test-events-lambda/events.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0872168e794e0765a7dc2e3407376da31dfd1609",
+                "size": 31,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/0872168e794e0765a7dc2e3407376da31dfd1609"
+            },
+            {
+                "path": "test-events-lambda/test_event.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1055c5e1f3289da57d28cc9da4525364fff47415",
+                "size": 3233,
+                "url": "https://api.github.com/repos/Email-Generation/email_generation/git/blobs/1055c5e1f3289da57d28cc9da4525364fff47415"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "backend/Dockerfile.dev",
+        "backend/dev-requirements.txt",
+        ".github/workflows/backend-email-gen-test.yml",
+        ".github/workflows/lint-format-checks.yml",
+        "backend/.dockerignore",
+        "backend/tests/test_openai_service.py",
+        "backend/tests/test_email_routes.py",
+        ".github/workflows/lint-format/lint-format-checks.yml",
+        "backend/tests/__init__.py",
+        ".github/workflows/node.js.yml",
+        "frontend/src/App.test.js",
+        "frontend/package-lock.json",
+        "backend/Dockerfile.lambda.dev"
+    ]
+}

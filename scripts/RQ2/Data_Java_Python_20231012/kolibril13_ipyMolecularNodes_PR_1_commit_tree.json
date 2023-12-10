@@ -1,0 +1,189 @@
+{
+    "PR_URL": "https://github.com/kolibril13/ipyMolecularNodes/pull/1",
+    "Commit_Tree": {
+        "sha": "a86dae2803e7c2e59bb6ce9b55b63d24ba238f4c",
+        "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/trees/a86dae2803e7c2e59bb6ce9b55b63d24ba238f4c",
+        "tree": [
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8a8569fc0648822435955c690938d55254192a66",
+                "size": 133,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/8a8569fc0648822435955c690938d55254192a66"
+            },
+            {
+                "path": "LICENSE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1d658c2a10e309778f76202e6a833010290fc35b",
+                "size": 1076,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/1d658c2a10e309778f76202e6a833010290fc35b"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a6dd91236a262d585ad1efaccfd5bd22ed485e73",
+                "size": 382,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/a6dd91236a262d585ad1efaccfd5bd22ed485e73"
+            },
+            {
+                "path": "example.ipynb",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "08d5223217a4f09cf4d3bf58bc5c81abea723d0b",
+                "size": 834396,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/08d5223217a4f09cf4d3bf58bc5c81abea723d0b"
+            },
+            {
+                "path": "example_interactive.ipynb",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8a379a5beafb8c960b7377671ffd67665abd5b64",
+                "size": 791021,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/8a379a5beafb8c960b7377671ffd67665abd5b64"
+            },
+            {
+                "path": "example_mol_nodes.ipynb",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "48449100400ad01f04576193ed67b08174fae91a",
+                "size": 1163,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/48449100400ad01f04576193ed67b08174fae91a"
+            },
+            {
+                "path": "js",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2a6484cb8f590c6dc477f4ec8183ebdaa72d91af",
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/trees/2a6484cb8f590c6dc477f4ec8183ebdaa72d91af"
+            },
+            {
+                "path": "js/styles.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "17279727c18fdddc005446952d841f8d12470eac",
+                "size": 451,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/17279727c18fdddc005446952d841f8d12470eac"
+            },
+            {
+                "path": "js/widget.jsx",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0b8e35248cfe43c515fc2f87eccb85ebb5cae866",
+                "size": 1750,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/0b8e35248cfe43c515fc2f87eccb85ebb5cae866"
+            },
+            {
+                "path": "js/widget2.jsx",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9d241fba2558fa1d6174092664f4ff24aa184a14",
+                "size": 1335,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/9d241fba2558fa1d6174092664f4ff24aa184a14"
+            },
+            {
+                "path": "package-lock.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "561a0eebdc0693416f624b3fe096cced3b86cf3a",
+                "size": 69633,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/561a0eebdc0693416f624b3fe096cced3b86cf3a"
+            },
+            {
+                "path": "package.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8e4dca0964bd75446e594466efdb264822ecb91e",
+                "size": 550,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/8e4dca0964bd75446e594466efdb264822ecb91e"
+            },
+            {
+                "path": "pyproject.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "066301f5a0f42ca83ae822ca293f92d106edbd97",
+                "size": 650,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/066301f5a0f42ca83ae822ca293f92d106edbd97"
+            },
+            {
+                "path": "src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "868fdd1cb40707db765e85fe267101136f29d7b0",
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/trees/868fdd1cb40707db765e85fe267101136f29d7b0"
+            },
+            {
+                "path": "src/ipyblender_experimental",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2ded6726b1157e4543307cf705595a9a9a19fc9e",
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/trees/2ded6726b1157e4543307cf705595a9a9a19fc9e"
+            },
+            {
+                "path": "src/ipyblender_experimental/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "77d4cb4871874a2f38bfa8ffe22a564c6b6cc12c",
+                "size": 2034,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/77d4cb4871874a2f38bfa8ffe22a564c6b6cc12c"
+            },
+            {
+                "path": "src/ipyblender_experimental/render_to_gltf_model.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "58bf761f48ae7f87aad09e4aea777f5ddf199c6a",
+                "size": 4199,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/58bf761f48ae7f87aad09e4aea777f5ddf199c6a"
+            },
+            {
+                "path": "src/ipyblender_experimental/render_to_image.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7e5a4b97adb0de5134b6749575784ad40e0134e2",
+                "size": 3941,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/7e5a4b97adb0de5134b6749575784ad40e0134e2"
+            },
+            {
+                "path": "tests.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a8efce3272a82573a289116474afea7deff6d339",
+                "size": 827810,
+                "url": "https://api.github.com/repos/kolibril13/ipyMolecularNodes/git/blobs/a8efce3272a82573a289116474afea7deff6d339"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "src/ipyblender_experimental/MolecularNodes/nodes.py",
+        "pyproject.toml",
+        "src/ipyblender_experimental/MolecularNodes/auto_load.py",
+        "src/ipyblender_experimental/MolecularNodes/assets/template/MolecularNodes/startup.blend",
+        "src/ipyblender_experimental/MolecularNodes/assembly/mmtf.py",
+        "src/ipyblender_experimental/MolecularNodes/assembly/mesh.py",
+        "src/ipyblender_experimental/MolecularNodes/pref.py",
+        "src/ipyblender_experimental/MolecularNodes/pkg.py",
+        "src/ipyblender_experimental/MolecularNodes/star.py",
+        "src/ipyblender_experimental/MolecularNodes/md.py",
+        "src/ipyblender_experimental/MolecularNodes/assembly/cif.py",
+        "src/ipyblender_experimental/MolecularNodes/obj.py",
+        "src/ipyblender_experimental/MolecularNodes/density.py",
+        "src/ipyblender_experimental/MolecularNodes/color.py",
+        "src/ipyblender_experimental/MolecularNodes/load.py",
+        "src/ipyblender_experimental/MolecularNodes/coll.py",
+        "src/ipyblender_experimental/render_to_gltf_model.py",
+        "src/ipyblender_experimental/MolecularNodes/esmfold.py",
+        "src/ipyblender_experimental/MolecularNodes/assets/MN_data_file.blend",
+        ".gitignore",
+        "src/ipyblender_experimental/MolecularNodes/requirements.txt",
+        "src/ipyblender_experimental/MolecularNodes/assembly/__init__.py",
+        "src/ipyblender_experimental/MolecularNodes/data.py",
+        "src/ipyblender_experimental/MolecularNodes/utils.py",
+        "src/ipyblender_experimental/MolecularNodes/assembly/pdb.py",
+        "src/ipyblender_experimental/MolecularNodes/mda.py",
+        "src/ipyblender_experimental/MolecularNodes/ui.py",
+        "src/ipyblender_experimental/MolecularNodes/__init__.py"
+    ]
+}

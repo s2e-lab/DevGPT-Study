@@ -1,0 +1,384 @@
+{
+    "PR_URL": "https://github.com/monarch-initiative/oai-monarch-plugin/pull/39",
+    "Commit_Tree": {
+        "sha": "ed8f87c9aae12ab22c59ccc493f999b3d918930e",
+        "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/ed8f87c9aae12ab22c59ccc493f999b3d918930e",
+        "tree": [
+            {
+                "path": ".cruft.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "44eb1b5b069e487170056a14ef1e965ae7c2f2ec",
+                "size": 834,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/44eb1b5b069e487170056a14ef1e965ae7c2f2ec"
+            },
+            {
+                "path": ".github",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "8750a41adf190390c410efbb527c1609c81d1d8d",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/8750a41adf190390c410efbb527c1609c81d1d8d"
+            },
+            {
+                "path": ".github/workflows",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f7364e7f4dbb6d7995cd7746dff671da584d1ef8",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/f7364e7f4dbb6d7995cd7746dff671da584d1ef8"
+            },
+            {
+                "path": ".github/workflows/deploy-docs.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b9e5d97b6451c8efc22548160ad97f49a80ccf48",
+                "size": 1169,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/b9e5d97b6451c8efc22548160ad97f49a80ccf48"
+            },
+            {
+                "path": ".github/workflows/pypi-publish.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e100f1f0c07bce528a632f00e3c7f595e1336894",
+                "size": 811,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/e100f1f0c07bce528a632f00e3c7f595e1336894"
+            },
+            {
+                "path": ".github/workflows/qc.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "db538d9bd3475db573557e7edf9c817824838434",
+                "size": 937,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/db538d9bd3475db573557e7edf9c817824838434"
+            },
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b6e47617de110dea7ca47e087ff1347cc2646eda",
+                "size": 1799,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/b6e47617de110dea7ca47e087ff1347cc2646eda"
+            },
+            {
+                "path": "LICENSE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6944c43668080c8d5c2ea622c3c0f64ed1040fb0",
+                "size": 1080,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/6944c43668080c8d5c2ea622c3c0f64ed1040fb0"
+            },
+            {
+                "path": "Makefile",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f1ee4e5a7504551e10ea69d30cb042e9118c3c1f",
+                "size": 1624,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/f1ee4e5a7504551e10ea69d30cb042e9118c3c1f"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e6e414fcda3e0c777bef3979aef6087014b8108a",
+                "size": 1812,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/e6e414fcda3e0c777bef3979aef6087014b8108a"
+            },
+            {
+                "path": "docs",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "ab097017d47c2d4d742f0acfb750eaaae6b5a7a9",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/ab097017d47c2d4d742f0acfb750eaaae6b5a7a9"
+            },
+            {
+                "path": "docs/Makefile",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d0c3cbf1020d5c292abdedf27627c6abe25e2293",
+                "size": 638,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/d0c3cbf1020d5c292abdedf27627c6abe25e2293"
+            },
+            {
+                "path": "docs/conf.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9c765e04919292f44066c66b19e3f86253435d25",
+                "size": 2017,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/9c765e04919292f44066c66b19e3f86253435d25"
+            },
+            {
+                "path": "docs/index.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f8422f47d8defde0afaace12090e433973a0f384",
+                "size": 491,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/f8422f47d8defde0afaace12090e433973a0f384"
+            },
+            {
+                "path": "docs/make.bat",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "747ffb7b3033659bdd2d1e6eae41ecb00358a45e",
+                "size": 804,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/747ffb7b3033659bdd2d1e6eae41ecb00358a45e"
+            },
+            {
+                "path": "poetry.lock",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dba81651a1823db7cd1910f7b69fc5fdbf930e13",
+                "size": 74900,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/dba81651a1823db7cd1910f7b69fc5fdbf930e13"
+            },
+            {
+                "path": "pyproject.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "63e38100d1590d88da1ab0cd2c690f22932b559e",
+                "size": 1468,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/63e38100d1590d88da1ab0cd2c690f22932b559e"
+            },
+            {
+                "path": "requirements.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "28b52841f77ee95684ae8e66cce40e5fea62f6d6",
+                "size": 9376,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/28b52841f77ee95684ae8e66cce40e5fea62f6d6"
+            },
+            {
+                "path": "src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "79e1a51502a44970f5c412c2ae4860b16353ad36",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/79e1a51502a44970f5c412c2ae4860b16353ad36"
+            },
+            {
+                "path": "src/oai_monarch_plugin",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f7379f13801c9c09ffff108e6eef92598a8dd125",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/f7379f13801c9c09ffff108e6eef92598a8dd125"
+            },
+            {
+                "path": "src/oai_monarch_plugin/.well-known",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a7e737610112cbf23f9591d48f9cd4d926b2ff40",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/a7e737610112cbf23f9591d48f9cd4d926b2ff40"
+            },
+            {
+                "path": "src/oai_monarch_plugin/.well-known/ai-plugin.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1c7e4c48ae0b7538659e2822f48c0d235081b5c5",
+                "size": 2077,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/1c7e4c48ae0b7538659e2822f48c0d235081b5c5"
+            },
+            {
+                "path": "src/oai_monarch_plugin/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4501a232e5472cd045c3f8854dd656a90181d6e4",
+                "size": 246,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/4501a232e5472cd045c3f8854dd656a90181d6e4"
+            },
+            {
+                "path": "src/oai_monarch_plugin/cli.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9a4e6431b1888e3208ed43a81df8cba495965b8b",
+                "size": 918,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/9a4e6431b1888e3208ed43a81df8cba495965b8b"
+            },
+            {
+                "path": "src/oai_monarch_plugin/logger_config.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "14fb36a5445b7ef70c57ebba6f7030af0ec74312",
+                "size": 587,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/14fb36a5445b7ef70c57ebba6f7030af0ec74312"
+            },
+            {
+                "path": "src/oai_monarch_plugin/main.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "58cb53b041547f76665746b194bf7886a2184690",
+                "size": 1618,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/58cb53b041547f76665746b194bf7886a2184690"
+            },
+            {
+                "path": "src/oai_monarch_plugin/middlewares.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "297ae74ed2ee529157de9d19b4e99bd6642bf5cc",
+                "size": 678,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/297ae74ed2ee529157de9d19b4e99bd6642bf5cc"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "e2b4699a36478ed19e46ff28b623f26ef8767ece",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/e2b4699a36478ed19e46ff28b623f26ef8767ece"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/config.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e119f14987fcf37fbbe36c547b1d18ae96ad0045",
+                "size": 601,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/e119f14987fcf37fbbe36c547b1d18ae96ad0045"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/disease_to_gene.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ec123eb921ac596f33c1b34acf0e49204e2603d9",
+                "size": 2456,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/ec123eb921ac596f33c1b34acf0e49204e2603d9"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/disease_to_phenotype.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "952675abd86dcc77bb736e692004b67eed8652d1",
+                "size": 1989,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/952675abd86dcc77bb736e692004b67eed8652d1"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/entity.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c22fcfd7a480f734ff4a240a4d0a2fe4d850f8de",
+                "size": 2208,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/c22fcfd7a480f734ff4a240a4d0a2fe4d850f8de"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/gene_to_disease.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6750b57091901b1f6864a89c9d35132664dc8364",
+                "size": 2267,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/6750b57091901b1f6864a89c9d35132664dc8364"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/gene_to_phenotype.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c6cdf5c3d7d8f311f44620aa85d1bfa2883fd5a4",
+                "size": 1980,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/c6cdf5c3d7d8f311f44620aa85d1bfa2883fd5a4"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/models.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1f578dd9e8c23c709928d2d9453e90ef0e3582b7",
+                "size": 3701,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/1f578dd9e8c23c709928d2d9453e90ef0e3582b7"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/phenotype_profile_search.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c05569158e7eed8f513eac83f31f93e3a306ce8f",
+                "size": 3054,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/c05569158e7eed8f513eac83f31f93e3a306ce8f"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/phenotype_to_disease.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "340c9bc90d34ec7669061e1791a9fe3b4346e5d8",
+                "size": 1850,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/340c9bc90d34ec7669061e1791a9fe3b4346e5d8"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/phenotype_to_gene.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0917cf99d804150231f871d1958bc11ff4bab535",
+                "size": 1888,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/0917cf99d804150231f871d1958bc11ff4bab535"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/search.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ecb513812393e0cecaac94725aafcb8aab717f41",
+                "size": 3090,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/ecb513812393e0cecaac94725aafcb8aab717f41"
+            },
+            {
+                "path": "src/oai_monarch_plugin/routers/utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ebaf5bc7539d7f72aee9c8c1a0c69065ad63fe37",
+                "size": 1014,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/ebaf5bc7539d7f72aee9c8c1a0c69065ad63fe37"
+            },
+            {
+                "path": "src/oai_monarch_plugin/static",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2e2f36c380b75ddb31c27a3c4b53bcba74ccd164",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/2e2f36c380b75ddb31c27a3c4b53bcba74ccd164"
+            },
+            {
+                "path": "src/oai_monarch_plugin/static/logo.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c576950325243d5775eeb278636d9230eb98e3a3",
+                "size": 6829,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/c576950325243d5775eeb278636d9230eb98e3a3"
+            },
+            {
+                "path": "tests",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "6ca3740164521fb2ca34766fd854f3170970c954",
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/trees/6ca3740164521fb2ca34766fd854f3170970c954"
+            },
+            {
+                "path": "tests/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0da90a77b553ff43e65c2b2658df3abcebaca194",
+                "size": 36,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/0da90a77b553ff43e65c2b2658df3abcebaca194"
+            },
+            {
+                "path": "tests/test_endpoints.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5115a7c5b1b6c86e49d10e03722fa0b40a690c9b",
+                "size": 8605,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/5115a7c5b1b6c86e49d10e03722fa0b40a690c9b"
+            },
+            {
+                "path": "tox.ini",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "51541be4309024022fc5e520c9834bc811a0c19a",
+                "size": 2291,
+                "url": "https://api.github.com/repos/monarch-initiative/oai-monarch-plugin/git/blobs/51541be4309024022fc5e520c9834bc811a0c19a"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "src/oai_monarch_plugin/main.py",
+        "src/oai_monarch_plugin/routers/config.py",
+        "src/oai_monarch_plugin/.well-known/ai-plugin.json",
+        "src/oai_monarch_plugin/routers/phenotype_profile_search.py",
+        "tests/test_endpoints.py"
+    ]
+}

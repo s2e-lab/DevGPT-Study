@@ -1,0 +1,422 @@
+{
+    "PR_URL": "https://github.com/nylas/nylas-python/pull/279",
+    "Commit_Tree": {
+        "sha": "de94c2762192ed5ab36f6499077d79fcbf84beab",
+        "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/de94c2762192ed5ab36f6499077d79fcbf84beab",
+        "tree": [
+            {
+                "path": ".bumpversion.cfg",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "be0809708324d6c0cbda55ff1c2ed9fd554a3ca5",
+                "size": 113,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/be0809708324d6c0cbda55ff1c2ed9fd554a3ca5"
+            },
+            {
+                "path": ".coveragerc",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8460a941ff0ba6be912e278bfa266e412d7bcaa4",
+                "size": 21,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/8460a941ff0ba6be912e278bfa266e412d7bcaa4"
+            },
+            {
+                "path": ".github",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "5973223e92925ddde966601267c45927e794c208",
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/5973223e92925ddde966601267c45927e794c208"
+            },
+            {
+                "path": ".github/ISSUE_TEMPLATE",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "14a4ce6d5ee9adb7a7211eb777bf7728ee9d0272",
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/14a4ce6d5ee9adb7a7211eb777bf7728ee9d0272"
+            },
+            {
+                "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6918ccc7b689cf670b24a7415c18a451159f548d",
+                "size": 627,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/6918ccc7b689cf670b24a7415c18a451159f548d"
+            },
+            {
+                "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "11fc491ef1dae316f2b06bbb40eaba9c757fdfd1",
+                "size": 604,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/11fc491ef1dae316f2b06bbb40eaba9c757fdfd1"
+            },
+            {
+                "path": ".github/workflows",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "26d01100cbd367d2f925fd22b1639847073e5fcc",
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/26d01100cbd367d2f925fd22b1639847073e5fcc"
+            },
+            {
+                "path": ".github/workflows/sdk-reference.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2adb66fe66f45cc54cefd3b4b9b68eab91f2e639",
+                "size": 1289,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/2adb66fe66f45cc54cefd3b4b9b68eab91f2e639"
+            },
+            {
+                "path": ".github/workflows/test.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ab21f452cfa6105f683af26e9b8dfd0ee7e14460",
+                "size": 1102,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/ab21f452cfa6105f683af26e9b8dfd0ee7e14460"
+            },
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1e7c9032f0a1f66a8654f22d6eff56dc48b323a2",
+                "size": 676,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/1e7c9032f0a1f66a8654f22d6eff56dc48b323a2"
+            },
+            {
+                "path": "CHANGELOG.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "758c69059a7224ac053d670a7248a4ca69b9eb05",
+                "size": 13261,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/758c69059a7224ac053d670a7248a4ca69b9eb05"
+            },
+            {
+                "path": "Contributing.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3954c295d1d8f4de42e4eba12f682cf477d087cc",
+                "size": 2160,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/3954c295d1d8f4de42e4eba12f682cf477d087cc"
+            },
+            {
+                "path": "LICENSE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "669993b4db83fa67da657ade9c4f5d3946a636b9",
+                "size": 1072,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/669993b4db83fa67da657ade9c4f5d3946a636b9"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "07f35b1987a6deb4479a554c3c4235cabe882034",
+                "size": 5016,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/07f35b1987a6deb4479a554c3c4235cabe882034"
+            },
+            {
+                "path": "UPGRADE.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4283f36ebcc9778bdb89150e8ef06133f897056f",
+                "size": 8467,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/4283f36ebcc9778bdb89150e8ef06133f897056f"
+            },
+            {
+                "path": "mkdocs.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6e8dfce43705efcd9ffe9268498c9ff60124c8e6",
+                "size": 444,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/6e8dfce43705efcd9ffe9268498c9ff60124c8e6"
+            },
+            {
+                "path": "nylas",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "79e02bcff376c9b29bb9c2745b7a87d66e51fe25",
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/79e02bcff376c9b29bb9c2745b7a87d66e51fe25"
+            },
+            {
+                "path": "nylas/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2befcf83be4ed6478dd5cca6c2fcad4beff25b4b",
+                "size": 54,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/2befcf83be4ed6478dd5cca6c2fcad4beff25b4b"
+            },
+            {
+                "path": "nylas/_client_sdk_version.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "24cd501343e3d3356c50014df6efc1e8bb6d306d",
+                "size": 24,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/24cd501343e3d3356c50014df6efc1e8bb6d306d"
+            },
+            {
+                "path": "nylas/client.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0b42e1c5266483c1141f72b318ee9c4973fa33c4",
+                "size": 2138,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/0b42e1c5266483c1141f72b318ee9c4973fa33c4"
+            },
+            {
+                "path": "nylas/config.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4a8886230b6cf42520269bd80684501100ded710",
+                "size": 572,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/4a8886230b6cf42520269bd80684501100ded710"
+            },
+            {
+                "path": "nylas/handler",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "dcd4d33232c3aee4562da8c8e7c9a504366c7121",
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/dcd4d33232c3aee4562da8c8e7c9a504366c7121"
+            },
+            {
+                "path": "nylas/handler/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "nylas/handler/api_resources.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "38e5bd150d2f6b69379d4a36e7823dd9f578857e",
+                "size": 2062,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/38e5bd150d2f6b69379d4a36e7823dd9f578857e"
+            },
+            {
+                "path": "nylas/handler/http_client.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0fb0962c91fd7220a84bfd68b311b765fd9bda76",
+                "size": 2758,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/0fb0962c91fd7220a84bfd68b311b765fd9bda76"
+            },
+            {
+                "path": "nylas/models",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "0764aa60268292d10ffdb4fdc01a9e9762b40223",
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/0764aa60268292d10ffdb4fdc01a9e9762b40223"
+            },
+            {
+                "path": "nylas/models/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "nylas/models/application_details.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "df5adebe8c1b0a976bdcf7934ff1fc63003aa5d8",
+                "size": 2559,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/df5adebe8c1b0a976bdcf7934ff1fc63003aa5d8"
+            },
+            {
+                "path": "nylas/models/auth.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "29ef0a1a01ab135c691f9e1cbb9c15c43a81acb4",
+                "size": 6252,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/29ef0a1a01ab135c691f9e1cbb9c15c43a81acb4"
+            },
+            {
+                "path": "nylas/models/availability.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4bfb73cf695d18eaac8bd8a6b347b655221e9b83",
+                "size": 5112,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/4bfb73cf695d18eaac8bd8a6b347b655221e9b83"
+            },
+            {
+                "path": "nylas/models/calendars.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6e2054c0bfb2bd77da67467263874b914c189ba1",
+                "size": 3446,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/6e2054c0bfb2bd77da67467263874b914c189ba1"
+            },
+            {
+                "path": "nylas/models/errors.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d59b61bac174d4a1108f33ff3a45eb377d5d24f6",
+                "size": 4470,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/d59b61bac174d4a1108f33ff3a45eb377d5d24f6"
+            },
+            {
+                "path": "nylas/models/events.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "736ac625a6670c3ed798458b3cc708a6550171a6",
+                "size": 24744,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/736ac625a6670c3ed798458b3cc708a6550171a6"
+            },
+            {
+                "path": "nylas/models/free_busy.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ecbb945b7e5e6ac21fec8c4e9afa0eedf5cc8203",
+                "size": 1697,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/ecbb945b7e5e6ac21fec8c4e9afa0eedf5cc8203"
+            },
+            {
+                "path": "nylas/models/grants.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "90db50804b1cf2750e9eb019cb197eebcc755c66",
+                "size": 3523,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/90db50804b1cf2750e9eb019cb197eebcc755c66"
+            },
+            {
+                "path": "nylas/models/redirect_uri.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8cbba1d4ed99a0d31a956a183cbbbe90d55e367d",
+                "size": 2709,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/8cbba1d4ed99a0d31a956a183cbbbe90d55e367d"
+            },
+            {
+                "path": "nylas/models/response.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8a0225799d5bc439b16d850b6d41d334c924989b",
+                "size": 3201,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/8a0225799d5bc439b16d850b6d41d334c924989b"
+            },
+            {
+                "path": "nylas/models/webhooks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "cca394b847d2f3390dc32715a382226942ba021a",
+                "size": 4392,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/cca394b847d2f3390dc32715a382226942ba021a"
+            },
+            {
+                "path": "nylas/resources",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "5835fb27972d14a141869829ebb09f8465e5eb7b",
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/5835fb27972d14a141869829ebb09f8465e5eb7b"
+            },
+            {
+                "path": "nylas/resources/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "nylas/resources/applications.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b20ff3873ef5a6196e4b96da21a8e8df3adf707c",
+                "size": 764,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/b20ff3873ef5a6196e4b96da21a8e8df3adf707c"
+            },
+            {
+                "path": "nylas/resources/auth.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ee6ef850e51816df7d4b04d37b67b6812390abbf",
+                "size": 6553,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/ee6ef850e51816df7d4b04d37b67b6812390abbf"
+            },
+            {
+                "path": "nylas/resources/calendars.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "40a2913d65c4e6bf22cd4696ceed5811f0f9b26a",
+                "size": 4985,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/40a2913d65c4e6bf22cd4696ceed5811f0f9b26a"
+            },
+            {
+                "path": "nylas/resources/events.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dc3c55fc72383927d3a68748163db303506567f5",
+                "size": 4839,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/dc3c55fc72383927d3a68748163db303506567f5"
+            },
+            {
+                "path": "nylas/resources/grants.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b71944defb3dd2d7fa1372c24ea4ac48e81c2502",
+                "size": 2433,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/b71944defb3dd2d7fa1372c24ea4ac48e81c2502"
+            },
+            {
+                "path": "nylas/resources/redirect_uris.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "498813a07969b79dacbf4e2bbb18eaec88c32ea4",
+                "size": 2631,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/498813a07969b79dacbf4e2bbb18eaec88c32ea4"
+            },
+            {
+                "path": "nylas/resources/resource.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ad8228f448090981f6917d47dacab4e0a0d5d320",
+                "size": 164,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/ad8228f448090981f6917d47dacab4e0a0d5d320"
+            },
+            {
+                "path": "nylas/resources/webhooks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3d64314356c78abe3150b4c38ef4429811ffa496",
+                "size": 4201,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/3d64314356c78abe3150b4c38ef4429811ffa496"
+            },
+            {
+                "path": "pull_request_template.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "21c385c57f7b8edd27a2bfbe686d58d2e6e63114",
+                "size": 267,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/21c385c57f7b8edd27a2bfbe686d58d2e6e63114"
+            },
+            {
+                "path": "scripts",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "719f9cb4277ed0ea74a35254a69f0255ad6ecc8c",
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/trees/719f9cb4277ed0ea74a35254a69f0255ad6ecc8c"
+            },
+            {
+                "path": "scripts/generate-docs.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bc96d7d4bb606bb73f219a6c4c16dd0f43c5ee1d",
+                "size": 1253,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/bc96d7d4bb606bb73f219a6c4c16dd0f43c5ee1d"
+            },
+            {
+                "path": "setup.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "198149bfbdcd5aca054880d543a68721a149849b",
+                "size": 4331,
+                "url": "https://api.github.com/repos/nylas/nylas-python/git/blobs/198149bfbdcd5aca054880d543a68721a149849b"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "nylas/resources/calendars.py",
+        "nylas/models/free_busy.py"
+    ]
+}

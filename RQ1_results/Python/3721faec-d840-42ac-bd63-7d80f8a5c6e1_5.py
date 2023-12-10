@@ -1,0 +1,6 @@
+plt.figure(figsize=(12, 8))
+sns.heatmap(normalized_table, annot=True, cmap="YlGnBu", cbar=False)
+plt.xlabel("Exile Stages")
+plt.ylabel("Individuals")
+plt.title("Exile Movement Heat Map")
+plt.show()

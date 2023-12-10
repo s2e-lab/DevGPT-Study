@@ -1,0 +1,3 @@
+logging.debug(f"Function {function_name} parameters: {params}")
+...
+logging.debug(f"Function {function_name} returning: {result}")

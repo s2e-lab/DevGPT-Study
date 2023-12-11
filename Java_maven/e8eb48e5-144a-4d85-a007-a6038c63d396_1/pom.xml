@@ -23,4 +23,24 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>androidx.room</groupId>
+            <artifactId>room-runtime</artifactId>
+            <version>2.6.1</version>
+
+        </dependency>
+
+        <dependency>
+            <groupId>androidx.room</groupId>
+            <artifactId>room-compiler</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>androidx.room</groupId>
+            <artifactId>room-ktx</artifactId>
+            <version>2.6.1</version>
+
+        </dependency>
+    </dependencies>
 </project>

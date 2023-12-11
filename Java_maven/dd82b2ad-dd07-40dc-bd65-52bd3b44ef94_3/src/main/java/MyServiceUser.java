@@ -1,3 +1,5 @@
+import org.springframework.stereotype.Service;
+
 @Service
 public class MyServiceUser {
     private final MyService myService;
@@ -7,4 +9,8 @@ public class MyServiceUser {
     }
 
     // Use the myService instance as needed
+}
+
+interface MyService {
+    void doSomething();
 }

@@ -1,6 +1,6 @@
 public class Main {
 
-    class MyClass {
+   static class MyClass {
         static int count = 0; // Static variable
 
         MyClass() {

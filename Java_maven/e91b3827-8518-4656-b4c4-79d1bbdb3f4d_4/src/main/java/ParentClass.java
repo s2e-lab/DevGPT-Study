@@ -10,9 +10,8 @@ public class ParentClass {
     }
 }
 
-package mypackage;
 
-public class ChildClass extends ParentClass {
+class ChildClass extends ParentClass {
     void someMethod() {
         // Accessing the protected variable and method from the subclass
         int value = protectedVar;

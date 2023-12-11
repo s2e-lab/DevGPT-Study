@@ -1,0 +1,4 @@
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method privateMethod is entirely unused.","/src/main/java/MyClass.java","13","18","13","30"
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method publicMethod1 is entirely unused.","/src/main/java/MyClass.java","4","17","4","29"
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method publicMethod2 is entirely unused.","/src/main/java/MyClass.java","8","16","8","28"
+"Useless parameter","Parameters that are not used add unnecessary complexity to an interface.","recommendation","The parameter 'param' is never used.","/src/main/java/MyClass.java","8","30","8","41"

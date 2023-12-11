@@ -1,0 +1,1 @@
+"Missing Javadoc for public method or constructor","A public method or constructor that does not have a Javadoc comment affects maintainability.","recommendation","This method does not have a non-trivial Javadoc comment.","/src/main/java/Main.java","5","17","5","33"

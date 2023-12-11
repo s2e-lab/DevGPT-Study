@@ -1,0 +1,2 @@
+"Missing Javadoc for public type","A public class or interface that does not have a Javadoc comment affects maintainability.","recommendation","This type does not have a non-trivial Javadoc comment.","/src/main/java/ImmutableMapExample.java","5","14","5","32"
+"Missing Javadoc for public method or constructor","A public method or constructor that does not have a Javadoc comment affects maintainability.","recommendation","This method does not have a non-trivial Javadoc comment.","/src/main/java/ImmutableMapExample.java","6","24","6","27"

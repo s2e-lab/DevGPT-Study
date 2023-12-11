@@ -25,7 +25,7 @@ def analyze_repos_and_urls(file_path):
     return unique_repo_count, duplicates, total_unique_urls
 
 
-file_path = 'pr_unique_url_python.txt'  # Replace with your file path
+file_path = 'pr_unique_url_java.txt'
 unique_repo_count, duplicate_repos, total_unique_urls = analyze_repos_and_urls(
     file_path)
 

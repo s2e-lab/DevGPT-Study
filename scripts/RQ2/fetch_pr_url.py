@@ -5,7 +5,7 @@ import json
 
 
 def traverse_and_extract_pr_urls(base_path):
-    base_dir = os.path.join(base_path, 'Data_Python')
+    base_dir = os.path.join(base_path, 'Data_Java')
     if not os.path.exists(base_dir):
         return "Base directory does not exist"
     pr_urls = []

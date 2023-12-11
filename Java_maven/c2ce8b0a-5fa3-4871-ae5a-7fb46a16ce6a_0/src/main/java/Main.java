@@ -1,7 +1,8 @@
-@Autowired
-private BeansEndpoint beansEndpoint;
+
 
 public class Main {
+    @Autowired
+    private BeansEndpoint beansEndpoint;
     public void getClassAndPackageOfBeans() {
         Map<String, Object> beans = beansEndpoint.beans();
 

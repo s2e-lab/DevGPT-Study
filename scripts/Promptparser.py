@@ -28,9 +28,9 @@ def extract_code(storage):
                             if language == 'python' or language == 'py':
                                 extension = '.py'
                                 path = 'Python'
-                            elif language == 'java':
-                                extension = '.java'
-                                path = 'Java'
+                            # elif language == 'java':
+                            #     extension = '.java'
+                            #     path = 'Java'
                             else:
                                 continue
                             # write file
@@ -46,46 +46,46 @@ def main():
         it was easier to download 8 zip files and use the rest as URLS '''
 
     # given urls
-    URLS = ['https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230727/20230727_195816_hn_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230727/20230727_195927_pr_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230727/20230727_195941_issue_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230727/20230727_195954_discussion_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230727/20230727_200003_commit_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230803/20230803_093947_pr_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230803/20230803_094705_issue_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230803/20230803_094811_discussion_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230803/20230803_095317_commit_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230803/20230803_105332_hn_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230810/20230810_123110_pr_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230810/20230810_123938_issue_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230810/20230810_124048_discussion_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230810/20230810_124807_commit_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230810/20230810_134011_hn_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230817/20230817_125147_pr_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230817/20230817_130502_issue_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230817/20230817_130721_discussion_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230817/20230817_131244_commit_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230817/20230817_170022_hn_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230824/20230824_100450_pr_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230824/20230824_101836_issue_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230824/20230824_102000_discussion_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230824/20230824_102435_commit_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230824/20230824_112153_hn_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230831/20230831_060603_pr_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230831/20230831_061759_issue_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230831/20230831_061926_discussion_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230831/20230831_063412_commit_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230831/20230831_073827_hn_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230907/20230907_091631_pr_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230907/20230907_092956_issue_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230907/20230907_093129_discussion_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230907/20230907_110036_commit_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230907/20230907_123434_hn_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230914/20230914_074826_pr_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230914/20230914_080417_issue_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230914/20230914_080601_discussion_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230914/20230914_083202_commit_sharings.json',
-    'https://raw.githubusercontent.com/NAIST-SE/DevGPT/main/snapshot_20230914/20230914_105439_hn_sharings.json']
+    URLS = ['https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230727/20230727_195816_hn_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230727/20230727_195927_pr_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230727/20230727_195941_issue_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230727/20230727_195954_discussion_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230727/20230727_200003_commit_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230803/20230803_093947_pr_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230803/20230803_094705_issue_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230803/20230803_094811_discussion_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230803/20230803_095317_commit_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230803/20230803_105332_hn_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230810/20230810_123110_pr_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230810/20230810_123938_issue_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230810/20230810_124048_discussion_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230810/20230810_124807_commit_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230810/20230810_134011_hn_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230817/20230817_125147_pr_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230817/20230817_130502_issue_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230817/20230817_130721_discussion_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230817/20230817_131244_commit_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230817/20230817_170022_hn_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230824/20230824_100450_pr_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230824/20230824_101836_issue_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230824/20230824_102000_discussion_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230824/20230824_102435_commit_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230824/20230824_112153_hn_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230831/20230831_060603_pr_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230831/20230831_061759_issue_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230831/20230831_061926_discussion_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230831/20230831_063412_commit_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230831/20230831_073827_hn_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230907/20230907_091631_pr_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230907/20230907_092956_issue_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230907/20230907_093129_discussion_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230907/20230907_110036_commit_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230907/20230907_123434_hn_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230914/20230914_074826_pr_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230914/20230914_080417_issue_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230914/20230914_080601_discussion_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230914/20230914_083202_commit_sharings.json',
+    'https://github.com/NAIST-SE/DevGPT/raw/35d906d957026f3db282b19dcc5074e399010725/snapshot_20230914/20230914_105439_hn_sharings.json']
 
     # given json zips
     ZIPS = ['20230727_200102_file_sharings.json','20230803_103605_file_sharings.json','20230810_133121_file_sharings.json',
@@ -94,7 +94,12 @@ def main():
 
     for url in URLS:
         response = requests.get(url)
-        storage = response.json()
+        try:
+            storage = response.json()
+        except Exception as e:
+            print(url, e)
+            continue
+
         extract_code(storage)
 
     for fp in ZIPS:

@@ -1,3 +1,10 @@
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.DeserializationContext;
+import com.fasterxml.jackson.databind.JsonDeserializer;
+import com.fasterxml.jackson.databind.JsonNode;
+
+import java.io.IOException;
+
 public class PointDeserializer extends JsonDeserializer<Point> {
     @Override
     public Point deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
@@ -7,3 +14,4 @@ public class PointDeserializer extends JsonDeserializer<Point> {
         return new Point(x, y);
     }
 }
+

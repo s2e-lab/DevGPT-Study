@@ -1,5 +1,6 @@
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+import com.sun.jndi.toolkit.url.Uri;
 
 @Entity(tableName = "sticker_data")
 public class StickerData {

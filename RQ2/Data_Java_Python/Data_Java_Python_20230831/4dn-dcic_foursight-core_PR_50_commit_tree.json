@@ -1,0 +1,2080 @@
+{
+    "PR_URL": "https://github.com/4dn-dcic/foursight-core/pull/50",
+    "Commit_Tree": {
+        "sha": "133644947295f1e8c22c3053e632dfa8d3b1add6",
+        "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/133644947295f1e8c22c3053e632dfa8d3b1add6",
+        "tree": [
+            {
+                "path": ".chalice",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "507754de3c264a2c56a1cdacead5a7adfae969d0",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/507754de3c264a2c56a1cdacead5a7adfae969d0"
+            },
+            {
+                "path": ".chalice/deployed.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "521e1682d1ced1300783645ea438ef906b7b8d8f",
+                "size": 2452,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/521e1682d1ced1300783645ea438ef906b7b8d8f"
+            },
+            {
+                "path": ".chalice/policy-dev.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "494a8af86f6bcd7344437291cb15024c695badd4",
+                "size": 741,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/494a8af86f6bcd7344437291cb15024c695badd4"
+            },
+            {
+                "path": ".chalice/policy-prod.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2329b49179d40c30621b074fe0c0f9bccb350e22",
+                "size": 894,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2329b49179d40c30621b074fe0c0f9bccb350e22"
+            },
+            {
+                "path": ".flake8",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "38ebaf2aee6cc7ee4cef541aea8c10dc60b4d07a",
+                "size": 1559,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/38ebaf2aee6cc7ee4cef541aea8c10dc60b4d07a"
+            },
+            {
+                "path": ".github",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f83f6ec3800f4a73b1fbd998677e3f159efa53ca",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/f83f6ec3800f4a73b1fbd998677e3f159efa53ca"
+            },
+            {
+                "path": ".github/workflows",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "9ccc58c7e29aa09a8583bf029ae8b69689b53057",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/9ccc58c7e29aa09a8583bf029ae8b69689b53057"
+            },
+            {
+                "path": ".github/workflows/main-CI.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d961c1254e949a728bc87014e9541605ce204524",
+                "size": 1582,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d961c1254e949a728bc87014e9541605ce204524"
+            },
+            {
+                "path": ".github/workflows/main-deploy-docs.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a482ed52da8e07bf6f86103f0bd946e1cdd3ca55",
+                "size": 880,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a482ed52da8e07bf6f86103f0bd946e1cdd3ca55"
+            },
+            {
+                "path": ".github/workflows/main-publish.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1fb1abc357b1ae12b656c8ca4601b8872c2b5240",
+                "size": 1084,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/1fb1abc357b1ae12b656c8ca4601b8872c2b5240"
+            },
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3f93732f2ddb633f3ac0baf3c06da75dc0bfacca",
+                "size": 303,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3f93732f2ddb633f3ac0baf3c06da75dc0bfacca"
+            },
+            {
+                "path": ".readthedocs.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a7de038d6e978b6b021959d2959690fb92ac4dd9",
+                "size": 233,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a7de038d6e978b6b021959d2959690fb92ac4dd9"
+            },
+            {
+                "path": "CHANGELOG.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "de43f9bcfb58b79579d5368e22c995599fb486c0",
+                "size": 11281,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/de43f9bcfb58b79579d5368e22c995599fb486c0"
+            },
+            {
+                "path": "LICENSE.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4da7f25f96ed8b485fce7fb93b515fe830cb30bf",
+                "size": 1083,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/4da7f25f96ed8b485fce7fb93b515fe830cb30bf"
+            },
+            {
+                "path": "Makefile",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bb15357507af0ee9f54a71be1d926e72f473052b",
+                "size": 1123,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/bb15357507af0ee9f54a71be1d926e72f473052b"
+            },
+            {
+                "path": "README.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0e1e68c282d88f92c5925fcf4b177144a3e86574",
+                "size": 901,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0e1e68c282d88f92c5925fcf4b177144a3e86574"
+            },
+            {
+                "path": "app.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3ec5bd3e3a916ec039efd6f06d5ab1be24ac4003",
+                "size": 903,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3ec5bd3e3a916ec039efd6f06d5ab1be24ac4003"
+            },
+            {
+                "path": "conftest.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e82e7184de2821990a5ca45af9a76c37c93c1926",
+                "size": 5481,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e82e7184de2821990a5ca45af9a76c37c93c1926"
+            },
+            {
+                "path": "docs",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a5f8e34b050200c9392a5c71b806da11e81bf665",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/a5f8e34b050200c9392a5c71b806da11e81bf665"
+            },
+            {
+                "path": "docs/Makefile",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8c19efae6627815f1a53d64e3d3433297f0386ad",
+                "size": 723,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8c19efae6627815f1a53d64e3d3433297f0386ad"
+            },
+            {
+                "path": "docs/source",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2613757eab4ecf5790ebad4a69228e86f11b86f1",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/2613757eab4ecf5790ebad4a69228e86f11b86f1"
+            },
+            {
+                "path": "docs/source/.gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0b9d4b68ae1fadf124db755a3f26577bbb576a82",
+                "size": 12,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0b9d4b68ae1fadf124db755a3f26577bbb576a82"
+            },
+            {
+                "path": "docs/source/conf.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2e63e98b2fd18b99ade270c6c2f6c541b17cfeb0",
+                "size": 1872,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2e63e98b2fd18b99ade270c6c2f6c541b17cfeb0"
+            },
+            {
+                "path": "docs/source/helper_modules.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2dae4d29390e9d5d945c2f47e6ab955df0fb4e93",
+                "size": 294,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2dae4d29390e9d5d945c2f47e6ab955df0fb4e93"
+            },
+            {
+                "path": "docs/source/images",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "1f040d3f144de1e351841a061b907d5da700bd35",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/1f040d3f144de1e351841a061b907d5da700bd35"
+            },
+            {
+                "path": "docs/source/images/foursight-core-20210119.ai",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "28fe90f973f7079ed28330a8a92d591f7deeb281",
+                "size": 287993,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/28fe90f973f7079ed28330a8a92d591f7deeb281"
+            },
+            {
+                "path": "docs/source/images/foursight-core-dependency-diagram-20210119.pdf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b61a9ff1c2963663853c906d4a1e95ddfce3ce3a",
+                "size": 282310,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b61a9ff1c2963663853c906d4a1e95ddfce3ce3a"
+            },
+            {
+                "path": "docs/source/images/foursight-core-dependency-diagram-20210119.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8fa0f1f3fc3a0b212b6ba94ad87982b8c5cee17c",
+                "size": 614944,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8fa0f1f3fc3a0b212b6ba94ad87982b8c5cee17c"
+            },
+            {
+                "path": "docs/source/index.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b58a18225e42aa5fff4dd578ba3ff745b3011cc5",
+                "size": 1508,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b58a18225e42aa5fff4dd578ba3ff745b3011cc5"
+            },
+            {
+                "path": "docs/source/modules.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "37e532da7a6cc0dfd8127b7d480498f9c941efcc",
+                "size": 1367,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/37e532da7a6cc0dfd8127b7d480498f9c941efcc"
+            },
+            {
+                "path": "foursight_core",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "093fe51469804f79a28b9f897c5a15e957e02992",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/093fe51469804f79a28b9f897c5a15e957e02992"
+            },
+            {
+                "path": "foursight_core/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "foursight_core/abstract_connection.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e2dac4982f6d95ee0b643fe63dcf5b7d72f0c628",
+                "size": 1901,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e2dac4982f6d95ee0b643fe63dcf5b7d72f0c628"
+            },
+            {
+                "path": "foursight_core/app.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8c0abc0bb499adf339a35eae23e6f60b81e9bd09",
+                "size": 69,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8c0abc0bb499adf339a35eae23e6f60b81e9bd09"
+            },
+            {
+                "path": "foursight_core/app_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0350407474d6a25f843ae3d8f4fd0af429d7d74a",
+                "size": 103901,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0350407474d6a25f843ae3d8f4fd0af429d7d74a"
+            },
+            {
+                "path": "foursight_core/boto_s3.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8c4ebfc7881ca29246efaf7f727fec925ba83b83",
+                "size": 1283,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8c4ebfc7881ca29246efaf7f727fec925ba83b83"
+            },
+            {
+                "path": "foursight_core/boto_sqs.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "354ad280ce3df68b49a9f9a363eae7c750ef43b2",
+                "size": 1305,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/354ad280ce3df68b49a9f9a363eae7c750ef43b2"
+            },
+            {
+                "path": "foursight_core/buckets.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b74dab0bd8f05a3d79130dee6df8e490fd411378",
+                "size": 2589,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b74dab0bd8f05a3d79130dee6df8e490fd411378"
+            },
+            {
+                "path": "foursight_core/check_schema.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c28fad8dd74457cd7beb10c554b2d20274ac81b8",
+                "size": 638,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/c28fad8dd74457cd7beb10c554b2d20274ac81b8"
+            },
+            {
+                "path": "foursight_core/check_setup.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0967ef424bce6791893e9a57bb952f80fd536e93",
+                "size": 3,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0967ef424bce6791893e9a57bb952f80fd536e93"
+            },
+            {
+                "path": "foursight_core/check_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e8df571b95a5dc2e213a7dc95c2372dfb94b2efa",
+                "size": 22858,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e8df571b95a5dc2e213a7dc95c2372dfb94b2efa"
+            },
+            {
+                "path": "foursight_core/checks",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "479a788bbd697d7e1e0fc8d4b9cc9ec330f3f76c",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/479a788bbd697d7e1e0fc8d4b9cc9ec330f3f76c"
+            },
+            {
+                "path": "foursight_core/checks/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a03c19d4d4fb2c248c490c6f21df2e52789030dd",
+                "size": 270,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a03c19d4d4fb2c248c490c6f21df2e52789030dd"
+            },
+            {
+                "path": "foursight_core/checks/access_key_expiration_detection.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f369d438861f53423ecc96977850ae444d449f09",
+                "size": 7293,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/f369d438861f53423ecc96977850ae444d449f09"
+            },
+            {
+                "path": "foursight_core/checks/codebuild_checks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "533aa42fae4d83b3ffbaf22508c5882ad7acdf80",
+                "size": 2899,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/533aa42fae4d83b3ffbaf22508c5882ad7acdf80"
+            },
+            {
+                "path": "foursight_core/checks/ecs_checks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "50479501960f78708b9357c53d73366677f900a5",
+                "size": 3305,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/50479501960f78708b9357c53d73366677f900a5"
+            },
+            {
+                "path": "foursight_core/checks/ecs_recovery_check.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7687c66cc5a3b798f53b29378e804aaf0eca6ec0",
+                "size": 4683,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/7687c66cc5a3b798f53b29378e804aaf0eca6ec0"
+            },
+            {
+                "path": "foursight_core/checks/helpers",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "6000fe76f184b3f06683fe8159e11a8494b56607",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/6000fe76f184b3f06683fe8159e11a8494b56607"
+            },
+            {
+                "path": "foursight_core/checks/helpers/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "foursight_core/checks/helpers/confchecks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2ebb54fcdcd766d600d2255581f2d45e63e5d335",
+                "size": 348,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2ebb54fcdcd766d600d2255581f2d45e63e5d335"
+            },
+            {
+                "path": "foursight_core/checks/helpers/sys_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2f167d4b3efb39581cce82750beb3b76664b4846",
+                "size": 3519,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2f167d4b3efb39581cce82750beb3b76664b4846"
+            },
+            {
+                "path": "foursight_core/checks/helpers/wrangler_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bbc4109d7b514cbaec0267dc2ba7b6f0b588ca7a",
+                "size": 2055,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/bbc4109d7b514cbaec0267dc2ba7b6f0b588ca7a"
+            },
+            {
+                "path": "foursight_core/checks/scaling_checks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9fe1889dae133132e25750a5db971e11dee0cc08",
+                "size": 8375,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9fe1889dae133132e25750a5db971e11dee0cc08"
+            },
+            {
+                "path": "foursight_core/checks/test_checks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "15ede0408d26b34a1e6cfcf2d387010fe67ef827",
+                "size": 2658,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/15ede0408d26b34a1e6cfcf2d387010fe67ef827"
+            },
+            {
+                "path": "foursight_core/decorators.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dcb771c7481390e7f74a382750a86d47efe1a845",
+                "size": 11929,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/dcb771c7481390e7f74a382750a86d47efe1a845"
+            },
+            {
+                "path": "foursight_core/deploy.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b324870b70d47c68dd6190ea552efb879a075e2f",
+                "size": 15846,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b324870b70d47c68dd6190ea552efb879a075e2f"
+            },
+            {
+                "path": "foursight_core/environment.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d53201506b8813715d800742d5426cdc4ad08947",
+                "size": 8235,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d53201506b8813715d800742d5426cdc4ad08947"
+            },
+            {
+                "path": "foursight_core/es_connection.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a0806996386c78fb40d1f19b2d13659a44f73355",
+                "size": 11948,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a0806996386c78fb40d1f19b2d13659a44f73355"
+            },
+            {
+                "path": "foursight_core/exceptions.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0377f30b9f6510ccbfd87fc32b73fa60f140b30f",
+                "size": 1176,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0377f30b9f6510ccbfd87fc32b73fa60f140b30f"
+            },
+            {
+                "path": "foursight_core/fs_connection.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7a4ef267081e65f3a66ce8a6c3402af3af5f230c",
+                "size": 5641,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/7a4ef267081e65f3a66ce8a6c3402af3af5f230c"
+            },
+            {
+                "path": "foursight_core/identity.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "912cf8f2bab731f50efd5494a36fec60615e011a",
+                "size": 8423,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/912cf8f2bab731f50efd5494a36fec60615e011a"
+            },
+            {
+                "path": "foursight_core/mapping.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9f02b18f8f1bee6cce01e4fed07405bf530edafe",
+                "size": 3082,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9f02b18f8f1bee6cce01e4fed07405bf530edafe"
+            },
+            {
+                "path": "foursight_core/package.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c7c3e9dbe95daa5b615d5ebfd7bfa1fddfdcc138",
+                "size": 1014,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/c7c3e9dbe95daa5b615d5ebfd7bfa1fddfdcc138"
+            },
+            {
+                "path": "foursight_core/react",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "b561b8097cd21c1ae05802aeb5bd1a78bbf254a2",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/b561b8097cd21c1ae05802aeb5bd1a78bbf254a2"
+            },
+            {
+                "path": "foursight_core/react/api",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "4c3ced1ff5965d9095bbb5905f3610b68b818007",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/4c3ced1ff5965d9095bbb5905f3610b68b818007"
+            },
+            {
+                "path": "foursight_core/react/api/auth.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f22fe7ef708ca8bb8856217d81557002665f561c",
+                "size": 16912,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/f22fe7ef708ca8bb8856217d81557002665f561c"
+            },
+            {
+                "path": "foursight_core/react/api/auth0_config.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "29065a6916c58f68cf7ecafe6455a3f39059de2b",
+                "size": 7218,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/29065a6916c58f68cf7ecafe6455a3f39059de2b"
+            },
+            {
+                "path": "foursight_core/react/api/aws_network.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "91b637572c9b28b2b708f4e59d333af028e4cc03",
+                "size": 22994,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/91b637572c9b28b2b708f4e59d333af028e4cc03"
+            },
+            {
+                "path": "foursight_core/react/api/aws_s3.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a79c3160c6458c520e59c66f2dd6c09753a9da7a",
+                "size": 3061,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a79c3160c6458c520e59c66f2dd6c09753a9da7a"
+            },
+            {
+                "path": "foursight_core/react/api/aws_stacks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "452efe705c9d44c19cb4844fc58f115825960120",
+                "size": 6098,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/452efe705c9d44c19cb4844fc58f115825960120"
+            },
+            {
+                "path": "foursight_core/react/api/checks.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2f534c6d89e1e8156b7c492046e889b7a0159e56",
+                "size": 28009,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2f534c6d89e1e8156b7c492046e889b7a0159e56"
+            },
+            {
+                "path": "foursight_core/react/api/cognito.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ca05f7b830201d0a9a9a41a4495f65752c5289ab",
+                "size": 20464,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ca05f7b830201d0a9a9a41a4495f65752c5289ab"
+            },
+            {
+                "path": "foursight_core/react/api/cookie_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d7f7b51ba5b34415632227d46758e8e0c7f00b1c",
+                "size": 3952,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d7f7b51ba5b34415632227d46758e8e0c7f00b1c"
+            },
+            {
+                "path": "foursight_core/react/api/datetime_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d7b7ba18aead696966ed15a794df311563523486",
+                "size": 6373,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d7b7ba18aead696966ed15a794df311563523486"
+            },
+            {
+                "path": "foursight_core/react/api/encoding_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ee39c73f658c3ead8ae9b67f8cd6f1c813314566",
+                "size": 1841,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ee39c73f658c3ead8ae9b67f8cd6f1c813314566"
+            },
+            {
+                "path": "foursight_core/react/api/encryption.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0d3cb47a6e961e6520918c3b9f438c14b0c6eda2",
+                "size": 3649,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0d3cb47a6e961e6520918c3b9f438c14b0c6eda2"
+            },
+            {
+                "path": "foursight_core/react/api/envs.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "afc4704408097f79297480e893805145517e0344",
+                "size": 4720,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/afc4704408097f79297480e893805145517e0344"
+            },
+            {
+                "path": "foursight_core/react/api/gac.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7ec8f380297bb1bc5dc1ddd20c9e34d0bac9ac5e",
+                "size": 4096,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/7ec8f380297bb1bc5dc1ddd20c9e34d0bac9ac5e"
+            },
+            {
+                "path": "foursight_core/react/api/jwt_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "684e927b0f95572b24716f4cc046efe25f6302bf",
+                "size": 3516,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/684e927b0f95572b24716f4cc046efe25f6302bf"
+            },
+            {
+                "path": "foursight_core/react/api/misc_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "721763d876bea181b8ee6fd59a308d02a3df0c8b",
+                "size": 10609,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/721763d876bea181b8ee6fd59a308d02a3df0c8b"
+            },
+            {
+                "path": "foursight_core/react/api/portal_access_key_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d12079ad8484e6f5b6c13a20708b18288a79926f",
+                "size": 5214,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d12079ad8484e6f5b6c13a20708b18288a79926f"
+            },
+            {
+                "path": "foursight_core/react/api/react_api.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d4d7602b35af1f4a9db20fcff67bc3a77bcb146d",
+                "size": 98198,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d4d7602b35af1f4a9db20fcff67bc3a77bcb146d"
+            },
+            {
+                "path": "foursight_core/react/api/react_api_base.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e9fe50e76d9266dbc9f7f4e7143fbe750d69631e",
+                "size": 11210,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e9fe50e76d9266dbc9f7f4e7143fbe750d69631e"
+            },
+            {
+                "path": "foursight_core/react/api/react_route_decorator.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2b66c5ce16bf9dbb63509cece238af535b058de3",
+                "size": 8025,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2b66c5ce16bf9dbb63509cece238af535b058de3"
+            },
+            {
+                "path": "foursight_core/react/api/react_routes.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a60d30af84f7ee6e30719a2c64aa873d0a30ef2b",
+                "size": 36818,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a60d30af84f7ee6e30719a2c64aa873d0a30ef2b"
+            },
+            {
+                "path": "foursight_core/react/api/react_ui.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "407790c0bc8138a3bbdf56b344875ecb6e429dee",
+                "size": 4805,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/407790c0bc8138a3bbdf56b344875ecb6e429dee"
+            },
+            {
+                "path": "foursight_core/react/api/yaml_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3feabd5217982c858f58dd23341c88b8cb9c2688",
+                "size": 806,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3feabd5217982c858f58dd23341c88b8cb9c2688"
+            },
+            {
+                "path": "foursight_core/react/ui",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "6a2613dff84c9e057051d9ba7a6cb0f2cd0aa69d",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/6a2613dff84c9e057051d9ba7a6cb0f2cd0aa69d"
+            },
+            {
+                "path": "foursight_core/react/ui/asset-manifest.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c9edee66ab03f3f0357a05ca874e4f4ba26688ec",
+                "size": 234,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/c9edee66ab03f3f0357a05ca874e4f4ba26688ec"
+            },
+            {
+                "path": "foursight_core/react/ui/index.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "716d5791d40815edb180b13dea59dc8c8a4099a1",
+                "size": 1681,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/716d5791d40815edb180b13dea59dc8c8a4099a1"
+            },
+            {
+                "path": "foursight_core/react/ui/manifest.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0967ef424bce6791893e9a57bb952f80fd536e93",
+                "size": 3,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0967ef424bce6791893e9a57bb952f80fd536e93"
+            },
+            {
+                "path": "foursight_core/react/ui/static",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "ea0599376da2acbb6b5937683f13565f46480eda",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/ea0599376da2acbb6b5937683f13565f46480eda"
+            },
+            {
+                "path": "foursight_core/react/ui/static/css",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "399c49612c36d96fd80c50985c1fa3ee8230b46e",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/399c49612c36d96fd80c50985c1fa3ee8230b46e"
+            },
+            {
+                "path": "foursight_core/react/ui/static/css/main.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d2e0bf92df24a8793a5fae0effb2385189b60807",
+                "size": 12028,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d2e0bf92df24a8793a5fae0effb2385189b60807"
+            },
+            {
+                "path": "foursight_core/react/ui/static/js",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "bd73c4829041a15b188b8686ab627fbcbbcd0f86",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/bd73c4829041a15b188b8686ab627fbcbbcd0f86"
+            },
+            {
+                "path": "foursight_core/react/ui/static/js/main.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5fe100c313e8768c79c3fb906b14ddac07fe8260",
+                "size": 1868943,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/5fe100c313e8768c79c3fb906b14ddac07fe8260"
+            },
+            {
+                "path": "foursight_core/route_prefixes.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "99cb8eba6f0147da68ee8df9264f95affdea2e9b",
+                "size": 597,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/99cb8eba6f0147da68ee8df9264f95affdea2e9b"
+            },
+            {
+                "path": "foursight_core/routes.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9dd8c0617b4e2d24f4a2481dac3e961481379e06",
+                "size": 10496,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9dd8c0617b4e2d24f4a2481dac3e961481379e06"
+            },
+            {
+                "path": "foursight_core/run_result.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4560eac9872084da6cbbd514784a4b926257c69a",
+                "size": 22941,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/4560eac9872084da6cbbd514784a4b926257c69a"
+            },
+            {
+                "path": "foursight_core/s3_connection.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "912a1d0e35ac550eed500b49bd875cefe22fc510",
+                "size": 6380,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/912a1d0e35ac550eed500b49bd875cefe22fc510"
+            },
+            {
+                "path": "foursight_core/schedule_decorator.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2ea40350f28f837a0379fdd78f5ac3085be7b936",
+                "size": 5282,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2ea40350f28f837a0379fdd78f5ac3085be7b936"
+            },
+            {
+                "path": "foursight_core/sqs_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9f3a55dafd3766eb6f0d9ac4708a98b08dac1cbf",
+                "size": 5442,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9f3a55dafd3766eb6f0d9ac4708a98b08dac1cbf"
+            },
+            {
+                "path": "foursight_core/stage.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9a522ed50b833db2d2e967e9f602efa1aa112d0c",
+                "size": 1715,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9a522ed50b833db2d2e967e9f602efa1aa112d0c"
+            },
+            {
+                "path": "foursight_core/templates",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "c7d1ea0ce4c11f626c6eebe1bdd9162e67a77444",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/c7d1ea0ce4c11f626c6eebe1bdd9162e67a77444"
+            },
+            {
+                "path": "foursight_core/templates/base.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "65b30c58f8ffb9ac1a0b33505045b7ca93001385",
+                "size": 7763,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/65b30c58f8ffb9ac1a0b33505045b7ca93001385"
+            },
+            {
+                "path": "foursight_core/templates/header.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7d2eb04b101b4e08cab71835c46cfdc795b61517",
+                "size": 20532,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/7d2eb04b101b4e08cab71835c46cfdc795b61517"
+            },
+            {
+                "path": "foursight_core/templates/history.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "85bbb54b02e5fd124f4f8abf86f0ad2fbd1dba19",
+                "size": 4090,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/85bbb54b02e5fd124f4f8abf86f0ad2fbd1dba19"
+            },
+            {
+                "path": "foursight_core/templates/info.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "77db381ca08fb809b55cf5c41bf15fc7179f1568",
+                "size": 19634,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/77db381ca08fb809b55cf5c41bf15fc7179f1568"
+            },
+            {
+                "path": "foursight_core/templates/unused.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "21482632f4982772d774eeeae746c51d25c02a70",
+                "size": 1297,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/21482632f4982772d774eeeae746c51d25c02a70"
+            },
+            {
+                "path": "foursight_core/templates/user.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fe70bef9020e45695a49e6b0ee537005db869bfa",
+                "size": 2259,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/fe70bef9020e45695a49e6b0ee537005db869bfa"
+            },
+            {
+                "path": "foursight_core/templates/users.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3486f7609dbdc56a7acbe038de1e339dbbad3806",
+                "size": 1669,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3486f7609dbdc56a7acbe038de1e339dbbad3806"
+            },
+            {
+                "path": "foursight_core/templates/view_checks.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "607165d140c1abebfe3b9ba059b74f1ff43015fc",
+                "size": 572,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/607165d140c1abebfe3b9ba059b74f1ff43015fc"
+            },
+            {
+                "path": "foursight_core/templates/view_groups.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8424d8a195ed5ce2fbd4f45a3f2ae8fc9ac912d8",
+                "size": 2248,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8424d8a195ed5ce2fbd4f45a3f2ae8fc9ac912d8"
+            },
+            {
+                "path": "poetry.lock",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ce75c5fb14b452d958dcd70193ee54d2bf9bf2da",
+                "size": 112419,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ce75c5fb14b452d958dcd70193ee54d2bf9bf2da"
+            },
+            {
+                "path": "poetry.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "52398c57b541485192c4655d773b436368c7c3e0",
+                "size": 30,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/52398c57b541485192c4655d773b436368c7c3e0"
+            },
+            {
+                "path": "pyproject.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "041145ed2697a44dfedda125419236181db2383f",
+                "size": 1471,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/041145ed2697a44dfedda125419236181db2383f"
+            },
+            {
+                "path": "pytest.ini",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "20cfa20b05309dc800ea8f500d8db8e87dcf5e50",
+                "size": 275,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/20cfa20b05309dc800ea8f500d8db8e87dcf5e50"
+            },
+            {
+                "path": "react",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "946196b3094ed23815c11473d0d9308649119544",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/946196b3094ed23815c11473d0d9308649119544"
+            },
+            {
+                "path": "react/package.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7045b21ef99d97a09eeea46fad84c8ed9c463b2f",
+                "size": 1869,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/7045b21ef99d97a09eeea46fad84c8ed9c463b2f"
+            },
+            {
+                "path": "react/public",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "bc861e9b7f3e6a492296b5c76190e2214bf708eb",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/bc861e9b7f3e6a492296b5c76190e2214bf708eb"
+            },
+            {
+                "path": "react/public/index.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9096df815a56847031ec39a5d4bb1f9c72087f78",
+                "size": 3014,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9096df815a56847031ec39a5d4bb1f9c72087f78"
+            },
+            {
+                "path": "react/public/manifest.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0967ef424bce6791893e9a57bb952f80fd536e93",
+                "size": 3,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0967ef424bce6791893e9a57bb952f80fd536e93"
+            },
+            {
+                "path": "react/src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "48c75634d03f6a727a01d439c2d17d94ecffbe34",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/48c75634d03f6a727a01d439c2d17d94ecffbe34"
+            },
+            {
+                "path": "react/src/App.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3850269d961cb4e583f0d972584c8492c681935f",
+                "size": 8083,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3850269d961cb4e583f0d972584c8492c681935f"
+            },
+            {
+                "path": "react/src/Components.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6dad38e24a304910aae10f86b7348fc606620563",
+                "size": 5425,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/6dad38e24a304910aae10f86b7348fc606620563"
+            },
+            {
+                "path": "react/src/Footer.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "21de79923fa8916afee2fa1f8a4ea98516a342cd",
+                "size": 864,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/21de79923fa8916afee2fa1f8a4ea98516a342cd"
+            },
+            {
+                "path": "react/src/Global.js-OBSOLETE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ffa1edb6410f28d09c772f0d3073c0da4fb3481a",
+                "size": 2976,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ffa1edb6410f28d09c772f0d3073c0da4fb3481a"
+            },
+            {
+                "path": "react/src/Header.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8fe1b676fc07951f539cccb232c61aed09f33885",
+                "size": 25923,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8fe1b676fc07951f539cccb232c61aed09f33885"
+            },
+            {
+                "path": "react/src/HeaderData.js-OBSOLETE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "71abde1e01d7620a6e63195fbf811d4bfb580230",
+                "size": 168,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/71abde1e01d7620a6e63195fbf811d4bfb580230"
+            },
+            {
+                "path": "react/src/HeaderRefresh.js-OBSOLETE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e86ddca9c5faa1bd7bc7abc908b24f1c0a9d6af5",
+                "size": 497,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e86ddca9c5faa1bd7bc7abc908b24f1c0a9d6af5"
+            },
+            {
+                "path": "react/src/LiveTime.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f62e8d8e578cb6e9c454f7b6ce4fd636d9798c4c",
+                "size": 1926,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/f62e8d8e578cb6e9c454f7b6ce4fd636d9798c4c"
+            },
+            {
+                "path": "react/src/Page.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "39f727f5f2cc27aab1be20e4e67bc7ae1bb03f46",
+                "size": 5874,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/39f727f5f2cc27aab1be20e4e67bc7ae1bb03f46"
+            },
+            {
+                "path": "react/src/PagedTableComponent.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fa0b5f1f55d3dfaac05c1145f38d3c794bec1c26",
+                "size": 6005,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/fa0b5f1f55d3dfaac05c1145f38d3c794bec1c26"
+            },
+            {
+                "path": "react/src/PaginationComponent.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "aad489a3272f310cc712d3f6e11a3b550c2fab7b",
+                "size": 2399,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/aad489a3272f310cc712d3f6e11a3b550c2fab7b"
+            },
+            {
+                "path": "react/src/ReadOnlyMode.js-OBSOLETE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9fe5555539e24461f6715436b32d0eb80a2aca31",
+                "size": 993,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9fe5555539e24461f6715436b32d0eb80a2aca31"
+            },
+            {
+                "path": "react/src/Spinners.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f62a576925ea400feede0cb0938d90cc6ed30f7f",
+                "size": 3295,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/f62a576925ea400feede0cb0938d90cc6ed30f7f"
+            },
+            {
+                "path": "react/src/Styles.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a4177c19e009122e11570a477302028b941b1b9e",
+                "size": 4038,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a4177c19e009122e11570a477302028b941b1b9e"
+            },
+            {
+                "path": "react/src/TableHead.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a7042e262a46a84dba8818ff8904dd3ccc1880de",
+                "size": 7015,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a7042e262a46a84dba8818ff8904dd3ccc1880de"
+            },
+            {
+                "path": "react/src/components",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "671ce2b7e52a7424ce24035967c241678ae7e47b",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/671ce2b7e52a7424ce24035967c241678ae7e47b"
+            },
+            {
+                "path": "react/src/components/ChecksValidation.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b8da931ce5bebd719a65bed5f5059942136522a4",
+                "size": 1007,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b8da931ce5bebd719a65bed5f5059942136522a4"
+            },
+            {
+                "path": "react/src/components/DisplayStatusText.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b0fce4e63e2a6d1cec8b258216556d60f720dcdb",
+                "size": 1171,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b0fce4e63e2a6d1cec8b258216556d60f720dcdb"
+            },
+            {
+                "path": "react/src/components/JsonToggleDiv.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a807e332aac093995fde7e0c94b9e86e13995e36",
+                "size": 3530,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a807e332aac093995fde7e0c94b9e86e13995e36"
+            },
+            {
+                "path": "react/src/components/PortalAccessKey.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ddd19e8c3717b9546d9ad0f3a9d888607a27e4de",
+                "size": 5259,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ddd19e8c3717b9546d9ad0f3a9d888607a27e4de"
+            },
+            {
+                "path": "react/src/components/PortalAccessKeyError.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5224213944cf4600caefc90a986ed728ef7b3455",
+                "size": 1562,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/5224213944cf4600caefc90a986ed728ef7b3455"
+            },
+            {
+                "path": "react/src/components/SslCertificate.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6308761caa417b5af5440cea492287b7c509b01e",
+                "size": 6820,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/6308761caa417b5af5440cea492287b7c509b01e"
+            },
+            {
+                "path": "react/src/components/SslCertificateError.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ed8220e4b8e371eec681c63f9d160a922a939c91",
+                "size": 1599,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ed8220e4b8e371eec681c63f9d160a922a939c91"
+            },
+            {
+                "path": "react/src/components/Tooltip.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3ce4cdb7c0dbb2c3669e17ecfcf6fd97e965303b",
+                "size": 1356,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3ce4cdb7c0dbb2c3669e17ecfcf6fd97e965303b"
+            },
+            {
+                "path": "react/src/css",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "65ece92d3e1a3e60810364ab0ee7ea6193d82d43",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/65ece92d3e1a3e60810364ab0ee7ea6193d82d43"
+            },
+            {
+                "path": "react/src/css/App.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fb1a7393518d0bb90260adc4d8d05b08b8643ff6",
+                "size": 12873,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/fb1a7393518d0bb90260adc4d8d05b08b8643ff6"
+            },
+            {
+                "path": "react/src/css/index.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "50e9831b3804f85ee40f4c7d45ba2c2e4f21c073",
+                "size": 1089,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/50e9831b3804f85ee40f4c7d45ba2c2e4f21c073"
+            },
+            {
+                "path": "react/src/hooks",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "95076a3909d3f3b211fd15c5d0f5a86f7024d032",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/95076a3909d3f3b211fd15c5d0f5a86f7024d032"
+            },
+            {
+                "path": "react/src/hooks/Fetch.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9695895a422bc33fd13e1a8278c4fa4521a4276e",
+                "size": 65,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9695895a422bc33fd13e1a8278c4fa4521a4276e"
+            },
+            {
+                "path": "react/src/hooks/FetchBase.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "15895d975e88312d540c57ce988e8000447fa379",
+                "size": 34778,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/15895d975e88312d540c57ce988e8000447fa379"
+            },
+            {
+                "path": "react/src/hooks/FetchFunction.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1ab032b34f416622feddeacf79a08d92fdec3bce",
+                "size": 81,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/1ab032b34f416622feddeacf79a08d92fdec3bce"
+            },
+            {
+                "path": "react/src/hooks/Fetched.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "14dd0c640bed66ef8b3e97e6ea9210034d44530c",
+                "size": 69,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/14dd0c640bed66ef8b3e97e6ea9210034d44530c"
+            },
+            {
+                "path": "react/src/hooks/Fetcher.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8428588e262ce4bfac81d161e5f26e082dfdc8fc",
+                "size": 69,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8428588e262ce4bfac81d161e5f26e082dfdc8fc"
+            },
+            {
+                "path": "react/src/hooks/Fetching.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9401f5399506d2a2881658ad4690b0be14d58468",
+                "size": 71,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9401f5399506d2a2881658ad4690b0be14d58468"
+            },
+            {
+                "path": "react/src/hooks/Global.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f3d5310eab92f974577819706804128bca01cc0b",
+                "size": 68,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/f3d5310eab92f974577819706804128bca01cc0b"
+            },
+            {
+                "path": "react/src/hooks/GlobalBase.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "501a1d7b8ce0767afce378fa6817aed701b122ed",
+                "size": 2497,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/501a1d7b8ce0767afce378fa6817aed701b122ed"
+            },
+            {
+                "path": "react/src/hooks/GlobalDefinition.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b7010a58ebae069c6e8250287c3650eaefba9af0",
+                "size": 74,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b7010a58ebae069c6e8250287c3650eaefba9af0"
+            },
+            {
+                "path": "react/src/hooks/Header.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "57e0c37e7ed14f317ba68137692a66bd0d06577d",
+                "size": 68,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/57e0c37e7ed14f317ba68137692a66bd0d06577d"
+            },
+            {
+                "path": "react/src/hooks/HeaderBase.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "db2d5e7aa8aaed7c7106facb268f49d6c6d6c998",
+                "size": 2887,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/db2d5e7aa8aaed7c7106facb268f49d6c6d6c998"
+            },
+            {
+                "path": "react/src/hooks/HeaderProvider.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "afa6133eb37369473a3a4d38caaa7c75de9b7c15",
+                "size": 78,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/afa6133eb37369473a3a4d38caaa7c75de9b7c15"
+            },
+            {
+                "path": "react/src/hooks/HeaderRefresh.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "21b2e0001f4ada1a223634f3408c07321adc52f9",
+                "size": 82,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/21b2e0001f4ada1a223634f3408c07321adc52f9"
+            },
+            {
+                "path": "react/src/hooks/KeyedState.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e75c5c2af0035513a1760f61d33507d75ad11520",
+                "size": 5689,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e75c5c2af0035513a1760f61d33507d75ad11520"
+            },
+            {
+                "path": "react/src/hooks/ReadOnlyMode.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "739a71a15325d275b53c6d2c225d4ab396c568a5",
+                "size": 1089,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/739a71a15325d275b53c6d2c225d4ab396c568a5"
+            },
+            {
+                "path": "react/src/hooks/ReadOnlyModeComponent.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0d2cdfd997a1b04211ba6b2116f2cf495b4f6b02",
+                "size": 799,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0d2cdfd997a1b04211ba6b2116f2cf495b4f6b02"
+            },
+            {
+                "path": "react/src/hooks/SelectedComponents.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2e9008a86b702144869f113c18acc1048ec711b7",
+                "size": 3768,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2e9008a86b702144869f113c18acc1048ec711b7"
+            },
+            {
+                "path": "react/src/hooks/UrlArgs.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6520365931daa2b5696b8898d1e165f530bcdbad",
+                "size": 2671,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/6520365931daa2b5696b8898d1e165f530bcdbad"
+            },
+            {
+                "path": "react/src/hooks/UserMetadata.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e6299016479bbc741dba856031ee8918e860f729",
+                "size": 1295,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e6299016479bbc741dba856031ee8918e860f729"
+            },
+            {
+                "path": "react/src/index.jsx",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9b85ed64d2e268e0c2ed9a1af3f465c53d03a21d",
+                "size": 1391,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9b85ed64d2e268e0c2ed9a1af3f465c53d03a21d"
+            },
+            {
+                "path": "react/src/pages",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "053c0ac606774b7f27ba6529d1fdeddfd076f4e0",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/053c0ac606774b7f27ba6529d1fdeddfd076f4e0"
+            },
+            {
+                "path": "react/src/pages/AccountsComponent.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ca138feac83d46e9d3d18ac13ef6706249c30f3b",
+                "size": 33098,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ca138feac83d46e9d3d18ac13ef6706249c30f3b"
+            },
+            {
+                "path": "react/src/pages/AccountsPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "62384ed08ca08f0827bab4d2efb42feb0de3f5f3",
+                "size": 292,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/62384ed08ca08f0827bab4d2efb42feb0de3f5f3"
+            },
+            {
+                "path": "react/src/pages/ApiCachePage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "df0f7fc4443b694331c53dba35a3beb5a26435d1",
+                "size": 5040,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/df0f7fc4443b694331c53dba35a3beb5a26435d1"
+            },
+            {
+                "path": "react/src/pages/CheckHistoryPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a004a9ade2a4c8d4fc5e4f43d0a06f7afe05c6af",
+                "size": 30034,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a004a9ade2a4c8d4fc5e4f43d0a06f7afe05c6af"
+            },
+            {
+                "path": "react/src/pages/ChecksPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "84cf6614e4b71dc92018ea8a53f8e0ce5916d993",
+                "size": 105719,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/84cf6614e4b71dc92018ea8a53f8e0ce5916d993"
+            },
+            {
+                "path": "react/src/pages/EditBox.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7ed926843c759b6570824eea7deba1c69d7ed1aa",
+                "size": 17199,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/7ed926843c759b6570824eea7deba1c69d7ed1aa"
+            },
+            {
+                "path": "react/src/pages/EnvPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8f29d9b080e404c12e7a4a3dda6c3f2a0bab5554",
+                "size": 10454,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8f29d9b080e404c12e7a4a3dda6c3f2a0bab5554"
+            },
+            {
+                "path": "react/src/pages/FatalErrorPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e10dfb2d581dc0ec613a530d5fbbca199d34677f",
+                "size": 900,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e10dfb2d581dc0ec613a530d5fbbca199d34677f"
+            },
+            {
+                "path": "react/src/pages/ForbiddenPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "214ff95974cdbe538eab1fa1d0501776db4ba522",
+                "size": 1089,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/214ff95974cdbe538eab1fa1d0501776db4ba522"
+            },
+            {
+                "path": "react/src/pages/GacComparePage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "99cee9bb1c94ae6c75ad0334951b24db116f7fc9",
+                "size": 11674,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/99cee9bb1c94ae6c75ad0334951b24db116f7fc9"
+            },
+            {
+                "path": "react/src/pages/HomePage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "942b13df29a660ef693ec17accb4e036cedd1874",
+                "size": 5814,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/942b13df29a660ef693ec17accb4e036cedd1874"
+            },
+            {
+                "path": "react/src/pages/InfoPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d2054b9e68a2ddbd76c2a486f2bc4c5c36c42fea",
+                "size": 22871,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d2054b9e68a2ddbd76c2a486f2bc4c5c36c42fea"
+            },
+            {
+                "path": "react/src/pages/LoginCognitoBox.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ffd9144b730b2a798d3b4c7d79d29d61a92acbcd",
+                "size": 4575,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ffd9144b730b2a798d3b4c7d79d29d61a92acbcd"
+            },
+            {
+                "path": "react/src/pages/LoginCognitoCallback.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3eaa44478206daffc7e6b34de01e912f0429b266",
+                "size": 2822,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3eaa44478206daffc7e6b34de01e912f0429b266"
+            },
+            {
+                "path": "react/src/pages/LoginPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fc72708ff95fee75f4f3749d20ebfdf1ddcea10a",
+                "size": 19138,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/fc72708ff95fee75f4f3749d20ebfdf1ddcea10a"
+            },
+            {
+                "path": "react/src/pages/NotFoundPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c8e99a8f3e0e94a4e10d50a824727d623671cf67",
+                "size": 807,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/c8e99a8f3e0e94a4e10d50a824727d623671cf67"
+            },
+            {
+                "path": "react/src/pages/PortalAccessKeyPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fee236361d1b985d4aca01773d541d6184958b3b",
+                "size": 619,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/fee236361d1b985d4aca01773d541d6184958b3b"
+            },
+            {
+                "path": "react/src/pages/RedirectPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "49985d1b7ea2915f65db78c1774eb0d3f1bca2fa",
+                "size": 341,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/49985d1b7ea2915f65db78c1774eb0d3f1bca2fa"
+            },
+            {
+                "path": "react/src/pages/SslCertificatesPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "180ce42b6a9f755dd8ee0ef8f82c921dbf0f03bc",
+                "size": 950,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/180ce42b6a9f755dd8ee0ef8f82c921dbf0f03bc"
+            },
+            {
+                "path": "react/src/pages/UserCreatePage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "89acfd21445e95856fe24ef6ab91fafd0e957781",
+                "size": 2008,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/89acfd21445e95856fe24ef6ab91fafd0e957781"
+            },
+            {
+                "path": "react/src/pages/UserDefs.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "615ba302a52d9778e7d9cfe84e4c636981fa0ada",
+                "size": 2764,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/615ba302a52d9778e7d9cfe84e4c636981fa0ada"
+            },
+            {
+                "path": "react/src/pages/UserEditPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9c549a63b01895d724cb95dea47953820cd57f0b",
+                "size": 5093,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9c549a63b01895d724cb95dea47953820cd57f0b"
+            },
+            {
+                "path": "react/src/pages/UserPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "274f4e767ea20563069227d0232c796c6f395fe8",
+                "size": 9137,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/274f4e767ea20563069227d0232c796c6f395fe8"
+            },
+            {
+                "path": "react/src/pages/UsersPage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c05563b34f000230bb53f12cd284a19fd6475112",
+                "size": 9398,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/c05563b34f000230bb53f12cd284a19fd6475112"
+            },
+            {
+                "path": "react/src/pages/aws",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "97f1950d0c116347a23dbe959d5231471aa311a3",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/97f1950d0c116347a23dbe959d5231471aa311a3"
+            },
+            {
+                "path": "react/src/pages/aws/AwsS3Page.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "eec4a215a8ae4407bded832da18cacc103e6382c",
+                "size": 15214,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/eec4a215a8ae4407bded832da18cacc103e6382c"
+            },
+            {
+                "path": "react/src/pages/aws/InfrastructurePage.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1d2f41793be108a74c0de19d01e8ddc92896e421",
+                "size": 56752,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/1d2f41793be108a74c0de19d01e8ddc92896e421"
+            },
+            {
+                "path": "react/src/pages/aws/Secrets.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "54a75cde5ec32d316614a2195aab607b75059527",
+                "size": 3669,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/54a75cde5ec32d316614a2195aab607b75059527"
+            },
+            {
+                "path": "react/src/pages/checks",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2fb81129b7fa04789fa7150801081f4cd5ebc84c",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/2fb81129b7fa04789fa7150801081f4cd5ebc84c"
+            },
+            {
+                "path": "react/src/pages/checks/ChecksPageNew.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7a1115732cfdbc1165ae045b88daa31cd5b4b1d7",
+                "size": 9059,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/7a1115732cfdbc1165ae045b88daa31cd5b4b1d7"
+            },
+            {
+                "path": "react/src/utils",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "b344b93afbafbddb6619e1934ac7a003037ce6b7",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/b344b93afbafbddb6619e1934ac7a003037ce6b7"
+            },
+            {
+                "path": "react/src/utils/Auth.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4265afe9396c7bc54c4685f9ea429fc73ad2ae57",
+                "size": 2776,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/4265afe9396c7bc54c4685f9ea429fc73ad2ae57"
+            },
+            {
+                "path": "react/src/utils/Char.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1d29f5664e471842f52bf848a8bc77647a37a23b",
+                "size": 1711,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/1d29f5664e471842f52bf848a8bc77647a37a23b"
+            },
+            {
+                "path": "react/src/utils/Client.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4d2d51ac27228ab57629daa7f919c25f019f4614",
+                "size": 6037,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/4d2d51ac27228ab57629daa7f919c25f019f4614"
+            },
+            {
+                "path": "react/src/utils/Clipboard.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4e718fd5ff41f1329c3fc24a33ed2648b6977823",
+                "size": 1196,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/4e718fd5ff41f1329c3fc24a33ed2648b6977823"
+            },
+            {
+                "path": "react/src/utils/Context.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3999adb1abeed3c7fd6c1327b8aa2ed3103b8d41",
+                "size": 4651,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3999adb1abeed3c7fd6c1327b8aa2ed3103b8d41"
+            },
+            {
+                "path": "react/src/utils/Cookie.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b206c523ade4279f676e56eee88b7c6aaab9285d",
+                "size": 8040,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b206c523ade4279f676e56eee88b7c6aaab9285d"
+            },
+            {
+                "path": "react/src/utils/Date.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "281602f04a5dcc9ce548e88d76af58ee296ad8fd",
+                "size": 829,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/281602f04a5dcc9ce548e88d76af58ee296ad8fd"
+            },
+            {
+                "path": "react/src/utils/DateTime.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3259500cf5a47062dbcd6b5d897cb75375f7a393",
+                "size": 925,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3259500cf5a47062dbcd6b5d897cb75375f7a393"
+            },
+            {
+                "path": "react/src/utils/Debug.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8af9da9b7f49e0d891126b754e2696372f781645",
+                "size": 478,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8af9da9b7f49e0d891126b754e2696372f781645"
+            },
+            {
+                "path": "react/src/utils/Duration.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a6d7decd111ad33174d135534b2547004ca609f6",
+                "size": 242,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a6d7decd111ad33174d135534b2547004ca609f6"
+            },
+            {
+                "path": "react/src/utils/Env.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5cfc227ea18c820a8139c3667536b3a6981751fb",
+                "size": 10891,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/5cfc227ea18c820a8139c3667536b3a6981751fb"
+            },
+            {
+                "path": "react/src/utils/Fetch.js-OBSOLETE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a67e255cf8fa21528d276973e984ee36de119257",
+                "size": 34413,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/a67e255cf8fa21528d276973e984ee36de119257"
+            },
+            {
+                "path": "react/src/utils/Image.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "63c35072648f075c59a0cab2d38e52cc35a25855",
+                "size": 4770,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/63c35072648f075c59a0cab2d38e52cc35a25855"
+            },
+            {
+                "path": "react/src/utils/Json.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f3b785a565c5031d8ebe74a480bb452161bc1cfb",
+                "size": 692,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/f3b785a565c5031d8ebe74a480bb452161bc1cfb"
+            },
+            {
+                "path": "react/src/utils/Jwt.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "36c03a644de5b8e17d3e621245323d193c65a5dd",
+                "size": 1585,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/36c03a644de5b8e17d3e621245323d193c65a5dd"
+            },
+            {
+                "path": "react/src/utils/Logout.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b3adce45702c7a10121bb4833b6fe8dee03e7a65",
+                "size": 654,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b3adce45702c7a10121bb4833b6fe8dee03e7a65"
+            },
+            {
+                "path": "react/src/utils/Path.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "df27e7d840791c832096c73db914b311ab27eeaf",
+                "size": 1368,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/df27e7d840791c832096c73db914b311ab27eeaf"
+            },
+            {
+                "path": "react/src/utils/Server.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b7f8de7d8c2c8f91910c2379753c15200e7d3caa",
+                "size": 1861,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/b7f8de7d8c2c8f91910c2379753c15200e7d3caa"
+            },
+            {
+                "path": "react/src/utils/Str.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0b87023f7c8213b969a185693dcfe848f2cc653a",
+                "size": 1555,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0b87023f7c8213b969a185693dcfe848f2cc653a"
+            },
+            {
+                "path": "react/src/utils/Time.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "855164ec18a3d71ca2c12be9429bab2407ef3aef",
+                "size": 7491,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/855164ec18a3d71ca2c12be9429bab2407ef3aef"
+            },
+            {
+                "path": "react/src/utils/Type.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4f35be9db827c52130607a6d21e67b456a709de8",
+                "size": 3307,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/4f35be9db827c52130607a6d21e67b456a709de8"
+            },
+            {
+                "path": "react/src/utils/Yaml.js",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "cc898dec3147125776345ae60556e3d20378c541",
+                "size": 636,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/cc898dec3147125776345ae60556e3d20378c541"
+            },
+            {
+                "path": "scripts",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "3de1820be18ebc510b5dae52624a74ebe8c7fa6d",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/3de1820be18ebc510b5dae52624a74ebe8c7fa6d"
+            },
+            {
+                "path": "scripts/publish_old",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2f993ff4dd07a19684dfe2e27418637711667fa1",
+                "size": 1671,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2f993ff4dd07a19684dfe2e27418637711667fa1"
+            },
+            {
+                "path": "scripts/react_build.sh",
+                "mode": "100755",
+                "type": "blob",
+                "sha": "fed3894ec0a94baac116ef6d137ad201092780dd",
+                "size": 1696,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/fed3894ec0a94baac116ef6d137ad201092780dd"
+            },
+            {
+                "path": "tests",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "b1acd8560a536c6c75790853967f9c0a92309737",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/b1acd8560a536c6c75790853967f9c0a92309737"
+            },
+            {
+                "path": "tests/test_action_result.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "cbbd1d8ab4899188e75bacf15dfa0eea00ee70ff",
+                "size": 1403,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/cbbd1d8ab4899188e75bacf15dfa0eea00ee70ff"
+            },
+            {
+                "path": "tests/test_app_routes.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "08872c684059ec2784781ea0b891adab24a8ea16",
+                "size": 9220,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/08872c684059ec2784781ea0b891adab24a8ea16"
+            },
+            {
+                "path": "tests/test_app_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "39cd76195a83392fc12fd187db16ffd2ae751732",
+                "size": 12945,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/39cd76195a83392fc12fd187db16ffd2ae751732"
+            },
+            {
+                "path": "tests/test_check_result.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "709f1d67756357892328b95d5bea6550684e1c12",
+                "size": 7481,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/709f1d67756357892328b95d5bea6550684e1c12"
+            },
+            {
+                "path": "tests/test_check_runner.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ba5a6ed05f869f766f2b1e0d7df52c68d7620ec1",
+                "size": 16328,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ba5a6ed05f869f766f2b1e0d7df52c68d7620ec1"
+            },
+            {
+                "path": "tests/test_check_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d579da39da02b281f51d47c663551d9b74532757",
+                "size": 12145,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d579da39da02b281f51d47c663551d9b74532757"
+            },
+            {
+                "path": "tests/test_checks",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "ce0fb9cf991cbe87e5f7cca2ecf2503db88ff1e5",
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/trees/ce0fb9cf991cbe87e5f7cca2ecf2503db88ff1e5"
+            },
+            {
+                "path": "tests/test_checks/check1.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f89b6821426a26c7d2567babe11ea10243e6f7b1",
+                "size": 1095,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/f89b6821426a26c7d2567babe11ea10243e6f7b1"
+            },
+            {
+                "path": "tests/test_checks/check2.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "92d77b86837e7f93d387ad6e10c3dbd30ff14b2e",
+                "size": 1095,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/92d77b86837e7f93d387ad6e10c3dbd30ff14b2e"
+            },
+            {
+                "path": "tests/test_checks/check3.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "67d4679e3409365fba94493ff908c989b72ee89a",
+                "size": 1095,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/67d4679e3409365fba94493ff908c989b72ee89a"
+            },
+            {
+                "path": "tests/test_checks/check4.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2359517dc82522735d041ba82937df1f5fa0cdf8",
+                "size": 5308,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/2359517dc82522735d041ba82937df1f5fa0cdf8"
+            },
+            {
+                "path": "tests/test_checks/fail_check.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "18aef58c34d9381881fa4b1a44a5ad49ddc37dff",
+                "size": 1071,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/18aef58c34d9381881fa4b1a44a5ad49ddc37dff"
+            },
+            {
+                "path": "tests/test_deploy.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8afcf92b6ac83f99e16c6e55109f6a811f4ccc6e",
+                "size": 234,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/8afcf92b6ac83f99e16c6e55109f6a811f4ccc6e"
+            },
+            {
+                "path": "tests/test_environment.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "17a50513cece47c994bf35860be2aaad2245d5fa",
+                "size": 8301,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/17a50513cece47c994bf35860be2aaad2245d5fa"
+            },
+            {
+                "path": "tests/test_es_connection.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e66767f6bbca97e0890620a8986b0d3a4e425f6c",
+                "size": 6707,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/e66767f6bbca97e0890620a8986b0d3a4e425f6c"
+            },
+            {
+                "path": "tests/test_fs_connection.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "811666a9a07b17bfb3102f7ce9404e8b93bc71a5",
+                "size": 3307,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/811666a9a07b17bfb3102f7ce9404e8b93bc71a5"
+            },
+            {
+                "path": "tests/test_helpers.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d143379776b7547145d64325c16b44ce34261201",
+                "size": 1560,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/d143379776b7547145d64325c16b44ce34261201"
+            },
+            {
+                "path": "tests/test_identity.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "df933d53294a92d58ffb03bd2f4e64c14e548ab2",
+                "size": 1652,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/df933d53294a92d58ffb03bd2f4e64c14e548ab2"
+            },
+            {
+                "path": "tests/test_jwt_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ba47cfd60063377c27a1bc2f4d3f8e36d4ef3f5c",
+                "size": 2388,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/ba47cfd60063377c27a1bc2f4d3f8e36d4ef3f5c"
+            },
+            {
+                "path": "tests/test_mock_chalice_app.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9e505a5d52e7b8419dae4023e3c278a105cb02e7",
+                "size": 1208,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/9e505a5d52e7b8419dae4023e3c278a105cb02e7"
+            },
+            {
+                "path": "tests/test_react_auth.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0f9ab62c74c2751806f439f2e1f471b3ae72d6d5",
+                "size": 4517,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/0f9ab62c74c2751806f439f2e1f471b3ae72d6d5"
+            },
+            {
+                "path": "tests/test_react_auth_defs.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "705ce8b2f63cdd371618152644362bd1193aafd6",
+                "size": 4631,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/705ce8b2f63cdd371618152644362bd1193aafd6"
+            },
+            {
+                "path": "tests/test_react_auth_routes.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3643f77c342c8864fe8b06e4be0e95e72318b266",
+                "size": 5235,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3643f77c342c8864fe8b06e4be0e95e72318b266"
+            },
+            {
+                "path": "tests/test_react_envs.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "365ac3be8fc804b4f53ac9d8b6e1b46d2e94eba5",
+                "size": 1636,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/365ac3be8fc804b4f53ac9d8b6e1b46d2e94eba5"
+            },
+            {
+                "path": "tests/test_run_result.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1507d9a6113b824c56fa35a43de8302ead9964be",
+                "size": 10771,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/1507d9a6113b824c56fa35a43de8302ead9964be"
+            },
+            {
+                "path": "tests/test_s3_connection.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "752182183e324a9b8fef493fd6348e380f8c2053",
+                "size": 1504,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/752182183e324a9b8fef493fd6348e380f8c2053"
+            },
+            {
+                "path": "tests/test_stage.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "427d8edf38f6e0e6dde1af5bfe480e692bf591b5",
+                "size": 742,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/427d8edf38f6e0e6dde1af5bfe480e692bf591b5"
+            },
+            {
+                "path": "tests/test_utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "33ff396f08a899121bab7d31389db28ae4871a13",
+                "size": 3529,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/33ff396f08a899121bab7d31389db28ae4871a13"
+            },
+            {
+                "path": "tests/test_version.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3f684640239b802236d9a77146742bc29bbcc91e",
+                "size": 355,
+                "url": "https://api.github.com/repos/4dn-dcic/foursight-core/git/blobs/3f684640239b802236d9a77146742bc29bbcc91e"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "foursight_core/app_utils.py",
+        "react/src/pages/InfoPage.js",
+        "pyproject.toml",
+        "react/src/hooks/UrlArgs.js",
+        "foursight_core/s3_connection.py",
+        "react/src/pages/checks/ChecksPageNew.js",
+        "foursight_core/environment.py",
+        "foursight_core/react/api/react_api.py",
+        "react/src/utils/Type.js",
+        "foursight_core/boto_sqs.py",
+        "react/src/pages/aws/InfrastructurePage.js",
+        "react/src/css/App.css",
+        "react/src/App.js",
+        "foursight_core/sqs_utils.py",
+        "poetry.lock",
+        "react/src/hooks/FetchBase.js",
+        "foursight_core/run_result.py",
+        "react/src/pages/ChecksPage.js",
+        "foursight_core/react/api/react_routes.py",
+        "foursight_core/boto_s3.py",
+        "react/src/pages/AccountsComponent.js",
+        "foursight_core/react/ui/static/js/main.js",
+        "foursight_core/react/api/gac.py",
+        "react/src/pages/HomePage.js",
+        "foursight_core/react/ui/static/css/main.css",
+        "CHANGELOG.rst",
+        "foursight_core/checks/access_key_expiration_detection.py",
+        "react/src/pages/LoginPage.js",
+        "foursight_core/react/api/aws_s3.py",
+        "react/src/Header.js",
+        "foursight_core/react/api/portal_access_key_utils.py",
+        "foursight_core/buckets.py",
+        "react/src/hooks/SelectedComponents.js"
+    ]
+}

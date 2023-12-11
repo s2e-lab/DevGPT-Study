@@ -1,0 +1,399 @@
+{
+    "PR_URL": "https://github.com/IararIV/karaok.ai/pull/1",
+    "Commit_Tree": {
+        "sha": "c5cf1e71e3dbb48b1d0ba3f3d97ad80f2d5882a7",
+        "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/c5cf1e71e3dbb48b1d0ba3f3d97ad80f2d5882a7",
+        "tree": [
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "68bc17f9ff2104a9d7b6777058bb4c343ca72609",
+                "size": 3078,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/68bc17f9ff2104a9d7b6777058bb4c343ca72609"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dc8ba562dc96e36b8d8a3b2720b5bbef84535bc7",
+                "size": 11,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/dc8ba562dc96e36b8d8a3b2720b5bbef84535bc7"
+            },
+            {
+                "path": "__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "app.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "518bad0106767457449f2a6cd66df76ac41af24e",
+                "size": 945,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/518bad0106767457449f2a6cd66df76ac41af24e"
+            },
+            {
+                "path": "nbs",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "c449f7f9e797a874af22d8a4ed5ca2a0e3793b1f",
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/c449f7f9e797a874af22d8a4ed5ca2a0e3793b1f"
+            },
+            {
+                "path": "nbs/credentials.ipynb",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bd8303fdd60bdb73be4244cd89c326814b5926d2",
+                "size": 8481,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/bd8303fdd60bdb73be4244cd89c326814b5926d2"
+            },
+            {
+                "path": "nbs/functions.ipynb",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d144f1ea50f3dfbcfd4631d3b6768d51dd6ddbca",
+                "size": 6702,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/d144f1ea50f3dfbcfd4631d3b6768d51dd6ddbca"
+            },
+            {
+                "path": "requirements.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dcddcce0712a68b4354de42b35e468a3928be884",
+                "size": 23,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/dcddcce0712a68b4354de42b35e468a3928be884"
+            },
+            {
+                "path": "spotify",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "8b22f6e7d6a3cf9727ca12d15489e6164aabb387",
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/8b22f6e7d6a3cf9727ca12d15489e6164aabb387"
+            },
+            {
+                "path": "spotify/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "spotify/credentials.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c08b415adc3c719741e0b9a8c078c197c6a8614b",
+                "size": 112,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/c08b415adc3c719741e0b9a8c078c197c6a8614b"
+            },
+            {
+                "path": "spotify/credentials.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7ea3489f4b20ec896e484e5c5fcaba99a238ebd3",
+                "size": 414,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/7ea3489f4b20ec896e484e5c5fcaba99a238ebd3"
+            },
+            {
+                "path": "spotify/functions.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5a39eae25f56b1e59959ba355b10c4735a2de810",
+                "size": 871,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/5a39eae25f56b1e59959ba355b10c4735a2de810"
+            },
+            {
+                "path": "spotify/schemas.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7cd68d5aa65b03a687e488af91df0c15819bbced",
+                "size": 237,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/7cd68d5aa65b03a687e488af91df0c15819bbced"
+            },
+            {
+                "path": "static",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "3e783877f5784e3d8fcfbec65e1cb130d15ce67e",
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/3e783877f5784e3d8fcfbec65e1cb130d15ce67e"
+            },
+            {
+                "path": "static/css",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "cc781bcf3f9fab3c4e948b1f7ee373ad8f071309",
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/cc781bcf3f9fab3c4e948b1f7ee373ad8f071309"
+            },
+            {
+                "path": "static/css/search.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "51ea3cda7c6da46c4f1d545bc201e2d87500c228",
+                "size": 492,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/51ea3cda7c6da46c4f1d545bc201e2d87500c228"
+            },
+            {
+                "path": "static/css/search_results.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a0a8c20024d62473db36941a3704255550627562",
+                "size": 1693,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/a0a8c20024d62473db36941a3704255550627562"
+            },
+            {
+                "path": "static/css/style.css",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5d30df6f826c9bdac5bbc942cf29ece6d1f8c5d7",
+                "size": 245,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/5d30df6f826c9bdac5bbc942cf29ece6d1f8c5d7"
+            },
+            {
+                "path": "static/fonts",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2c3a10fe92e24e4d7df8e6ee7d4d295bd66732e0",
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/2c3a10fe92e24e4d7df8e6ee7d4d295bd66732e0"
+            },
+            {
+                "path": "static/fonts/Gotham-Font",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "d6283027d7466f016720d16c15fcba1966fbd6fa",
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/d6283027d7466f016720d16c15fcba1966fbd6fa"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-Black.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "da11be7911ce91782f9980789dde5566ee9dc850",
+                "size": 30608,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/da11be7911ce91782f9980789dde5566ee9dc850"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-Bold.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "59ae7c2a231b7c4ab9038b95c96b61768f7d2955",
+                "size": 30012,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/59ae7c2a231b7c4ab9038b95c96b61768f7d2955"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-BookItalic.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "46a02d17a704a1c9eb9127531212ffb2885c8c98",
+                "size": 31068,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/46a02d17a704a1c9eb9127531212ffb2885c8c98"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-Light.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9f5b0635916785f23f0672b863adfbd690cb4ad0",
+                "size": 29656,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/9f5b0635916785f23f0672b863adfbd690cb4ad0"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-Thin.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6d7988460272fbc1285c652ac5a2a3ea316f4224",
+                "size": 30412,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/6d7988460272fbc1285c652ac5a2a3ea316f4224"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-ThinItalic.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dd19a3ea46c61d238d857dd0e34a0287f46c9574",
+                "size": 32720,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/dd19a3ea46c61d238d857dd0e34a0287f46c9574"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-UltraItalic.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "caff5c77e19fd07789ecd4bd54277852ad2597eb",
+                "size": 31504,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/caff5c77e19fd07789ecd4bd54277852ad2597eb"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-XLight.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3adf57a7052f1c937ae14a574a4fb8af77c5d83b",
+                "size": 30444,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/3adf57a7052f1c937ae14a574a4fb8af77c5d83b"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/Gotham-XLightItalic.otf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "53dba286adb9de2daac8e8f473f614799b698461",
+                "size": 32124,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/53dba286adb9de2daac8e8f473f614799b698461"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamBold.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8759d2bd195e89785067d71e85b10c82e0b905ee",
+                "size": 45744,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/8759d2bd195e89785067d71e85b10c82e0b905ee"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamBoldItalic.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a9f2b11248437c619d99cc4a29f5da43b40fd9a2",
+                "size": 43928,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/a9f2b11248437c619d99cc4a29f5da43b40fd9a2"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamBook.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6cdde859125dc1f877e2bf7d8441a1a6309c675c",
+                "size": 56676,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/6cdde859125dc1f877e2bf7d8441a1a6309c675c"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamBookItalic.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c711011cb78a8d436e51dcee4d84dc9098a71aec",
+                "size": 44136,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/c711011cb78a8d436e51dcee4d84dc9098a71aec"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamLight.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6f6bfc544ae67337ec15e92428f3996a3a9001a5",
+                "size": 56508,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/6f6bfc544ae67337ec15e92428f3996a3a9001a5"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamLightItalic.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4a133fc09399fcd6fcf86996e095074d2a8668ae",
+                "size": 44364,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/4a133fc09399fcd6fcf86996e095074d2a8668ae"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamMedium.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "793dce5e2976aa083ce9af35f23b035b9c81f483",
+                "size": 55980,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/793dce5e2976aa083ce9af35f23b035b9c81f483"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamMediumItalic.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "879e4fb6aeb4ca5646cbb69c35f61995ceeb6eb8",
+                "size": 54500,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/879e4fb6aeb4ca5646cbb69c35f61995ceeb6eb8"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/GothamMedium_1.ttf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "793dce5e2976aa083ce9af35f23b035b9c81f483",
+                "size": 55980,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/793dce5e2976aa083ce9af35f23b035b9c81f483"
+            },
+            {
+                "path": "static/fonts/Gotham-Font/freefontsfamily.com.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "251652aa584729a30368324e7d1216313e65b37e",
+                "size": 60,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/251652aa584729a30368324e7d1216313e65b37e"
+            },
+            {
+                "path": "static/images",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f55e568e81cdc220c70170132febc3e3d7ba61cd",
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/f55e568e81cdc220c70170132febc3e3d7ba61cd"
+            },
+            {
+                "path": "static/images/add_to_queue.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ff7f88680be3cd84e9964b68601dbb657116a826",
+                "size": 676,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/ff7f88680be3cd84e9964b68601dbb657116a826"
+            },
+            {
+                "path": "templates",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "de25637dd28a0d62a51cd1a9cd636ab14afe217d",
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/trees/de25637dd28a0d62a51cd1a9cd636ab14afe217d"
+            },
+            {
+                "path": "templates/search.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "273eefda4a3fbe1917d09298661e3ce2047df443",
+                "size": 556,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/273eefda4a3fbe1917d09298661e3ce2047df443"
+            },
+            {
+                "path": "templates/search_results.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "85e09958880a21e91d23eef8dbfd9dee091b3cb9",
+                "size": 1696,
+                "url": "https://api.github.com/repos/IararIV/karaok.ai/git/blobs/85e09958880a21e91d23eef8dbfd9dee091b3cb9"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "nbs/functions.ipynb",
+        "static/fonts/Gotham-Font/Gotham-XLightItalic.otf",
+        "static/fonts/Gotham-Font/GothamLight.ttf",
+        "static/css/search.css",
+        "static/fonts/Gotham-Font/GothamMedium.ttf",
+        "static/fonts/Gotham-Font/GothamBold.ttf",
+        "nbs/credentials.ipynb",
+        "spotify/credentials.py",
+        "static/fonts/Gotham-Font/GothamBookItalic.ttf",
+        "spotify/functions.py",
+        "spotify/credentials.json",
+        "app.py",
+        "static/fonts/Gotham-Font/GothamMediumItalic.ttf",
+        "static/fonts/Gotham-Font/freefontsfamily.com.txt",
+        "static/fonts/Gotham-Font/Gotham-ThinItalic.otf",
+        "static/css/search_results.css",
+        "static/fonts/Gotham-Font/GothamBook.ttf",
+        "spotify/schemas.py",
+        "static/css/style.css",
+        "templates/search_results.html",
+        "static/fonts/Gotham-Font/GothamLightItalic.ttf",
+        "static/fonts/Gotham-Font/Gotham-Black.otf",
+        "requirements.txt",
+        "static/fonts/Gotham-Font/GothamBoldItalic.ttf",
+        "static/fonts/Gotham-Font/Gotham-Bold.otf",
+        "static/fonts/Gotham-Font/Gotham-BookItalic.otf",
+        "static/fonts/Gotham-Font/Gotham-XLight.otf",
+        "static/images/add_to_queue.png",
+        "static/fonts/Gotham-Font/Gotham-Light.otf",
+        "static/fonts/Gotham-Font/GothamMedium_1.ttf",
+        "static/fonts/Gotham-Font/Gotham-Thin.otf",
+        "spotify/__init__.py",
+        "templates/search.html",
+        "__init__.py",
+        "static/fonts/Gotham-Font/Gotham-UltraItalic.otf"
+    ]
+}

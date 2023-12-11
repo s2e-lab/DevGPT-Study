@@ -1,2 +1,0 @@
-if command == "stop":
-    break

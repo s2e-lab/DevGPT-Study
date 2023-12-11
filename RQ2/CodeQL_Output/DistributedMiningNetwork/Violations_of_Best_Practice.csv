@@ -1,0 +1,4 @@
+"Commented-out code","Commented-out code makes the remaining code more difficult to read.","warning","This comment appears to contain commented-out code.","/src/main/java/com/servidortareas/Servidor.java","28","9","31","72"
+"Commented-out code","Commented-out code makes the remaining code more difficult to read.","warning","This comment appears to contain commented-out code.","/src/main/java/com/servidortareas/Servidor.java","39","9","42","12"
+"Commented-out code","Commented-out code makes the remaining code more difficult to read.","warning","This comment appears to contain commented-out code.","/src/main/java/com/servidortareas/Servidor.java","68","9","68","37"
+"Implicit import","An implicit import obscures the dependencies of a file and may cause confusing compile-time errors.","recommendation","It is advisable to make imports explicit.","/src/main/java/com/servidortareas/Servidor.java","3","1","3","17"

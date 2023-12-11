@@ -1,0 +1,1470 @@
+{
+    "PR_URL": "https://github.com/aiplanethub/genai-stack/pull/21",
+    "Commit_Tree": {
+        "sha": "8e0ff626fcdd28c2b8f76975a734034052be0b3d",
+        "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/8e0ff626fcdd28c2b8f76975a734034052be0b3d",
+        "tree": [
+            {
+                "path": ".editorconfig",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d4a2c4405ec2e962c521a13af91bf5f7098a62a8",
+                "size": 292,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/d4a2c4405ec2e962c521a13af91bf5f7098a62a8"
+            },
+            {
+                "path": ".github",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "9da44efd3ac443b4e2ee6e6e48d3e75ca387be3a",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/9da44efd3ac443b4e2ee6e6e48d3e75ca387be3a"
+            },
+            {
+                "path": ".github/ISSUE_TEMPLATE.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1a2c977a05b2cc756419c970ce1a5d609c7832bd",
+                "size": 322,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/1a2c977a05b2cc756419c970ce1a5d609c7832bd"
+            },
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f0533c8721294d3fb250c81c1d0eadf3750c977f",
+                "size": 1251,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/f0533c8721294d3fb250c81c1d0eadf3750c977f"
+            },
+            {
+                "path": "AUTHORS.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a0b00e50b6305323f8c05c4528ceada508a95f8a",
+                "size": 157,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/a0b00e50b6305323f8c05c4528ceada508a95f8a"
+            },
+            {
+                "path": "CITATION.cff",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7862029542338687927fa44d0414e5176dc2731c",
+                "size": 487,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/7862029542338687927fa44d0414e5176dc2731c"
+            },
+            {
+                "path": "CONTRIBUTING.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "40ce336f9e26e67542c0a57956e1f27ade737acd",
+                "size": 3583,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/40ce336f9e26e67542c0a57956e1f27ade737acd"
+            },
+            {
+                "path": "HISTORY.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "92a248afc568839e8d0dcae5fd050b438257a504",
+                "size": 89,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/92a248afc568839e8d0dcae5fd050b438257a504"
+            },
+            {
+                "path": "LICENSE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+                "size": 11357,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+            },
+            {
+                "path": "MANIFEST.in",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ed9980e062c8357f7da14784d8143914c7daf801",
+                "size": 379,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/ed9980e062c8357f7da14784d8143914c7daf801"
+            },
+            {
+                "path": "Makefile",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4559c0502d9126bd649cbaef3183f86ffefb401f",
+                "size": 2344,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/4559c0502d9126bd649cbaef3183f86ffefb401f"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d06d8239dc0fa5f7e19dcb61a9168d1d66c8ae88",
+                "size": 4646,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/d06d8239dc0fa5f7e19dcb61a9168d1d66c8ae88"
+            },
+            {
+                "path": "assets",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a98b4a75f2f10e50c4f197dc5228d0b5c311614f",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/a98b4a75f2f10e50c4f197dc5228d0b5c311614f"
+            },
+            {
+                "path": "assets/config_custom_chromadb.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "75fa74125580611b74c95d60f3e931bde8c41567",
+                "size": 454,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/75fa74125580611b74c95d60f3e931bde8c41567"
+            },
+            {
+                "path": "assets/config_custom_embedding.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8718a987482b7d2a7d7c80f91afe62f4b87efa6b",
+                "size": 519,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/8718a987482b7d2a7d7c80f91afe62f4b87efa6b"
+            },
+            {
+                "path": "assets/custom_model.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1c0fd6f517e013c2ee78044f705071edb3ba6e8c",
+                "size": 522,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/1c0fd6f517e013c2ee78044f705071edb3ba6e8c"
+            },
+            {
+                "path": "assets/etl.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "75a1a6f9e1aad2c43028997194fb197fe73aa6fd",
+                "size": 294,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/75a1a6f9e1aad2c43028997194fb197fe73aa6fd"
+            },
+            {
+                "path": "assets/gpt3.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "749810406951d2c66ffb703a15c7be470554f71e",
+                "size": 129,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/749810406951d2c66ffb703a15c7be470554f71e"
+            },
+            {
+                "path": "assets/gpt4all.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9b3672cf58ad75b26673f68f746077c0548aea24",
+                "size": 132,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/9b3672cf58ad75b26673f68f746077c0548aea24"
+            },
+            {
+                "path": "assets/retrieval_config.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "433d2674db89efd9f90b30f14da3252da0023fdc",
+                "size": 335,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/433d2674db89efd9f90b30f14da3252da0023fdc"
+            },
+            {
+                "path": "assets/workflow.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a5464bd1c4f64ca1ad284a8f877bbbca7df6976a",
+                "size": 775843,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/a5464bd1c4f64ca1ad284a8f877bbbca7df6976a"
+            },
+            {
+                "path": "documentation",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "ceed61f5e3491d7c4402f95091ee69f04a4abc41",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/ceed61f5e3491d7c4402f95091ee69f04a4abc41"
+            },
+            {
+                "path": "documentation/.gitbook",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "7bbd3a2305a7b0daeff85c5fa92a5c1a9792aca7",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/7bbd3a2305a7b0daeff85c5fa92a5c1a9792aca7"
+            },
+            {
+                "path": "documentation/.gitbook/assets",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "d1afed2e77be86bf3a478458a937b2eecb2f2d1b",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/d1afed2e77be86bf3a478458a937b2eecb2f2d1b"
+            },
+            {
+                "path": "documentation/.gitbook/assets/Screenshot from 2023-08-09 17-01-52 (1).png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c943d9030c371fc9ac38ea26555fa54245a74dc1",
+                "size": 65332,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/c943d9030c371fc9ac38ea26555fa54245a74dc1"
+            },
+            {
+                "path": "documentation/.gitbook/assets/Screenshot from 2023-08-09 17-01-52.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c943d9030c371fc9ac38ea26555fa54245a74dc1",
+                "size": 65332,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/c943d9030c371fc9ac38ea26555fa54245a74dc1"
+            },
+            {
+                "path": "documentation/.gitbook/assets/image.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2aaca1e7720fd61f55955f211756b755d92b786a",
+                "size": 375294,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/2aaca1e7720fd61f55955f211756b755d92b786a"
+            },
+            {
+                "path": "documentation/.gitbook/assets/llm_stack.png",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5d72bbf605d6a7b29bd684ebfee840f3b4dcfd27",
+                "size": 899532,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/5d72bbf605d6a7b29bd684ebfee840f3b4dcfd27"
+            },
+            {
+                "path": "documentation/README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "194e7fcacc7fffd6d6a4cf31d096044e5decf279",
+                "size": 2391,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/194e7fcacc7fffd6d6a4cf31d096044e5decf279"
+            },
+            {
+                "path": "documentation/SUMMARY.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c7b6421e95564fc262185a443219f9a5d1d61aab",
+                "size": 1570,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/c7b6421e95564fc262185a443219f9a5d1d61aab"
+            },
+            {
+                "path": "documentation/components",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "98d9784302e41b08142076000dd13d1bdbca4aa1",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/98d9784302e41b08142076000dd13d1bdbca4aa1"
+            },
+            {
+                "path": "documentation/components/data-extraction-and-loading",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "baaad2563d97ae6c764ca21e786e46259857b161",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/baaad2563d97ae6c764ca21e786e46259857b161"
+            },
+            {
+                "path": "documentation/components/data-extraction-and-loading/README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "eb092e969b1a0442cebf92f9ffee26653c8e8eca",
+                "size": 1007,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/eb092e969b1a0442cebf92f9ffee26653c8e8eca"
+            },
+            {
+                "path": "documentation/components/data-extraction-and-loading/advanced-usage.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ff760a7786286a4b7de58753600f63a9bb8e91ac",
+                "size": 4041,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/ff760a7786286a4b7de58753600f63a9bb8e91ac"
+            },
+            {
+                "path": "documentation/components/data-extraction-and-loading/quickstart.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "34629736f8a24bbb639fe06082b5e69eb21ee018",
+                "size": 2431,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/34629736f8a24bbb639fe06082b5e69eb21ee018"
+            },
+            {
+                "path": "documentation/components/introduction.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "087fbd254be2793503555337bfe6745a4cf664d8",
+                "size": 686,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/087fbd254be2793503555337bfe6745a4cf664d8"
+            },
+            {
+                "path": "documentation/components/llms",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "37aa1f22f5f24963496e633aeb3ca49f381e8a17",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/37aa1f22f5f24963496e633aeb3ca49f381e8a17"
+            },
+            {
+                "path": "documentation/components/llms/advanced-usage.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3722a393cfb193519b67d57d4805f5a5714e4188",
+                "size": 2998,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/3722a393cfb193519b67d57d4805f5a5714e4188"
+            },
+            {
+                "path": "documentation/components/vector-database",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "6f258b65cdb70d122dc9f0ac703af53b5c757c74",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/6f258b65cdb70d122dc9f0ac703af53b5c757c74"
+            },
+            {
+                "path": "documentation/components/vector-database/README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dc80627feecc4f7528a8666a0c1d6b24c02cb9e7",
+                "size": 598,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/dc80627feecc4f7528a8666a0c1d6b24c02cb9e7"
+            },
+            {
+                "path": "documentation/components/vector-database/advanced-usage.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ac6317f4fd64680f768205bb589d3f2d6e79d401",
+                "size": 905,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/ac6317f4fd64680f768205bb589d3f2d6e79d401"
+            },
+            {
+                "path": "documentation/components/vector-database/chromadb.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e64e37f1791a895df15871b0823f2b7a5376f159",
+                "size": 1290,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e64e37f1791a895df15871b0823f2b7a5376f159"
+            },
+            {
+                "path": "documentation/components/vector-database/quickstart.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "132e3f80779b16da20d69ed2d48a0ed166a9d398",
+                "size": 1201,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/132e3f80779b16da20d69ed2d48a0ed166a9d398"
+            },
+            {
+                "path": "documentation/components/vector-database/weaviate.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6d9bbd3107ca42e495c68fae6d06f4c7f1d94834",
+                "size": 2070,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/6d9bbd3107ca42e495c68fae6d06f4c7f1d94834"
+            },
+            {
+                "path": "documentation/contributing.md.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "cb4ec51082ef40f6c6c3dd2f52dd7b2dc372da0c",
+                "size": 3673,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/cb4ec51082ef40f6c6c3dd2f52dd7b2dc372da0c"
+            },
+            {
+                "path": "documentation/example-use-cases",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "94ca3099144099e0993abcc66bc185d8017ff0a0",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/94ca3099144099e0993abcc66bc185d8017ff0a0"
+            },
+            {
+                "path": "documentation/example-use-cases/chat-on-pdf-with-ui.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fdaa4fd342c598544f8c9cbb073bc6845bc854b9",
+                "size": 2080,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/fdaa4fd342c598544f8c9cbb073bc6845bc854b9"
+            },
+            {
+                "path": "documentation/example-use-cases/chat-on-pdf.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "81a0af1a934718f57d58d77eca2982f4aa6622e1",
+                "size": 1285,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/81a0af1a934718f57d58d77eca2982f4aa6622e1"
+            },
+            {
+                "path": "documentation/example-use-cases/chat-on-webpage.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bdd3697ae41a6cd227ec1ca42172b57c889862dc",
+                "size": 1294,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/bdd3697ae41a6cd227ec1ca42172b57c889862dc"
+            },
+            {
+                "path": "documentation/getting-started",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "207aada0e4dab49cf4cab2dc4dbefbbe5a1ca136",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/207aada0e4dab49cf4cab2dc4dbefbbe5a1ca136"
+            },
+            {
+                "path": "documentation/getting-started/default-data-types.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9a972451989657f38dcab7b5e925f17a3b05d9f7",
+                "size": 1683,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/9a972451989657f38dcab7b5e925f17a3b05d9f7"
+            },
+            {
+                "path": "documentation/getting-started/installation.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b73a8a7214f0dfbff55c66d2b5a5172f2b00bf3f",
+                "size": 1514,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/b73a8a7214f0dfbff55c66d2b5a5172f2b00bf3f"
+            },
+            {
+                "path": "documentation/getting-started/our-components",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "15723069b37401a3aad1ab01ab61bd2f6333e28e",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/15723069b37401a3aad1ab01ab61bd2f6333e28e"
+            },
+            {
+                "path": "documentation/getting-started/our-components/models-llms",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "55cd95ab01c06a1f2bde1e0031b5c09e193f5d5d",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/55cd95ab01c06a1f2bde1e0031b5c09e193f5d5d"
+            },
+            {
+                "path": "documentation/getting-started/our-components/models-llms/README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d9b045e0ae8b51fe29ff6c68daa4793a60f1a0d1",
+                "size": 982,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/d9b045e0ae8b51fe29ff6c68daa4793a60f1a0d1"
+            },
+            {
+                "path": "documentation/getting-started/our-components/models-llms/custom-model.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8324b2836b765e4272c419484c997f854de27434",
+                "size": 1191,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/8324b2836b765e4272c419484c997f854de27434"
+            },
+            {
+                "path": "documentation/getting-started/our-components/models-llms/gpt4all.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "481ffa7b1406a6a4ca63fd791d63a3bd05555922",
+                "size": 3348,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/481ffa7b1406a6a4ca63fd791d63a3bd05555922"
+            },
+            {
+                "path": "documentation/getting-started/our-components/models-llms/openai.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "22de315be14571e9c67546277bda517705d6282b",
+                "size": 3873,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/22de315be14571e9c67546277bda517705d6282b"
+            },
+            {
+                "path": "documentation/getting-started/our-components/retrieval.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "65d7db19161a70f9dfcb01984e0eb2ea17f0965e",
+                "size": 2889,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/65d7db19161a70f9dfcb01984e0eb2ea17f0965e"
+            },
+            {
+                "path": "documentation/getting-started/quickstart-with-colab.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fb4e2b612ee1f7adeaa06a4f00b3998edef5b368",
+                "size": 330,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/fb4e2b612ee1f7adeaa06a4f00b3998edef5b368"
+            },
+            {
+                "path": "examples",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2bfa5e1bc34d54fd944122a7da576405e09ef6cc",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/2bfa5e1bc34d54fd944122a7da576405e09ef6cc"
+            },
+            {
+                "path": "examples/chat_on_pdf",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "3882f9ca977f0cff2d54e11b54aa3a0c1e79c4b3",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/3882f9ca977f0cff2d54e11b54aa3a0c1e79c4b3"
+            },
+            {
+                "path": "examples/chat_on_pdf/Readme.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "24fe8a80d14e6cbd01f470e2b22cd60a0a830323",
+                "size": 255,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/24fe8a80d14e6cbd01f470e2b22cd60a0a830323"
+            },
+            {
+                "path": "examples/chat_on_pdf/etl.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9e8198e1511e2820727f4a4335a313cbc660740c",
+                "size": 285,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/9e8198e1511e2820727f4a4335a313cbc660740c"
+            },
+            {
+                "path": "examples/chat_on_pdf/model.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ce13f159969d9450bdd8624decffbee03d39f719",
+                "size": 194,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/ce13f159969d9450bdd8624decffbee03d39f719"
+            },
+            {
+                "path": "genai_stack",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "9d0dcf60506e4a5d0b6377de91173b4f2e7bf4ed",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/9d0dcf60506e4a5d0b6377de91173b4f2e7bf4ed"
+            },
+            {
+                "path": "genai_stack/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d601ba053d8fe464a3fb23645b0b836c3bf07a1e",
+                "size": 204,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/d601ba053d8fe464a3fb23645b0b836c3bf07a1e"
+            },
+            {
+                "path": "genai_stack/cli.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "72f44106024827cfdd3f6777a82c5dd44a323d89",
+                "size": 7427,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/72f44106024827cfdd3f6777a82c5dd44a323d89"
+            },
+            {
+                "path": "genai_stack/constants",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "240b31b2e46ff5eeaaa142efbb3d9a4777ebfbff",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/240b31b2e46ff5eeaaa142efbb3d9a4777ebfbff"
+            },
+            {
+                "path": "genai_stack/constants/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d972db72a794f10e61bdcde68ac2442bc88a9ee8",
+                "size": 92,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/d972db72a794f10e61bdcde68ac2442bc88a9ee8"
+            },
+            {
+                "path": "genai_stack/constants/config.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "08463d56225c24a7a4b25f385ee7f982bd56d9f1",
+                "size": 231,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/08463d56225c24a7a4b25f385ee7f982bd56d9f1"
+            },
+            {
+                "path": "genai_stack/constants/etl.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "01acb89eff990c6e02d01678dca2a6c7dea6e3c6",
+                "size": 265,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/01acb89eff990c6e02d01678dca2a6c7dea6e3c6"
+            },
+            {
+                "path": "genai_stack/constants/install.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "921d067f855f8211bb7fbf2bc18cc10d69fa45bd",
+                "size": 282,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/921d067f855f8211bb7fbf2bc18cc10d69fa45bd"
+            },
+            {
+                "path": "genai_stack/constants/model.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3a3837c4b8235c0ebf7aae5bf3d0976a2d3dc97a",
+                "size": 519,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/3a3837c4b8235c0ebf7aae5bf3d0976a2d3dc97a"
+            },
+            {
+                "path": "genai_stack/constants/retriever.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2b569bfd97bde1875c8c8e643015a43394ea3b33",
+                "size": 208,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/2b569bfd97bde1875c8c8e643015a43394ea3b33"
+            },
+            {
+                "path": "genai_stack/constants/vectordb.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3017d2432bd46eb8b51be0d5c71d719388edf854",
+                "size": 270,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/3017d2432bd46eb8b51be0d5c71d719388edf854"
+            },
+            {
+                "path": "genai_stack/core",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "afc14d426a9c3818b0f53dd255018c14426e057f",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/afc14d426a9c3818b0f53dd255018c14426e057f"
+            },
+            {
+                "path": "genai_stack/core/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b79599c1a3f6eb008bd21fffbf89641ef6236b29",
+                "size": 71,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/b79599c1a3f6eb008bd21fffbf89641ef6236b29"
+            },
+            {
+                "path": "genai_stack/core/components",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "e7a91ee44be4cc043d6a1ea8f566034b248c8f57",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/e7a91ee44be4cc043d6a1ea8f566034b248c8f57"
+            },
+            {
+                "path": "genai_stack/core/components/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9ba02b2859ccf05986d5d6f86e45a80467ef37ba",
+                "size": 31,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/9ba02b2859ccf05986d5d6f86e45a80467ef37ba"
+            },
+            {
+                "path": "genai_stack/core/components/base.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "72a16c184e3cc2deb2b25f720fd1d4224fd455cc",
+                "size": 893,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/72a16c184e3cc2deb2b25f720fd1d4224fd455cc"
+            },
+            {
+                "path": "genai_stack/core/config",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "691f6a833e4c1939282819793eaeda0782919eda",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/691f6a833e4c1939282819793eaeda0782919eda"
+            },
+            {
+                "path": "genai_stack/core/config/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "beb3322f82b403c6e2c4aebf029c3927f4a7fba2",
+                "size": 32,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/beb3322f82b403c6e2c4aebf029c3927f4a7fba2"
+            },
+            {
+                "path": "genai_stack/core/config/loader.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f4717fe2632a3fe21784da78ea804765c01f12b9",
+                "size": 3079,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/f4717fe2632a3fe21784da78ea804765c01f12b9"
+            },
+            {
+                "path": "genai_stack/embedding",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "7686e7f371e5beecb91ab590abaedd4490cd564a",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/7686e7f371e5beecb91ab590abaedd4490cd564a"
+            },
+            {
+                "path": "genai_stack/embedding/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "genai_stack/embedding/base.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3202934844e0652a667dfb0070bbcc372f395407",
+                "size": 749,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/3202934844e0652a667dfb0070bbcc372f395407"
+            },
+            {
+                "path": "genai_stack/embedding/langchain.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e7f0ee95b32c0e0e65929f26e84ee810d594ba4a",
+                "size": 756,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e7f0ee95b32c0e0e65929f26e84ee810d594ba4a"
+            },
+            {
+                "path": "genai_stack/etl",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f899bcc125171f61809471a080935af80a48f440",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/f899bcc125171f61809471a080935af80a48f440"
+            },
+            {
+                "path": "genai_stack/etl/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e45cbda38ea13425a0d806f01704812145222368",
+                "size": 206,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e45cbda38ea13425a0d806f01704812145222368"
+            },
+            {
+                "path": "genai_stack/etl/airbyte.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0f31a88b28ef3b65989f9f1a3e519d52cbff436b",
+                "size": 6147,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/0f31a88b28ef3b65989f9f1a3e519d52cbff436b"
+            },
+            {
+                "path": "genai_stack/etl/base.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0b10bad754761d5f43f9a6ae02711a40957ba381",
+                "size": 936,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/0b10bad754761d5f43f9a6ae02711a40957ba381"
+            },
+            {
+                "path": "genai_stack/etl/exception.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8e826fae571c97977030298ff1a9a995d413c2fc",
+                "size": 110,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/8e826fae571c97977030298ff1a9a995d413c2fc"
+            },
+            {
+                "path": "genai_stack/etl/lang_loader.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bfb50eae78ed6849bf493836c5405a05d95caaf3",
+                "size": 1717,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/bfb50eae78ed6849bf493836c5405a05d95caaf3"
+            },
+            {
+                "path": "genai_stack/etl/llamahub_loader.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ac799c03643d82ac3b40bfc038547ae5f5155f4c",
+                "size": 3253,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/ac799c03643d82ac3b40bfc038547ae5f5155f4c"
+            },
+            {
+                "path": "genai_stack/etl/run.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1b7d1d65d139dbdc7dac40e73f304037b18a33e6",
+                "size": 596,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/1b7d1d65d139dbdc7dac40e73f304037b18a33e6"
+            },
+            {
+                "path": "genai_stack/etl/utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2a133df5961c1955707a47fa0803cc903728e5c8",
+                "size": 1250,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/2a133df5961c1955707a47fa0803cc903728e5c8"
+            },
+            {
+                "path": "genai_stack/exception.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "387aaf155b2bd9cc3c84cbc767994e884dfee21a",
+                "size": 45,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/387aaf155b2bd9cc3c84cbc767994e884dfee21a"
+            },
+            {
+                "path": "genai_stack/install",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "84885aeb30c72ec8e4d30c178363b744dd5f763e",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/84885aeb30c72ec8e4d30c178363b744dd5f763e"
+            },
+            {
+                "path": "genai_stack/install/Readme.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "be76869b6fbafe833a108ec4c9adb57f200fb669",
+                "size": 1646,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/be76869b6fbafe833a108ec4c9adb57f200fb669"
+            },
+            {
+                "path": "genai_stack/install/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "genai_stack/install/installer.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a16638398427da56fd2773956d2e8bfb3cf950a8",
+                "size": 1522,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/a16638398427da56fd2773956d2e8bfb3cf950a8"
+            },
+            {
+                "path": "genai_stack/install/template_engine.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "96c9e5d1275f002febe4a1729951be1854580db8",
+                "size": 2890,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/96c9e5d1275f002febe4a1729951be1854580db8"
+            },
+            {
+                "path": "genai_stack/install/templates",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f21a13c7ece1c140742a54c236dfc1eddb542551",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/f21a13c7ece1c140742a54c236dfc1eddb542551"
+            },
+            {
+                "path": "genai_stack/install/templates/vectordb",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "bbb265a449501332cfb9286f4db3a508d1d06436",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/bbb265a449501332cfb9286f4db3a508d1d06436"
+            },
+            {
+                "path": "genai_stack/install/templates/vectordb/weaviate",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "4bb86bd960c9e53b59f69a8a334a04cfba36098f",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/4bb86bd960c9e53b59f69a8a334a04cfba36098f"
+            },
+            {
+                "path": "genai_stack/install/templates/vectordb/weaviate/base.j2",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "21f72c6d5207cc0a4f2568b3b8302a01566c3107",
+                "size": 671,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/21f72c6d5207cc0a4f2568b3b8302a01566c3107"
+            },
+            {
+                "path": "genai_stack/install/templates/vectordb/weaviate/options.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "458a798373246f5dd17d3ca73483b78c1a5eb03b",
+                "size": 1804,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/458a798373246f5dd17d3ca73483b78c1a5eb03b"
+            },
+            {
+                "path": "genai_stack/install/templates/vectordb/weaviate/quickstart.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3b164c1d869b0340c364b7ec39c49d80a3ee5c77",
+                "size": 103,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/3b164c1d869b0340c364b7ec39c49d80a3ee5c77"
+            },
+            {
+                "path": "genai_stack/install/templates/vectordb/weaviate/vectoriser",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "391a937b49433965b72cf3525145d1c57a04cf6c",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/391a937b49433965b72cf3525145d1c57a04cf6c"
+            },
+            {
+                "path": "genai_stack/install/templates/vectordb/weaviate/vectoriser/huggingface.j2",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "26b649a00159c8373a7911387208bb9545db10da",
+                "size": 448,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/26b649a00159c8373a7911387208bb9545db10da"
+            },
+            {
+                "path": "genai_stack/install/templates/vectordb/weaviate/vectoriser/openai.j2",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "974db23e69486b2ce4caabdfaf3ccd9c030fcc10",
+                "size": 141,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/974db23e69486b2ce4caabdfaf3ccd9c030fcc10"
+            },
+            {
+                "path": "genai_stack/llm_stack.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dd0b80edeaff5ea8f8a83dbe18e0f7725aaf7067",
+                "size": 19,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/dd0b80edeaff5ea8f8a83dbe18e0f7725aaf7067"
+            },
+            {
+                "path": "genai_stack/model",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "5f93ed9a9bd3149bc4fc303a93d322c1fde22401",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/5f93ed9a9bd3149bc4fc303a93d322c1fde22401"
+            },
+            {
+                "path": "genai_stack/model/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "42f40b4f01ad2be0db1421c560ba665f0297df38",
+                "size": 259,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/42f40b4f01ad2be0db1421c560ba665f0297df38"
+            },
+            {
+                "path": "genai_stack/model/base.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a3d8ffc0a5b5a8c2fd8cfa32075c254e52a2e666",
+                "size": 3886,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/a3d8ffc0a5b5a8c2fd8cfa32075c254e52a2e666"
+            },
+            {
+                "path": "genai_stack/model/gpt3_5.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8d8fe842475b4f53f96a204fd4cd3b7b4e5faf2d",
+                "size": 5610,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/8d8fe842475b4f53f96a204fd4cd3b7b4e5faf2d"
+            },
+            {
+                "path": "genai_stack/model/gpt4all.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ee0c7e7a7e78a7de70beb56b524b3a15111d748c",
+                "size": 7062,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/ee0c7e7a7e78a7de70beb56b524b3a15111d748c"
+            },
+            {
+                "path": "genai_stack/model/hf.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "44e58954875d168dd281d027b73767d970fb0bb1",
+                "size": 4950,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/44e58954875d168dd281d027b73767d970fb0bb1"
+            },
+            {
+                "path": "genai_stack/model/run.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e83fbb417b6730d6e78f7ef5c67827b6308e12c4",
+                "size": 2457,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e83fbb417b6730d6e78f7ef5c67827b6308e12c4"
+            },
+            {
+                "path": "genai_stack/model/server.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c5d4c78e876f59653e6e086c2b9c84dada789323",
+                "size": 2474,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/c5d4c78e876f59653e6e086c2b9c84dada789323"
+            },
+            {
+                "path": "genai_stack/prompt_engine",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "4d26d79c4a76208d08f0b396717a2a5d18566976",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/4d26d79c4a76208d08f0b396717a2a5d18566976"
+            },
+            {
+                "path": "genai_stack/prompt_engine/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "genai_stack/prompt_engine/base.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ca87dcb56e98fb4122d60a8b5cb467aa7c975e58",
+                "size": 972,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/ca87dcb56e98fb4122d60a8b5cb467aa7c975e58"
+            },
+            {
+                "path": "genai_stack/prompt_engine/engine.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a75ff1650a1bce498b245344ecd3434d75ae7904",
+                "size": 4421,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/a75ff1650a1bce498b245344ecd3434d75ae7904"
+            },
+            {
+                "path": "genai_stack/prompt_engine/prompts",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "974d272ebfaf8b139eafee9746a9b19c69e05a0d",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/974d272ebfaf8b139eafee9746a9b19c69e05a0d"
+            },
+            {
+                "path": "genai_stack/prompt_engine/prompts/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f4ca8a1fa5f3e1670573bbd48cbb619c8b370e38",
+                "size": 157,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/f4ca8a1fa5f3e1670573bbd48cbb619c8b370e38"
+            },
+            {
+                "path": "genai_stack/prompt_engine/prompts/basic_qa.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "14dfbd570e9d031710829f6146bbe13f44943675",
+                "size": 617,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/14dfbd570e9d031710829f6146bbe13f44943675"
+            },
+            {
+                "path": "genai_stack/prompt_engine/prompts/conversation.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3eb1f68e30e010683839190a951ce2ee34bcf105",
+                "size": 1093,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/3eb1f68e30e010683839190a951ce2ee34bcf105"
+            },
+            {
+                "path": "genai_stack/prompt_engine/prompts/validation.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "27e0fb41aff3ed1c4487e56a243f0966f6a073b3",
+                "size": 825,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/27e0fb41aff3ed1c4487e56a243f0966f6a073b3"
+            },
+            {
+                "path": "genai_stack/prompt_engine/utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7ae45de9bbcc0fc203a3dda262f972a27606f407",
+                "size": 322,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/7ae45de9bbcc0fc203a3dda262f972a27606f407"
+            },
+            {
+                "path": "genai_stack/retriever",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "7a78da42b9881bd46a6fd38d68955ba7cdef9dc9",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/7a78da42b9881bd46a6fd38d68955ba7cdef9dc9"
+            },
+            {
+                "path": "genai_stack/retriever/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "73fa8855068c7a1a177fab2f7dc11c9482c8ab6b",
+                "size": 32,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/73fa8855068c7a1a177fab2f7dc11c9482c8ab6b"
+            },
+            {
+                "path": "genai_stack/retriever/base.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0a3d7eaf8b64032429fa35103a57c8fdb32bafe7",
+                "size": 898,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/0a3d7eaf8b64032429fa35103a57c8fdb32bafe7"
+            },
+            {
+                "path": "genai_stack/retriever/langchain.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "110332f113406e2ca2dd3b50332813527e208eca",
+                "size": 546,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/110332f113406e2ca2dd3b50332813527e208eca"
+            },
+            {
+                "path": "genai_stack/stack",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2ac28a920efc4e524b587765737f9afb1b9f0e18",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/2ac28a920efc4e524b587765737f9afb1b9f0e18"
+            },
+            {
+                "path": "genai_stack/stack/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "genai_stack/stack/mediator.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e5cc2b220c13086ee2cef2d08d0231b835642594",
+                "size": 749,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e5cc2b220c13086ee2cef2d08d0231b835642594"
+            },
+            {
+                "path": "genai_stack/stack/stack.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "120476f79e4ddc60ded939ec9877ec79b0578b97",
+                "size": 3610,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/120476f79e4ddc60ded939ec9877ec79b0578b97"
+            },
+            {
+                "path": "genai_stack/stack/stack_component.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0592ad46204d759a95423f5dc064fc1f31631dde",
+                "size": 2186,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/0592ad46204d759a95423f5dc064fc1f31631dde"
+            },
+            {
+                "path": "genai_stack/stack/stack_component_config.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "6f8ddcb8ea798ddc57fc42e55696d63d2b40ff27",
+                "size": 738,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/6f8ddcb8ea798ddc57fc42e55696d63d2b40ff27"
+            },
+            {
+                "path": "genai_stack/utils",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2595939d5e340406d971d955b735f81957dd283f",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/2595939d5e340406d971d955b735f81957dd283f"
+            },
+            {
+                "path": "genai_stack/utils/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "054e0c4b41e33ba8f4dbef061bd478a407e0e470",
+                "size": 139,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/054e0c4b41e33ba8f4dbef061bd478a407e0e470"
+            },
+            {
+                "path": "genai_stack/utils/defaults.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bd1f697855bd931d40d1ba6c63a9fc2eefc9f064",
+                "size": 431,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/bd1f697855bd931d40d1ba6c63a9fc2eefc9f064"
+            },
+            {
+                "path": "genai_stack/utils/extraction.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "76c9db84d4ebee6999f5cb109bd077b8c590a634",
+                "size": 589,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/76c9db84d4ebee6999f5cb109bd077b8c590a634"
+            },
+            {
+                "path": "genai_stack/utils/importing.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "03c43f4b4c9eb363355855248d9647a34fb6ce34",
+                "size": 1317,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/03c43f4b4c9eb363355855248d9647a34fb6ce34"
+            },
+            {
+                "path": "genai_stack/utils/model.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "626a7b1e58a19fd80a00db308653823b2faf3a4f",
+                "size": 384,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/626a7b1e58a19fd80a00db308653823b2faf3a4f"
+            },
+            {
+                "path": "genai_stack/utils/run.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1c4c55782a1b53b2c704e4d1f7cde055aafd27db",
+                "size": 1264,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/1c4c55782a1b53b2c704e4d1f7cde055aafd27db"
+            },
+            {
+                "path": "genai_stack/vectordb",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "65a295467be257f57c945773ab1f35936f2dfefd",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/65a295467be257f57c945773ab1f35936f2dfefd"
+            },
+            {
+                "path": "genai_stack/vectordb/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "genai_stack/vectordb/base.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2ca8a612a5ee0a1bb4846038df54bd71538d7148",
+                "size": 1990,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/2ca8a612a5ee0a1bb4846038df54bd71538d7148"
+            },
+            {
+                "path": "genai_stack/vectordb/chromadb.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "16ccfdb47d69204aa3a564b548b9d9db1d7888a9",
+                "size": 1404,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/16ccfdb47d69204aa3a564b548b9d9db1d7888a9"
+            },
+            {
+                "path": "genai_stack/vectordb/utils.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "20957dc2e7f5c49bd1d9b5d64c0009eb06187c87",
+                "size": 1365,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/20957dc2e7f5c49bd1d9b5d64c0009eb06187c87"
+            },
+            {
+                "path": "genai_stack/vectordb/weaviate.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "be0370ae05b77727a469f5f82a43e9481af3c08f",
+                "size": 2739,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/be0370ae05b77727a469f5f82a43e9481af3c08f"
+            },
+            {
+                "path": "install",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "5a04e8705659e276bd582595d0c96df91d924ccf",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/5a04e8705659e276bd582595d0c96df91d924ccf"
+            },
+            {
+                "path": "install/airbyte",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a22988f9fa38dc5f3091590e905c99cf7c242613",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/a22988f9fa38dc5f3091590e905c99cf7c242613"
+            },
+            {
+                "path": "install/airbyte/Readme.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "30bee1e1698326c131c614b15f0beb393c9953ca",
+                "size": 1187,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/30bee1e1698326c131c614b15f0beb393c9953ca"
+            },
+            {
+                "path": "install/airbyte/install_airbyte.sh",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "717502468bf772b6fdeba8a9ae878673f4988ef9",
+                "size": 83,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/717502468bf772b6fdeba8a9ae878673f4988ef9"
+            },
+            {
+                "path": "install/vectordb",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "3dc25939c53f06fa78f01427b2c4b2e715bba23a",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/3dc25939c53f06fa78f01427b2c4b2e715bba23a"
+            },
+            {
+                "path": "install/vectordb/weaviate",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "13e81c2296f691c05494edd767d3ec110283b9c1",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/13e81c2296f691c05494edd767d3ec110283b9c1"
+            },
+            {
+                "path": "install/vectordb/weaviate/.env.example",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "934edf0e7015a7317d20ab00f8f6d079cb952157",
+                "size": 57,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/934edf0e7015a7317d20ab00f8f6d079cb952157"
+            },
+            {
+                "path": "install/vectordb/weaviate/Readme.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e47295b558f9561e47717c5accfa02e4371ce60c",
+                "size": 604,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e47295b558f9561e47717c5accfa02e4371ce60c"
+            },
+            {
+                "path": "install/vectordb/weaviate/docker-compose.yaml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "25fbe0f87880fc772b46229c53d5b52fd6869eee",
+                "size": 554,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/25fbe0f87880fc772b46229c53d5b52fd6869eee"
+            },
+            {
+                "path": "pyproject.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fe3200c6ea8da484106c447db3b947fa944c8ab1",
+                "size": 121,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/fe3200c6ea8da484106c447db3b947fa944c8ab1"
+            },
+            {
+                "path": "requirements_dev.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dd8a87fee1430f8d50e824ea67d9efea7ed3d924",
+                "size": 240,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/dd8a87fee1430f8d50e824ea67d9efea7ed3d924"
+            },
+            {
+                "path": "sandbox",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "5b521832d00caf5a815abab61129a2e3c94e5408",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/5b521832d00caf5a815abab61129a2e3c94e5408"
+            },
+            {
+                "path": "sandbox/my_retrieval_config.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0de634e3b681815a41340cbd48ce5419896eae13",
+                "size": 376,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/0de634e3b681815a41340cbd48ce5419896eae13"
+            },
+            {
+                "path": "setup.cfg",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "433d9620f45ece3f5256123dab6ce2c58cb559fa",
+                "size": 344,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/433d9620f45ece3f5256123dab6ce2c58cb559fa"
+            },
+            {
+                "path": "setup.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0cf33e6e1bd7456b62c86b87d6ef4d557eef7e54",
+                "size": 2779,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/0cf33e6e1bd7456b62c86b87d6ef4d557eef7e54"
+            },
+            {
+                "path": "tests",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "504026636cdd7e048621de3645349c038a967372",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/504026636cdd7e048621de3645349c038a967372"
+            },
+            {
+                "path": "tests/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b8091e5a0e54e2bf6322c7bd44b56b4be7ace7bb",
+                "size": 41,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/b8091e5a0e54e2bf6322c7bd44b56b4be7ace7bb"
+            },
+            {
+                "path": "tests/test_embedding.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b20a7b675c8f97845dac969e815744d5c50e5aa6",
+                "size": 573,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/b20a7b675c8f97845dac969e815744d5c50e5aa6"
+            },
+            {
+                "path": "tests/test_etl.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c0f723e3dc541f686e7c9058f174b916c1d2e10d",
+                "size": 858,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/c0f723e3dc541f686e7c9058f174b916c1d2e10d"
+            },
+            {
+                "path": "tests/test_llm_stack.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "55644d0a1dabca6e12fc2a373017dee9eed687cd",
+                "size": 724,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/55644d0a1dabca6e12fc2a373017dee9eed687cd"
+            },
+            {
+                "path": "tests/test_model.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4095d3c5475c8ecc4c70e54c3c30572a1ace7ef7",
+                "size": 412,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/4095d3c5475c8ecc4c70e54c3c30572a1ace7ef7"
+            },
+            {
+                "path": "tests/test_prompt_engine.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fd94a11e9b418e227ed8fb6eb9fac1bc898e4e04",
+                "size": 3885,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/fd94a11e9b418e227ed8fb6eb9fac1bc898e4e04"
+            },
+            {
+                "path": "ui",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "fdf4b4a2a56f77feb783fc0435df62d0abe2b898",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/fdf4b4a2a56f77feb783fc0435df62d0abe2b898"
+            },
+            {
+                "path": "ui/Readme.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "26a2ed458ffc94140a979ef6f0211d088a93943c",
+                "size": 447,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/26a2ed458ffc94140a979ef6f0211d088a93943c"
+            },
+            {
+                "path": "ui/app",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f992bd18a09d4c00a970a885b7195f9987ad9e4d",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/f992bd18a09d4c00a970a885b7195f9987ad9e4d"
+            },
+            {
+                "path": "ui/app/app.default.conf",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3810a4995a06a2857c818e8f38e8ed89c28e163a",
+                "size": 169,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/3810a4995a06a2857c818e8f38e8ed89c28e163a"
+            },
+            {
+                "path": "ui/app/core",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "fc20118d2d8c7eee5a845ed9c277af737f29dcaf",
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/trees/fc20118d2d8c7eee5a845ed9c277af737f29dcaf"
+            },
+            {
+                "path": "ui/app/core/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "ui/app/core/config.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "40284016f4baa902792ffe7dc20b810d89a8eb08",
+                "size": 562,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/40284016f4baa902792ffe7dc20b810d89a8eb08"
+            },
+            {
+                "path": "ui/app/core/settings.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "92e661758fad5e2afbb0f14378c65d8bfbcd7079",
+                "size": 196,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/92e661758fad5e2afbb0f14378c65d8bfbcd7079"
+            },
+            {
+                "path": "ui/app/main.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "3c4d30ecaf831aeb3bf5f1a620beb1fff61d9992",
+                "size": 1513,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/3c4d30ecaf831aeb3bf5f1a620beb1fff61d9992"
+            },
+            {
+                "path": "ui/app/services.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7584f5728eb927e73cc6835b0a26b6efbd03745f",
+                "size": 1084,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/7584f5728eb927e73cc6835b0a26b6efbd03745f"
+            },
+            {
+                "path": "ui/requirements.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c95f5fd38da819b6541772445a3b621e9e21c26d",
+                "size": 900,
+                "url": "https://api.github.com/repos/aiplanethub/genai-stack/git/blobs/c95f5fd38da819b6541772445a3b621e9e21c26d"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "genai_stack/model/gpt3_5.py",
+        "tests/test_model.py",
+        "genai_stack/model/gpt4all.py",
+        "genai_stack/model/base.py",
+        "genai_stack/model/hf.py"
+    ]
+}

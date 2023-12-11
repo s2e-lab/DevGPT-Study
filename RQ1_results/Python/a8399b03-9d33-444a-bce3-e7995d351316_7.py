@@ -1,3 +1,0 @@
-while True:
-    command = input("Enter the command ")
-    ...

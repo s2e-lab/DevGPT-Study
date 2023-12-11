@@ -1,1 +1,0 @@
-print("{} {}".format("Hello", "World"))

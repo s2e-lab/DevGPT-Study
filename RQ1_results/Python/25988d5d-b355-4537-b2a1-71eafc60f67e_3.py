@@ -1,1 +1,0 @@
-m = folium.Map()

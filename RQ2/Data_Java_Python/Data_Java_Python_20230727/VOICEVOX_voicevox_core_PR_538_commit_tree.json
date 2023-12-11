@@ -1,0 +1,1529 @@
+{
+    "PR_URL": "https://github.com/VOICEVOX/voicevox_core/pull/538",
+    "Commit_Tree": {
+        "sha": "8cf307df4412dc0db0b03c6957b83b032770c31a",
+        "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/8cf307df4412dc0db0b03c6957b83b032770c31a",
+        "tree": [
+            {
+                "path": ".cargo",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "04897f4d2254752fd2e2ff80ff7e09d088ac6b9e",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/04897f4d2254752fd2e2ff80ff7e09d088ac6b9e"
+            },
+            {
+                "path": ".cargo/config.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "64fcc6aeaa2977cd2b6b070e81747a58a6105f83",
+                "size": 539,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/64fcc6aeaa2977cd2b6b070e81747a58a6105f83"
+            },
+            {
+                "path": ".gitattributes",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1d8371bff15af1437a9d9a7f214078cd4506c22d",
+                "size": 76,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/1d8371bff15af1437a9d9a7f214078cd4506c22d"
+            },
+            {
+                "path": ".github",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "18eda7201c1afeb30f41df1c1d143c8f54c9d12a",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/18eda7201c1afeb30f41df1c1d143c8f54c9d12a"
+            },
+            {
+                "path": ".github/ISSUE_TEMPLATE",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "7bae4622d6bb8d0e0336bf3ec90392739cdf9d8a",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/7bae4622d6bb8d0e0336bf3ec90392739cdf9d8a"
+            },
+            {
+                "path": ".github/ISSUE_TEMPLATE/bugreport.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "28337b5ae64eb44750f1912b58d47d1adbdcb359",
+                "size": 937,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/28337b5ae64eb44750f1912b58d47d1adbdcb359"
+            },
+            {
+                "path": ".github/ISSUE_TEMPLATE/featurerequest.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "78a3af90c9b5ef4dd6eb145cb18ef08a9ae37904",
+                "size": 1010,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/78a3af90c9b5ef4dd6eb145cb18ef08a9ae37904"
+            },
+            {
+                "path": ".github/ISSUE_TEMPLATE/question.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "856a031e1ed10ef80b45a683c42c998dc5d341cd",
+                "size": 751,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/856a031e1ed10ef80b45a683c42c998dc5d341cd"
+            },
+            {
+                "path": ".github/PULL_REQUEST_TEMPLATE.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d58fd1367b825408b805b2b91c4e02bdd708837f",
+                "size": 294,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/d58fd1367b825408b805b2b91c4e02bdd708837f"
+            },
+            {
+                "path": ".github/actions",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "41e03a4762ea942bef882d4f96cfdac05f4bf28e",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/41e03a4762ea942bef882d4f96cfdac05f4bf28e"
+            },
+            {
+                "path": ".github/actions/create-venv",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "b841b066f1d67a8cba8bb0398412ba6c6d0ab7ec",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/b841b066f1d67a8cba8bb0398412ba6c6d0ab7ec"
+            },
+            {
+                "path": ".github/actions/create-venv/action.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c8883621eec7e3886b7aff2898c429e076e652e1",
+                "size": 377,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/c8883621eec7e3886b7aff2898c429e076e652e1"
+            },
+            {
+                "path": ".github/actions/rust-toolchain-from-file",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "4cc349999cb333c1a4d8b398b8eabc9934c7b9c4",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/4cc349999cb333c1a4d8b398b8eabc9934c7b9c4"
+            },
+            {
+                "path": ".github/actions/rust-toolchain-from-file/action.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d82c9c1599ee3af1cc63695bc599302ad90753f7",
+                "size": 436,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/d82c9c1599ee3af1cc63695bc599302ad90753f7"
+            },
+            {
+                "path": ".github/labeler.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dd3d82dcea56e4aab38305d6b372b4acec89126f",
+                "size": 106,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/dd3d82dcea56e4aab38305d6b372b4acec89126f"
+            },
+            {
+                "path": ".github/workflows",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "724ee3865a33cceb012453b67615e2713940c68b",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/724ee3865a33cceb012453b67615e2713940c68b"
+            },
+            {
+                "path": ".github/workflows/build_and_deploy.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "cbb3ab2eca8dd873670be426aa16edf439a01640",
+                "size": 15704,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/cbb3ab2eca8dd873670be426aa16edf439a01640"
+            },
+            {
+                "path": ".github/workflows/cargo-deny.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ac4978b9a99e12790eba51ed3ac3be37d6dbad41",
+                "size": 582,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/ac4978b9a99e12790eba51ed3ac3be37d6dbad41"
+            },
+            {
+                "path": ".github/workflows/download_test.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4ae0f972df017687ba6c8431828c94495e6cd010",
+                "size": 10901,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/4ae0f972df017687ba6c8431828c94495e6cd010"
+            },
+            {
+                "path": ".github/workflows/generate_document.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "40fc29c242f31ddb3964cb3c5ec6c0672d1ee7b7",
+                "size": 2023,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/40fc29c242f31ddb3964cb3c5ec6c0672d1ee7b7"
+            },
+            {
+                "path": ".github/workflows/labeler.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "25d78ec6a97edefadbc3b4927a91df0294e0d701",
+                "size": 324,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/25d78ec6a97edefadbc3b4927a91df0294e0d701"
+            },
+            {
+                "path": ".github/workflows/psscriptanalyzer.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "148efcb439ac64efef40509a26a42553b82a170a",
+                "size": 565,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/148efcb439ac64efef40509a26a42553b82a170a"
+            },
+            {
+                "path": ".github/workflows/test.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fb50033bba0e6e1be085c8467e4e33041a915c9e",
+                "size": 9726,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/fb50033bba0e6e1be085c8467e4e33041a915c9e"
+            },
+            {
+                "path": ".github/workflows/typos.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a42e05dcf5abd1e25178e3832f7040747ee6ad4e",
+                "size": 284,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/a42e05dcf5abd1e25178e3832f7040747ee6ad4e"
+            },
+            {
+                "path": ".github/workflows/update_rust_toolchain.yml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5fd567377026ff797ac10e13fd62c4e50a07536b",
+                "size": 1068,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/5fd567377026ff797ac10e13fd62c4e50a07536b"
+            },
+            {
+                "path": ".gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0306d8d38c96a438f24c6391b76334009344caaa",
+                "size": 319,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/0306d8d38c96a438f24c6391b76334009344caaa"
+            },
+            {
+                "path": ".gitmodules",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2f82562fc14cdead6f6f78eae9ca60f79796c3f2",
+                "size": 169,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/2f82562fc14cdead6f6f78eae9ca60f79796c3f2"
+            },
+            {
+                "path": "Cargo.lock",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a783bb6d7bbe4ca80cdb9186771110d41720d32d",
+                "size": 111312,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/a783bb6d7bbe4ca80cdb9186771110d41720d32d"
+            },
+            {
+                "path": "Cargo.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "fc5c52efcb5f2fc9f0c42d1940e4c777c72a6aa7",
+                "size": 1691,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/fc5c52efcb5f2fc9f0c42d1940e4c777c72a6aa7"
+            },
+            {
+                "path": "LICENSE",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "cc6cde4ea9d26f7a242dc16bc19f9bf24f86ee03",
+                "size": 1061,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/cc6cde4ea9d26f7a242dc16bc19f9bf24f86ee03"
+            },
+            {
+                "path": "README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "33b8f026ef774fcd28a8247effffbd55ec57f555",
+                "size": 8892,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/33b8f026ef774fcd28a8247effffbd55ec57f555"
+            },
+            {
+                "path": "_typos.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "836b1d79a047638d5ef9fd37a1e5d2ba2b4f46e0",
+                "size": 268,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/836b1d79a047638d5ef9fd37a1e5d2ba2b4f46e0"
+            },
+            {
+                "path": "build_util",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "d256e4dea98403ef60257b44a33c3cd46cc9773b",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/d256e4dea98403ef60257b44a33c3cd46cc9773b"
+            },
+            {
+                "path": "build_util/codesign.bash",
+                "mode": "100755",
+                "type": "blob",
+                "sha": "8bf3ac8bec637500d75bb6e902b54755755e8e85",
+                "size": 1425,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/8bf3ac8bec637500d75bb6e902b54755755e8e85"
+            },
+            {
+                "path": "crates",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "16617a5aa8f3da813355627f5165e19c74706ac0",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/16617a5aa8f3da813355627f5165e19c74706ac0"
+            },
+            {
+                "path": "crates/download",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "1d2d54a2ae7d1850ac4131bae18c126febd25ad7",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/1d2d54a2ae7d1850ac4131bae18c126febd25ad7"
+            },
+            {
+                "path": "crates/download/Cargo.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "98a59d60b7a42feb654b492c77a246184c9278fc",
+                "size": 728,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/98a59d60b7a42feb654b492c77a246184c9278fc"
+            },
+            {
+                "path": "crates/download/src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "5b39d0e91c185d8844b1256d8e4b6099f3df520e",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/5b39d0e91c185d8844b1256d8e4b6099f3df520e"
+            },
+            {
+                "path": "crates/download/src/main.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "701bb5e9af9a8c0490f5b2fe3fccaa1a12e318b5",
+                "size": 15806,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/701bb5e9af9a8c0490f5b2fe3fccaa1a12e318b5"
+            },
+            {
+                "path": "crates/test_util",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "bcd3463f456f75dc1e8f4538dae09a78e0a73fa8",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/bcd3463f456f75dc1e8f4538dae09a78e0a73fa8"
+            },
+            {
+                "path": "crates/test_util/.gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1269488f7fb1f4b56a8c0e5eb48cecbfadfa9219",
+                "size": 5,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/1269488f7fb1f4b56a8c0e5eb48cecbfadfa9219"
+            },
+            {
+                "path": "crates/test_util/Cargo.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "35a7a6bf490c62417b0115cc268e995d9a6b89b5",
+                "size": 472,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/35a7a6bf490c62417b0115cc268e995d9a6b89b5"
+            },
+            {
+                "path": "crates/test_util/build.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1d667cd9e769099068d4bc6cfcf2270d0bddfb3a",
+                "size": 3465,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/1d667cd9e769099068d4bc6cfcf2270d0bddfb3a"
+            },
+            {
+                "path": "crates/test_util/src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "258ed2a46e783756b3f7e055d7ae8d11b84a5faa",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/258ed2a46e783756b3f7e055d7ae8d11b84a5faa"
+            },
+            {
+                "path": "crates/test_util/src/lib.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0e6201de57e550be1c46c5055c12397d87522846",
+                "size": 2464,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/0e6201de57e550be1c46c5055c12397d87522846"
+            },
+            {
+                "path": "crates/test_util/src/typing.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1d10c9cb95594d45af89141bdb3d7ff2d82942ba",
+                "size": 976,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/1d10c9cb95594d45af89141bdb3d7ff2d82942ba"
+            },
+            {
+                "path": "crates/voicevox_core",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f41909cdb4fda99f4a20b9ca83f9a2e41e864983",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/f41909cdb4fda99f4a20b9ca83f9a2e41e864983"
+            },
+            {
+                "path": "crates/voicevox_core/Cargo.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9e5febe22f60936e75f915662b9d564e2e22eb4d",
+                "size": 1352,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/9e5febe22f60936e75f915662b9d564e2e22eb4d"
+            },
+            {
+                "path": "crates/voicevox_core/src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a14c113a4f6846844763055aa41f329c03e4c3da",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/a14c113a4f6846844763055aa41f329c03e4c3da"
+            },
+            {
+                "path": "crates/voicevox_core/src/devices.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d3141664cb0b0ad180c9cbe5ca0df1aa53071ccd",
+                "size": 1345,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/d3141664cb0b0ad180c9cbe5ca0df1aa53071ccd"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "be27c700799b6e5901aee1845c4e107fc0b6e792",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/be27c700799b6e5901aee1845c4e107fc0b6e792"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine/acoustic_feature_extractor.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "05cdb2d3140717d9b2eda6abbd65eeb9b171a3aa",
+                "size": 4193,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/05cdb2d3140717d9b2eda6abbd65eeb9b171a3aa"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine/full_context_label.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f52b84aded71cc91ca042be76243c22aedf4d744",
+                "size": 11081,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/f52b84aded71cc91ca042be76243c22aedf4d744"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine/kana_parser.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "617d76dc8e30e7a1ec17de9688fd318253fa3d92",
+                "size": 9005,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/617d76dc8e30e7a1ec17de9688fd318253fa3d92"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine/mod.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0e02839dcb73ed7ef7fbd8c2b5e34c02356b55c8",
+                "size": 361,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/0e02839dcb73ed7ef7fbd8c2b5e34c02356b55c8"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine/model.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ed55f336768cc73f07d6388be8edb3dcff93da58",
+                "size": 2311,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/ed55f336768cc73f07d6388be8edb3dcff93da58"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine/mora_list.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5d7281a3c0248d4a1eb6dbe16bde55d2a7f0bdf4",
+                "size": 6511,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/5d7281a3c0248d4a1eb6dbe16bde55d2a7f0bdf4"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine/open_jtalk.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "79bfcc3de577da621eb875321068e31563f2c303",
+                "size": 11418,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/79bfcc3de577da621eb875321068e31563f2c303"
+            },
+            {
+                "path": "crates/voicevox_core/src/engine/synthesis_engine.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0adce4fe29ea8b53d9e58921fa8ab1273a2e5c0f",
+                "size": 26162,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/0adce4fe29ea8b53d9e58921fa8ab1273a2e5c0f"
+            },
+            {
+                "path": "crates/voicevox_core/src/error.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9068d92e2aff8662cd0744008b5df5b75117dce8",
+                "size": 3451,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/9068d92e2aff8662cd0744008b5df5b75117dce8"
+            },
+            {
+                "path": "crates/voicevox_core/src/inference_core.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "578e57453247e3bf7c80139f49178d46df77f95e",
+                "size": 8241,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/578e57453247e3bf7c80139f49178d46df77f95e"
+            },
+            {
+                "path": "crates/voicevox_core/src/lib.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0175ca2a216c7360e82add548b3392013d07ede9",
+                "size": 762,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/0175ca2a216c7360e82add548b3392013d07ede9"
+            },
+            {
+                "path": "crates/voicevox_core/src/macros.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "db0a4de83edd97d0da6d1236dd4a365196c3d8e1",
+                "size": 1411,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/db0a4de83edd97d0da6d1236dd4a365196c3d8e1"
+            },
+            {
+                "path": "crates/voicevox_core/src/manifest.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4e9ccd1585c72143df3f4885be74b5908f3601a3",
+                "size": 739,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/4e9ccd1585c72143df3f4885be74b5908f3601a3"
+            },
+            {
+                "path": "crates/voicevox_core/src/metas.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7e157bd212ed7d46fcb43be40b1880fd7ad49856",
+                "size": 1383,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/7e157bd212ed7d46fcb43be40b1880fd7ad49856"
+            },
+            {
+                "path": "crates/voicevox_core/src/numerics.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b01c4d6a5c98bb93596aac1c474ab2f5761af48b",
+                "size": 489,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/b01c4d6a5c98bb93596aac1c474ab2f5761af48b"
+            },
+            {
+                "path": "crates/voicevox_core/src/result.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "065f0b5f3d7874d89729ddf1405b903c8435d56d",
+                "size": 66,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/065f0b5f3d7874d89729ddf1405b903c8435d56d"
+            },
+            {
+                "path": "crates/voicevox_core/src/result_code.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "011df479dacf5c4020143b778b0d52660a8a49bc",
+                "size": 5596,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/011df479dacf5c4020143b778b0d52660a8a49bc"
+            },
+            {
+                "path": "crates/voicevox_core/src/status.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "68f839a6bcec1750c17507b282d32c47085db913",
+                "size": 11479,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/68f839a6bcec1750c17507b282d32c47085db913"
+            },
+            {
+                "path": "crates/voicevox_core/src/status",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "3fc3945fe7c09467c749d895e9757798d2370965",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/3fc3945fe7c09467c749d895e9757798d2370965"
+            },
+            {
+                "path": "crates/voicevox_core/src/status/model_file.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "470ce9a6be603d0f7135f97f28e2ca06c83d61d2",
+                "size": 151,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/470ce9a6be603d0f7135f97f28e2ca06c83d61d2"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_data",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "2767a3d7dae9a34585a831047414d5a65acf23ad",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/2767a3d7dae9a34585a831047414d5a65acf23ad"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_data/model_sources",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "52f4a67e7d332ebbd4463e24ae1b1a7db4db7e8d",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/52f4a67e7d332ebbd4463e24ae1b1a7db4db7e8d"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_data/model_sources/load_model_works1",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "94d177a3cdff34d5d93a530fdb98a871423305fd",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/94d177a3cdff34d5d93a530fdb98a871423305fd"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_data/model_sources/load_model_works1/decode.onnx",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0551a8c16f7eb662f33266a06afec0002bacd5f1",
+                "size": 57149888,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/0551a8c16f7eb662f33266a06afec0002bacd5f1"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_data/model_sources/load_model_works1/manifest.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e766f14496f37c827ab9051316e49d607f049715",
+                "size": 220,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/e766f14496f37c827ab9051316e49d607f049715"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_data/model_sources/load_model_works1/metas.json",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e78fd09507ee2d08e6eea67be661bba58214e1b6",
+                "size": 651,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/e78fd09507ee2d08e6eea67be661bba58214e1b6"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_data/model_sources/load_model_works1/predict_duration.onnx",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d650f45417404f44be3b8e8a454062be65ddd1c3",
+                "size": 53381,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/d650f45417404f44be3b8e8a454062be65ddd1c3"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_data/model_sources/load_model_works1/predict_intonation.onnx",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "7db90a62490b92719f2b8e859e1d1deee5e79d79",
+                "size": 30803,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/7db90a62490b92719f2b8e859e1d1deee5e79d79"
+            },
+            {
+                "path": "crates/voicevox_core/src/test_util.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bce30d986503eeb8b2220060c2561070384fd987",
+                "size": 457,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/bce30d986503eeb8b2220060c2561070384fd987"
+            },
+            {
+                "path": "crates/voicevox_core/src/user_dict",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "16acd73e4581b7be2fd7b8ba75c75e8cec5cf467",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/16acd73e4581b7be2fd7b8ba75c75e8cec5cf467"
+            },
+            {
+                "path": "crates/voicevox_core/src/user_dict/dict.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "380a8ac2479cd98afb1bc2046d9e51497f78cba1",
+                "size": 2735,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/380a8ac2479cd98afb1bc2046d9e51497f78cba1"
+            },
+            {
+                "path": "crates/voicevox_core/src/user_dict/mod.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "58def046fbac80e76c8f89bf789aacde88f3b3dc",
+                "size": 80,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/58def046fbac80e76c8f89bf789aacde88f3b3dc"
+            },
+            {
+                "path": "crates/voicevox_core/src/user_dict/part_of_speech_data.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "712cef8854b0b4d8c243726ee5ee3ee3d12d018a",
+                "size": 4684,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/712cef8854b0b4d8c243726ee5ee3ee3d12d018a"
+            },
+            {
+                "path": "crates/voicevox_core/src/user_dict/word.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2d1ae8ed9f0777c9bf467f931706de58feb9a333",
+                "size": 10314,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/2d1ae8ed9f0777c9bf467f931706de58feb9a333"
+            },
+            {
+                "path": "crates/voicevox_core/src/version.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a89875a3070767f7826fa7c84f769535d49938d1",
+                "size": 467,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/a89875a3070767f7826fa7c84f769535d49938d1"
+            },
+            {
+                "path": "crates/voicevox_core/src/voice_model.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "dc2c02d3253e07ca82abb417ce23d15ab19de821",
+                "size": 5444,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/dc2c02d3253e07ca82abb417ce23d15ab19de821"
+            },
+            {
+                "path": "crates/voicevox_core/src/voice_synthesizer.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "86b91ce83e50d314ae0a640913463d4bda563056",
+                "size": 26740,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/86b91ce83e50d314ae0a640913463d4bda563056"
+            },
+            {
+                "path": "crates/voicevox_core_c_api",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "f79f5edeae87c7e2f000eaac88033e16cc7f6f2f",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/f79f5edeae87c7e2f000eaac88033e16cc7f6f2f"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/Cargo.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5ba235311a612562f6e52411a4aa5f4fcda7cf73",
+                "size": 1144,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/5ba235311a612562f6e52411a4aa5f4fcda7cf73"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/build.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "535e736765add6702764e420fa79234bba34c748",
+                "size": 329,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/535e736765add6702764e420fa79234bba34c748"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/cbindgen.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d038d038d900552690c25dfd22369e548d2936be",
+                "size": 651,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/d038d038d900552690c25dfd22369e548d2936be"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/include",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "6996740460d6a3805e0cf463b828300855d5edd4",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/6996740460d6a3805e0cf463b828300855d5edd4"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/include/voicevox_core.h",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ecb358846d47574da500edb0f4632508ca9d7b4f",
+                "size": 28504,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/ecb358846d47574da500edb0f4632508ca9d7b4f"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "99aa3cd6efb851cf39dd9d5302e6e49384e13c5a",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/99aa3cd6efb851cf39dd9d5302e6e49384e13c5a"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/src/c_impls.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f4c58bcc40e2946c3531a2ed9ac76d67bae70860",
+                "size": 1913,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/f4c58bcc40e2946c3531a2ed9ac76d67bae70860"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/src/compatible_engine.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e84040abcd30d15daa5aa92f1ff07642880600a4",
+                "size": 7496,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/e84040abcd30d15daa5aa92f1ff07642880600a4"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/src/drop_check.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "546739dbdeb4d4a486e31d9a000a32c15b4a3268",
+                "size": 4979,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/546739dbdeb4d4a486e31d9a000a32c15b4a3268"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/src/helpers.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "08d1116de3e5da9ca8e723a382492a3e23432f05",
+                "size": 8738,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/08d1116de3e5da9ca8e723a382492a3e23432f05"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/src/lib.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ef141b4ae54b8dd54392a5429a4d5b33a739962e",
+                "size": 37487,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/ef141b4ae54b8dd54392a5429a4d5b33a739962e"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/src/slice_owner.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1d95cf935ff11bf2cbf9cd1c16d2722d42c08a9d",
+                "size": 4619,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/1d95cf935ff11bf2cbf9cd1c16d2722d42c08a9d"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "b557206f49a229477966ca61c72df8be37fe1bd0",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/b557206f49a229477966ca61c72df8be37fe1bd0"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a9204b6f05e33f354e25d64483b882600ff09645",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/a9204b6f05e33f354e25d64483b882600ff09645"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/assert_cdylib.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "11da69437cd54cc0bb22f38bc6dfb2508976c9bf",
+                "size": 5236,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/11da69437cd54cc0bb22f38bc6dfb2508976c9bf"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/float_assert.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "80f5c67b05c0d53c00f6180b7d18ce4ca07ffdac",
+                "size": 638,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/80f5c67b05c0d53c00f6180b7d18ce4ca07ffdac"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/log_mask.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "76e01951fed89eb3f8812e4866a8cf0bc0755aff",
+                "size": 1149,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/76e01951fed89eb3f8812e4866a8cf0bc0755aff"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/main.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b8d3165c68b2c3420be4c5b1c6e39d4e11017ad4",
+                "size": 1829,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/b8d3165c68b2c3420be4c5b1c6e39d4e11017ad4"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/snapshots.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "249bc5f09f81df7ce3b27ed742f83a640c8019af",
+                "size": 1131,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/249bc5f09f81df7ce3b27ed742f83a640c8019af"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/snapshots.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "bf420e2b073173d694db2073f46b3da9aaa77175",
+                "size": 1348,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/bf420e2b073173d694db2073f46b3da9aaa77175"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/symbols.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "810fbf91be3019aa4edd29b9e7bdee15b884780d",
+                "size": 10718,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/810fbf91be3019aa4edd29b9e7bdee15b884780d"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f4d2920c7f74f19e588012e503b8b2b0097c92ee",
+                "size": 179,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/f4d2920c7f74f19e588012e503b8b2b0097c92ee"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "4f39cf39a0d81063f935a4f9fa0d98b032328553",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/4f39cf39a0d81063f935a4f9fa0d98b032328553"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases/compatible_engine.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "41968aa8f4fc4d2d049a2743e3a6ba8d543062eb",
+                "size": 4424,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/41968aa8f4fc4d2d049a2743e3a6ba8d543062eb"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases/compatible_engine_load_model_before_initialize.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4ea024a9886b73085905b8772003e02f3816c930",
+                "size": 1458,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/4ea024a9886b73085905b8772003e02f3816c930"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases/global_info.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d81b791178c927d90080e8fd85f4afc4ed87c6ba",
+                "size": 2414,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/d81b791178c927d90080e8fd85f4afc4ed87c6ba"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases/simple_tts.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2e691100f45a9a4a4fb13ab002afbd1477b112af",
+                "size": 4315,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/2e691100f45a9a4a4fb13ab002afbd1477b112af"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases/tts_via_audio_query.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "024d68b0f2f4aa31bc5e13f529760c5749380b0e",
+                "size": 4915,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/024d68b0f2f4aa31bc5e13f529760c5749380b0e"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases/user_dict_load.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b9284c153c788b1074e49d2b5e86ebd1ec6109d7",
+                "size": 5645,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/b9284c153c788b1074e49d2b5e86ebd1ec6109d7"
+            },
+            {
+                "path": "crates/voicevox_core_c_api/tests/e2e/testcases/user_dict_manipulate.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "2468e8f20cef285921ccdc2a91fd176ec72549bf",
+                "size": 5919,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/2468e8f20cef285921ccdc2a91fd176ec72549bf"
+            },
+            {
+                "path": "crates/voicevox_core_python_api",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "ee3849820ddfdd09ef239507974da6e48b3ef06b",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/ee3849820ddfdd09ef239507974da6e48b3ef06b"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/.gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f08864f3d7d1eb7f2f024e95c36f658f02369a78",
+                "size": 153,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/f08864f3d7d1eb7f2f024e95c36f658f02369a78"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/Cargo.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a5b09bd6eec8cef732a3b4b14e7facb4e8ba03b8",
+                "size": 701,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/a5b09bd6eec8cef732a3b4b14e7facb4e8ba03b8"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "b5d71d81915be2b1c544c3a85560e961d3507ec7",
+                "size": 2205,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/b5d71d81915be2b1c544c3a85560e961d3507ec7"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/pyproject.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "0cba4aeed08cde282eb850aff5b2f72fded97ef0",
+                "size": 334,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/0cba4aeed08cde282eb850aff5b2f72fded97ef0"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "408b9d9ad459cb3d3f2030bbdb392553515276f3",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/408b9d9ad459cb3d3f2030bbdb392553515276f3"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/test",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "89858b48d69c1f141196604bb2f380310f112ae3",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/89858b48d69c1f141196604bb2f380310f112ae3"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/test/conftest.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "54449324c1552cfe1d0b1050d709d6d12195b442",
+                "size": 1319,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/54449324c1552cfe1d0b1050d709d6d12195b442"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/test/test_nop.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "43956957dcbf150beaba07d76627dc664a7ee575",
+                "size": 153,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/43956957dcbf150beaba07d76627dc664a7ee575"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/test/test_user_dict_load.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8c506a50f1748c64f70f396f6b15c93fd429df1d",
+                "size": 1292,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/8c506a50f1748c64f70f396f6b15c93fd429df1d"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/test/test_user_dict_manipulate.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "8ed860cf9816bd0e88f7b4fb6641c8079f260ac6",
+                "size": 1795,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/8ed860cf9816bd0e88f7b4fb6641c8079f260ac6"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/voicevox_core",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "c2ac16f57ce971c43c9b2507fb08dd804ab7e795",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/c2ac16f57ce971c43c9b2507fb08dd804ab7e795"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/voicevox_core/__init__.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "da186658453574e261f97ba2681c19c152b0c4d1",
+                "size": 616,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/da186658453574e261f97ba2681c19c152b0c4d1"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/voicevox_core/_load_dlls.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "db8b4cdc53819fb556f39cf32d5f60c7374b3533",
+                "size": 388,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/db8b4cdc53819fb556f39cf32d5f60c7374b3533"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/voicevox_core/_models.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "94d7a8a166644dae43cf2106e04fba9ac118af3c",
+                "size": 1795,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/94d7a8a166644dae43cf2106e04fba9ac118af3c"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/voicevox_core/_rust.pyi",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "02054552824494742de34f13b7373174644b55f3",
+                "size": 8411,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/02054552824494742de34f13b7373174644b55f3"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/python/voicevox_core/py.typed",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/requirements-dev.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "72fde7f1563916a846401d3b281e2c85cbfa80fc",
+                "size": 28,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/72fde7f1563916a846401d3b281e2c85cbfa80fc"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/requirements-test.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c310a65bc43cdce151953def34b20c7575c24832",
+                "size": 51,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/c310a65bc43cdce151953def34b20c7575c24832"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/requirements.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "cad09a4efda71171a94a17a47ee9132af5a171c9",
+                "size": 98,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/cad09a4efda71171a94a17a47ee9132af5a171c9"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "bbea494a33a6715a97ab00e715858bc0eda186f6",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/bbea494a33a6715a97ab00e715858bc0eda186f6"
+            },
+            {
+                "path": "crates/voicevox_core_python_api/src/lib.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "21346680f0b78081922947b38d5f40e7e6d80a6c",
+                "size": 17927,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/21346680f0b78081922947b38d5f40e7e6d80a6c"
+            },
+            {
+                "path": "crates/xtask",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "8b921ca404d5ce515f78f96a7a8b3a432243ae1d",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/8b921ca404d5ce515f78f96a7a8b3a432243ae1d"
+            },
+            {
+                "path": "crates/xtask/Cargo.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "11420d2ff4d52b16f40eddab92912cc6bea13ce1",
+                "size": 211,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/11420d2ff4d52b16f40eddab92912cc6bea13ce1"
+            },
+            {
+                "path": "crates/xtask/src",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "19288dcf4154f90a1fdd682ae21dbc5e0a70973d",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/19288dcf4154f90a1fdd682ae21dbc5e0a70973d"
+            },
+            {
+                "path": "crates/xtask/src/commands.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a51390237bf2afba88f3c081e09c5c3b77937d27",
+                "size": 32,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/a51390237bf2afba88f3c081e09c5c3b77937d27"
+            },
+            {
+                "path": "crates/xtask/src/commands",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "03880c186ae8de55b9f4cec4781d8121713188b1",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/03880c186ae8de55b9f4cec4781d8121713188b1"
+            },
+            {
+                "path": "crates/xtask/src/commands/update_c_header.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "64e5553bfd8f17cca3bc8faae0779c2e08eb5118",
+                "size": 745,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/64e5553bfd8f17cca3bc8faae0779c2e08eb5118"
+            },
+            {
+                "path": "crates/xtask/src/main.rs",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "357a18b52a456873c59b77504cfc44f95dafae01",
+                "size": 395,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/357a18b52a456873c59b77504cfc44f95dafae01"
+            },
+            {
+                "path": "deny.toml",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a7d848595e01c3094e4e52143212ac132f528293",
+                "size": 12900,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/a7d848595e01c3094e4e52143212ac132f528293"
+            },
+            {
+                "path": "docs",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "ed61eab4e99807798948935b8aab853f9cca27b0",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/ed61eab4e99807798948935b8aab853f9cca27b0"
+            },
+            {
+                "path": "docs/apis",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "59f286bf77c72a0cb608e998f36355d33b6e0d30",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/59f286bf77c72a0cb608e998f36355d33b6e0d30"
+            },
+            {
+                "path": "docs/apis/c_api",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "c6dd46e12dc5492a6a9fcb38f589792d9829bc90",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/c6dd46e12dc5492a6a9fcb38f589792d9829bc90"
+            },
+            {
+                "path": "docs/apis/c_api/doxygen",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "04462bc335332b76d7d535fc40070c33cbdcb332",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/04462bc335332b76d7d535fc40070c33cbdcb332"
+            },
+            {
+                "path": "docs/apis/c_api/doxygen/Doxyfile",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "62e4aafbc058930bfff17c21376e25dbc10d299e",
+                "size": 116506,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/62e4aafbc058930bfff17c21376e25dbc10d299e"
+            },
+            {
+                "path": "docs/apis/c_api/doxygen/doxygen-awesome-css",
+                "mode": "160000",
+                "type": "commit",
+                "sha": "74b42503df7e314dd66f508edca3c3ccfd611b72"
+            },
+            {
+                "path": "docs/apis/index.html",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9b580db6c7e5ecf5f7a179bbce0cbddc07dd25d6",
+                "size": 269,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/9b580db6c7e5ecf5f7a179bbce0cbddc07dd25d6"
+            },
+            {
+                "path": "docs/apis/python_api",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "efdd3890bf514968bdb92eff10a9d02c57d4ef6e",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/efdd3890bf514968bdb92eff10a9d02c57d4ef6e"
+            },
+            {
+                "path": "docs/apis/python_api/conf.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "a426edf64ac3ce611ba4983c49fa9f89aa72fd95",
+                "size": 1241,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/a426edf64ac3ce611ba4983c49fa9f89aa72fd95"
+            },
+            {
+                "path": "docs/apis/python_api/index.rst",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "66e56538c173db6e9371ad3cc85b77c651c72e61",
+                "size": 454,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/66e56538c173db6e9371ad3cc85b77c651c72e61"
+            },
+            {
+                "path": "docs/downloads",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "cb125c4eff738f4cb482cd23f3f59af7bfab8a41",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/cb125c4eff738f4cb482cd23f3f59af7bfab8a41"
+            },
+            {
+                "path": "docs/downloads/download.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "9f5ba75308502fcb2349a78cf322523855757d7f",
+                "size": 1702,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/9f5ba75308502fcb2349a78cf322523855757d7f"
+            },
+            {
+                "path": "example",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "896197fc8afd23bc17cb38cb493e0efc7f8a8c72",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/896197fc8afd23bc17cb38cb493e0efc7f8a8c72"
+            },
+            {
+                "path": "example/cpp",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "11fe82fd725a9eee7c6483d46578914620adfe9b",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/11fe82fd725a9eee7c6483d46578914620adfe9b"
+            },
+            {
+                "path": "example/cpp/unix",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "9537909f60ff7c976d18bec46e460304e44e56d1",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/9537909f60ff7c976d18bec46e460304e44e56d1"
+            },
+            {
+                "path": "example/cpp/unix/.gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "ef72ac92e2fedfee92c03104ea81655f102451ef",
+                "size": 142,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/ef72ac92e2fedfee92c03104ea81655f102451ef"
+            },
+            {
+                "path": "example/cpp/unix/CMakeLists.txt",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5cef356f8def04ebaaadfa2ec5572447e17fa0c7",
+                "size": 448,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/5cef356f8def04ebaaadfa2ec5572447e17fa0c7"
+            },
+            {
+                "path": "example/cpp/unix/README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "98f8615e7187185a49079510b7628e819fe0968b",
+                "size": 1169,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/98f8615e7187185a49079510b7628e819fe0968b"
+            },
+            {
+                "path": "example/cpp/unix/simple_tts.cpp",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1c9fa00ca3b40bbbe55a4227095c53d51006f5f4",
+                "size": 1948,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/1c9fa00ca3b40bbbe55a4227095c53d51006f5f4"
+            },
+            {
+                "path": "example/cpp/windows",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "655a4d49b8e32b5a6e1db85ad0f4ae3e490788f3",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/655a4d49b8e32b5a6e1db85ad0f4ae3e490788f3"
+            },
+            {
+                "path": "example/cpp/windows/README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c5b0a1fcd67061a36cb3e45bf69a2107c2d94fec",
+                "size": 3630,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/c5b0a1fcd67061a36cb3e45bf69a2107c2d94fec"
+            },
+            {
+                "path": "example/cpp/windows/simple_tts",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "a3e90d57d395877453592e0ca3e145d516a6b0a0",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/a3e90d57d395877453592e0ca3e145d516a6b0a0"
+            },
+            {
+                "path": "example/cpp/windows/simple_tts/simple_tts.cpp",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "4905b09d27cb8eab954a2556aca8d31d83ecad6a",
+                "size": 4976,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/4905b09d27cb8eab954a2556aca8d31d83ecad6a"
+            },
+            {
+                "path": "example/cpp/windows/simple_tts/simple_tts.h",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "f5f7504151d738f07b6758312e1298abd7e3db03",
+                "size": 353,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/f5f7504151d738f07b6758312e1298abd7e3db03"
+            },
+            {
+                "path": "example/cpp/windows/simple_tts/simple_tts.vcxproj",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "5c4781551a9f72720e684f8c65ecac67ac0c4806",
+                "size": 9039,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/5c4781551a9f72720e684f8c65ecac67ac0c4806"
+            },
+            {
+                "path": "example/cpp/windows/simple_tts/simple_tts.vcxproj.filters",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "e4e6173bf43ecbe5184e86bf5a22b8b30b6dbf0e",
+                "size": 1140,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/e4e6173bf43ecbe5184e86bf5a22b8b30b6dbf0e"
+            },
+            {
+                "path": "example/cpp/windows/simple_tts/simple_tts.vcxproj.user",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "88a550947edbc3c5003a41726f0749201fdb6822",
+                "size": 165,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/88a550947edbc3c5003a41726f0749201fdb6822"
+            },
+            {
+                "path": "example/cpp/windows/windows_example.sln",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "995b2479bc6ad554445aa1e02ad8b9216004750a",
+                "size": 1420,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/995b2479bc6ad554445aa1e02ad8b9216004750a"
+            },
+            {
+                "path": "example/python",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "e31d7360214a112d9b4e6d6b9e9aa02f59554580",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/e31d7360214a112d9b4e6d6b9e9aa02f59554580"
+            },
+            {
+                "path": "example/python/.gitignore",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "c4d7f114d0ab23d41b03005cc7d0af576b910864",
+                "size": 96,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/c4d7f114d0ab23d41b03005cc7d0af576b910864"
+            },
+            {
+                "path": "example/python/README.md",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "191d41521bd73d00981504149d48e5df53f02721",
+                "size": 8632,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/191d41521bd73d00981504149d48e5df53f02721"
+            },
+            {
+                "path": "example/python/run.py",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "d0899b74995ee92ead7bb766126b228a80b0ec08",
+                "size": 2937,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/d0899b74995ee92ead7bb766126b228a80b0ec08"
+            },
+            {
+                "path": "model",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "ccdd69bbf65d9397c40909f8417f7b4377c851ab",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/ccdd69bbf65d9397c40909f8417f7b4377c851ab"
+            },
+            {
+                "path": "model/sample.vvm",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "1918172f96c782fcb7f92a91c97a51b6abfb678e",
+                "size": 53489741,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/1918172f96c782fcb7f92a91c97a51b6abfb678e"
+            },
+            {
+                "path": "rust-toolchain",
+                "mode": "100644",
+                "type": "blob",
+                "sha": "df484cbb1d9f81e37182e0f9e372ef9d4bd7bed2",
+                "size": 7,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/df484cbb1d9f81e37182e0f9e372ef9d4bd7bed2"
+            },
+            {
+                "path": "scripts",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "e9c41c25f5d59cc1917423f7d33ed5cdb78c792d",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/e9c41c25f5d59cc1917423f7d33ed5cdb78c792d"
+            },
+            {
+                "path": "scripts/downloads",
+                "mode": "040000",
+                "type": "tree",
+                "sha": "c93628c856e1803a0e3589c3bddbe684a4afb685",
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/trees/c93628c856e1803a0e3589c3bddbe684a4afb685"
+            },
+            {
+                "path": "scripts/downloads/download.ps1",
+                "mode": "100755",
+                "type": "blob",
+                "sha": "10d0310ac1d51f01f961dcf4fc3a78871e3afef2",
+                "size": 4755,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/10d0310ac1d51f01f961dcf4fc3a78871e3afef2"
+            },
+            {
+                "path": "scripts/downloads/download.sh",
+                "mode": "100755",
+                "type": "blob",
+                "sha": "c3093f402a4a2f3366d1d4e6e8b5f3f2e28492b7",
+                "size": 6312,
+                "url": "https://api.github.com/repos/VOICEVOX/voicevox_core/git/blobs/c3093f402a4a2f3366d1d4e6e8b5f3f2e28492b7"
+            }
+        ],
+        "truncated": false
+    },
+    "Updated_Files": [
+        "crates/voicevox_core/src/manifest.rs",
+        "crates/voicevox_core_python_api/build.rs",
+        "example/python/README.md",
+        "crates/voicevox_core_python_api/python/voicevox_core/__init__.py",
+        "example/cpp/windows/simple_tts/simple_tts.cpp",
+        "Cargo.lock",
+        "crates/voicevox_core/src/status/model_file.rs",
+        "crates/voicevox_core/src/version.rs",
+        "crates/voicevox_core/src/voice_model.rs",
+        "crates/voicevox_core_c_api/tests/e2e/testcases/global_info.rs",
+        "crates/voicevox_core/src/lib.rs",
+        "crates/voicevox_core/src/result_code.rs",
+        "crates/voicevox_core_c_api/tests/e2e/testcases.rs",
+        "crates/voicevox_core_python_api/src/lib.rs",
+        "crates/voicevox_core/src/voice_synthesizer.rs",
+        "crates/voicevox_core/src/user_dict/part_of_speech_data.rs",
+        "crates/voicevox_core/src/engine/synthesis_engine.rs",
+        "crates/download/Cargo.toml",
+        "crates/voicevox_core/src/engine/full_context_label.rs",
+        "crates/voicevox_core/src/user_dict/word.rs",
+        "crates/test_util/Cargo.toml",
+        "crates/voicevox_core/src/test_data/model_sources/load_model_works1/manifest.json",
+        "crates/voicevox_core_c_api/tests/e2e/testcases/simple_tts.rs",
+        "model/predict_duration-1.onnx",
+        "Cargo.toml",
+        "crates/voicevox_core_c_api/Cargo.toml",
+        "crates/voicevox_core/Cargo.toml",
+        "crates/voicevox_core/src/error.rs",
+        "crates/voicevox_core_python_api/python/voicevox_core/_models.py",
+        "crates/voicevox_core_c_api/tests/e2e/testcases/tts_via_audio_query.rs",
+        "crates/voicevox_core/src/user_dict/dict.rs",
+        "crates/voicevox_core/src/test_data/model_sources/load_model_works1/predict_duration.onnx",
+        "crates/voicevox_core_c_api/tests/e2e/snapshots.toml",
+        "crates/voicevox_core_c_api/include/voicevox_core.h",
+        "crates/voicevox_core/src/test_data/model_sources/load_model_works1/decode.onnx",
+        "example/python/run.py",
+        "crates/voicevox_core/src/test_data/model_sources/load_model_works1/predict_intonation.onnx",
+        "crates/voicevox_core_c_api/tests/e2e/log_mask.rs",
+        "crates/voicevox_core_c_api/tests/e2e/testcases/compatible_engine_load_model_before_initialize.rs",
+        "crates/voicevox_core_c_api/src/c_impls.rs",
+        "crates/voicevox_core_python_api/python/test/test_engine.py",
+        "crates/voicevox_core_python_api/python/voicevox_core/_rust.pyi",
+        "example/cpp/unix/simple_tts.cpp",
+        "crates/voicevox_core_c_api/src/compatible_engine.rs",
+        "crates/voicevox_core/src/metas.rs",
+        "crates/voicevox_core_c_api/tests/e2e/testcases/compatible_engine.rs",
+        "crates/voicevox_core/src/user_dict/mod.rs",
+        "crates/voicevox_core_python_api/Cargo.toml",
+        "crates/voicevox_core/src/devices.rs",
+        "crates/voicevox_core/src/publish.rs",
+        "crates/voicevox_core/src/engine/open_jtalk.rs",
+        "crates/voicevox_core_c_api/src/drop_check.rs",
+        "crates/voicevox_core/src/test_data/model_sources/load_model_works1/metas.json",
+        "crates/voicevox_core/src/inference_core.rs",
+        "crates/voicevox_core_c_api/src/helpers.rs",
+        "crates/voicevox_core_c_api/src/lib.rs",
+        "crates/voicevox_core_c_api/tests/e2e/symbols.rs",
+        "crates/voicevox_core_python_api/python/test/test_nop.py",
+        "crates/voicevox_core/src/status.rs",
+        "model/predict_intonation-1.onnx",
+        "crates/voicevox_core_c_api/src/slice_owner.rs",
+        "crates/test_util/src/lib.rs",
+        "crates/voicevox_core_c_api/tests/e2e/testcases/user_dict.rs",
+        "model/sample.vvm",
+        "crates/voicevox_core/src/test_util.rs"
+    ]
+}

@@ -1,5 +1,5 @@
 public class Main {
-    class MyClass {
+    static class MyClass {
         static int count;
 
         static {

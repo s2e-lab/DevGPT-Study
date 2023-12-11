@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.*;
+import org.testcontainers.containers.BindMode;
 import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
@@ -23,7 +24,7 @@ public class DynamicClassExecutionTest extends ContainerExecutionExtensionSuppor
     @Container
     private static final GenericContainer<?> container = new GenericContainer<>("my-container-image:latest")
             .withClasspathResourceMapping(
-                    Path.of("path/to/dynamic-class-file/"),
+                    "path/to/dynamic-class-file/",
                     "/path/to/dynamic-class-file/",
                     BindMode.READ_ONLY);
 

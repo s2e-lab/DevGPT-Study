@@ -1,0 +1,5 @@
+"Unused Maven dependency (binary)","Unnecessary Maven dependencies are a maintenance burden.","recommendation","Maven dependency on the binary package org.springframework:spring-webmvc is unused.","/pom.xml","27","9","31","22"
+"Unused Maven dependency (binary)","Unnecessary Maven dependencies are a maintenance burden.","recommendation","Maven dependency on the binary package org.springframework:spring-core is unused.","/pom.xml","32","9","36","22"
+"Unused Maven dependency (binary)","Unnecessary Maven dependencies are a maintenance burden.","recommendation","Maven dependency on the binary package org.springframework:spring-beans is unused.","/pom.xml","37","9","41","22"
+"Unused Maven dependency (binary)","Unnecessary Maven dependencies are a maintenance burden.","recommendation","Maven dependency on the binary package org.springframework:spring-expression is unused.","/pom.xml","47","9","51","22"
+"Unused Maven dependency (binary)","Unnecessary Maven dependencies are a maintenance burden.","recommendation","Maven dependency on the binary package javax.servlet:javax.servlet-api is unused.","/pom.xml","52","9","57","22"

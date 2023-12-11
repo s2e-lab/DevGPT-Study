@@ -1,0 +1,1 @@
+"Overly-general catch clause","Catching 'Throwable' or 'Exception' is dangerous because these can include 'Error' or 'RuntimeException'.","warning","Do not catch 'Exception'; RuntimeExceptions should normally be propagated.","/src/main/java/Main.java","23","19","23","37"

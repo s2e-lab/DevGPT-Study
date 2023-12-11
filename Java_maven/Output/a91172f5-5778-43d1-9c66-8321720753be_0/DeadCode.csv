@@ -1,0 +1,3 @@
+"Dead class","Dead classes add unnecessary complexity.","recommendation","The class EntityA is entirely unused.","/src/main/java/EntityA.java","2","14","2","20"
+"Useless parameter","Parameters that are not used add unnecessary complexity to an interface.","recommendation","The parameter 'id' is never used.","/src/main/java/EntityA.java","4","20","4","26"
+"Useless parameter","Parameters that are not used add unnecessary complexity to an interface.","recommendation","The parameter 'name' is never used.","/src/main/java/EntityA.java","4","29","4","39"

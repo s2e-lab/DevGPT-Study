@@ -1,0 +1,1 @@
+"Unnecessary import","A redundant 'import' statement introduces unnecessary and undesirable dependencies.","recommendation","Import of 'import Arrays' is not used.","/src/main/java/KeywordMatcher.java","2","1","2","24"

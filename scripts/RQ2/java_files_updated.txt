@@ -1,4 +1,4 @@
-adobe_aem-core-forms-components_PR_878_commit_tree.json
+adobe_aem-core-forms-components
 
 bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/internal/form/FormConstants.java
 bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/util/AbstractOptionsFieldImpl.java
@@ -8,23 +8,23 @@ bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/util/AbstractCh
 bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/internal/models/v1/form/CheckBoxImpl.java
 bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/internal/models/v1/form/SwitchImpl.java
 
-datastax_cassandra_PR_752_commit_tree.json
+datastax_cassandra
 
 src/java/org/apache/cassandra/index/sai/disk/v1/VectorIndexSearcher.java
 src/java/org/apache/cassandra/index/sai/disk/hnsw/VectorMemtableIndex.java
 
-yzpocket_spring-cafeservice_PR_21_commit_tree.json
+yzpocket_spring-cafeservice
 
 src/main/java/com/sparta/springcafeservice/entity/Review.java
 src/main/java/com/sparta/springcafeservice/service/ReviewService.java
 
-Miller-RS_DistributedMiningNetwork_PR_8_commit_tree.json
+Miller-RS_DistributedMiningNetwork
 
 servidor_tareas/src/main/java/com/servidortareas/VariablesConexion.java
 servidor_tareas/src/main/java/com/servidortareas/Servidor.java
 servidor_tareas/src/main/java/com/servidortareas/Main.java
 
-mcagov_beacons_PR_539_commit_tree.json
+mcagov_beacons
 
 service/src/main/java/uk/gov/mca/beacons/api/accountholder/application/AuthClient.java
 service/src/main/java/uk/gov/mca/beacons/api/accountholder/mappers/AccountHolderMapper.java
@@ -42,7 +42,7 @@ service/src/test/java/uk/gov/mca/beacons/api/accountholder/rest/AccountHolderCon
 service/src/main/java/uk/gov/mca/beacons/api/export/FileSystemRepository.java
 service/src/main/java/uk/gov/mca/beacons/api/accountholder/application/B2CService.java
 
-prgrms-be-devcourse_springboot-jpa_PR_248_commit_tree.json
+prgrms-be-devcourse_springboot-jpa
 
 src/main/java/kr/co/prgrms/jpaintro/exception/IllegalNameException.java
 src/main/java/kr/co/prgrms/jpaintro/config/DataSourceConfig.java
@@ -52,7 +52,7 @@ src/main/java/kr/co/prgrms/jpaintro/JpaIntroApplication.java
 src/test/java/kr/co/prgrms/jpaintro/JpaIntroApplicationTests.java
 src/test/java/kr/co/prgrms/jpaintro/domain/CustomerRepositoryTest.java
 
-dotCMS_core_PR_25432_commit_tree.json
+dotCMS_core
 
 dotCMS/src/main/java/com/dotcms/util/content/json/PopulateContentletAsJSONUtil.java
 dotCMS/src/main/java/com/dotmarketing/startup/runonce/Task230523CreateVariantFieldInContentlet.java
@@ -70,7 +70,7 @@ dotCMS/src/main/java/com/dotcms/rest/api/v1/maintenance/MaintenanceResource.java
 dotCMS/src/main/java/com/dotcms/rest/api/v1/content/ContentResource.java
 dotCMS/src/integration-test/java/com/dotcms/MainSuite2b.java
 
-opensearch-project_opensearch-migrations_PR_297_commit_tree.json
+opensearch-project_opensearch-migrations
 
 TrafficCapture/trafficReplayer/src/main/java/org/opensearch/migrations/replay/PacketConsumerFactory.java
 TrafficCapture/coreUtilities/src/main/java/org/opensearch/migrations/coreutils/MetricsLogger.java

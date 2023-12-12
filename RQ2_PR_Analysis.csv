@@ -1,0 +1,51 @@
+PullRequestURL,ChatGPT share link,Clone?,What type of changes developers made in the generated code before merging,Files to check,Comment
+https://github.com/4dn-dcic/foursight-core/pull/50,https://chat.openai.com/share/49417c2c-0b99-4040-b38c-5ada37e080f5,No,,,Discuss a feature using ChatGPT
+https://github.com/SWM14-Architect/moview-core-service/pull/12,https://chat.openai.com/share/af7b8700-ca7a-4955-9788-3068ade59912,No,,,"ChatGPT link, error-404"
+https://github.com/aemartinez/gpt-latex-translator/pull/2,https://chat.openai.com/share/88280b36-4942-4d5f-88de-d74fb058054b,No,,,"ChatGPT link, error-404"
+https://github.com/aiplanethub/genai-stack/pull/21,https://chat.openai.com/share/fcebe798-3d71-4149-8bf1-65e28d8254ac,No,,,Wrong suggestion from ChatGPT
+https://github.com/alteryx/locust-grasshopper/pull/25,https://chat.openai.com/share/1eaad094-b93d-4284-90a3-c1425f2d607c,No,,,Ask for method explanation
+https://github.com/app-sre/qontract-reconcile/pull/3630,https://chat.openai.com/share/440407a1-df1c-4f1e-84b9-76ffec9fd918,Yes,significantly modifed,reconcile/utils/jira_client.py,
+https://github.com/BenGriffith/cryptocurrency/pull/52,https://chat.openai.com/share/f4b64624-21ed-47f1-a708-f82f21a5579c,No,,,Ask for a feature explanation
+https://github.com/chitalian/gptask/pull/2,https://chat.openai.com/share/902cd378-3ebc-4e35-99ed-e63c7150c6ad,No,,,Ask for some testing command
+https://github.com/databrickslabs/pyspark-ai/pull/1,https://chat.openai.com/share/0b7b9fec-30b4-40dd-b887-fb7328f303f2,Yes,slightly modified,spark_llm/spark_llm_assistant.py,
+https://github.com/Email-Generation/email_generation/pull/2,https://chat.openai.com/share/c9e107c8-e424-4260-a85e-0bffcf334e2b,No,,,Ask for organizing the project
+https://github.com/wafflestudio/wacruit-server/pull/26,https://chat.openai.com/share/8fe235b6-d9f6-4845-9a1a-6c755516afc1,No,,,Wants suggestion about singular/plural form in the api name
+https://github.com/VOICEVOX/voicevox_core/pull/555,https://chat.openai.com/share/5b141624-2b16-4a78-9c48-5f6ba67c62e2,No,,,Want a suggestion for which terminology to use
+https://github.com/bbelderbos/htmx-demo/pull/2,https://chat.openai.com/share/c8c101fa-aaae-4953-ac4f-f81b66d88783,Yes,Exact code,movies/views.py,
+https://github.com/erobitschek/med-ml/pull/2,https://chat.openai.com/share/717271d9-e47f-483b-a5fb-1d10461d5b67,No,,,justify suggestion for typehint
+https://github.com/VOICEVOX/voicevox_engine/pull/716,https://chat.openai.com/share/94cee641-dfe0-483d-b9f3-84085899db20,No,,,suggestion for using bash in windows
+https://github.com/erobitschek/med-ml/pull/5,https://chat.openai.com/share/da465ac3-4b5d-456b-95f9-3565b7b4cdb2,No,,,provide suggestion for typehint
+https://github.com/gradio-app/gradio/pull/5179,https://chat.openai.com/share/dc4b8dd7-faf3-43f6-98df-ea8d7da23fcc,No,,,Provide explanation using ChatGPT 
+https://github.com/Hochfrequenz/kohlrahbi/pull/158,https://chat.openai.com/share/4ad4c1ad-6f13-4a21-a0e3-aaf75e17c556,No,,,asking suggestion for an API (copy)
+https://github.com/IararIV/karaok.ai/pull/1,https://chat.openai.com/share/d0ce9b4e-2063-439f-a7ba-cb754b263026,No,,,No code from ChatGPT
+https://github.com/jefftriplett/frontmatter-cli/pull/6,https://chat.openai.com/share/56cc6f3c-6581-41f9-afa7-4021c9ef1b07,Yes,Exact code from a portion,frontmatter_cli/cli.py,
+https://github.com/VOICEVOX/voicevox_core/pull/538,,,,,Cannot find the link from the large discussion
+https://github.com/kolibril13/ipyMolecularNodes/pull/1,https://chat.openai.com/share/464b23d9-515b-4d77-8e27-c82d08c67cce,No,,,having suggestion on version naming
+https://github.com/konfuzio-ai/konfuzio-sdk/pull/296,https://chat.openai.com/share/065c4563-3e52-4520-a8f2-c9b494023f4e,No,,,Ask grammatical question
+https://github.com/lcompilers/lpython/pull/2323,https://chat.openai.com/share/51fe5b13-86a1-4ebe-809d-a71d7d284cab.,No,,,Suggestion about an API
+https://github.com/Miller-RS/DistributedMiningNetwork/pull/8,https://chat.openai.com/share/29174ecb-3071-4ae2-bfc4-f332e91b0fb6,No,,,no code from ChatGPT
+https://github.com/mindee/doctr/pull/1205,https://chat.openai.com/share/d13161ad-4054-422d-937f-e0d59f9a7206,No,,,"ChatGPT link, error-404"
+https://github.com/monarch-initiative/oai-monarch-plugin/pull/39,https://chat.openai.com/share/ed17cd4e-d32a-4162-b400-a01877f026d1,No,,,no code from ChatGPT
+https://github.com/nylas/nylas-python/pull/279,https://chat.openai.com/share/51f3aa63-d8aa-4ff7-aca1-608fcf9ab9ee,Yes,significantly modifed,nylas/models/free_busy.py,
+https://github.com/VOICEVOX/voicevox_core/pull/532,,,,,Cannot find the link from the large discussion in foreign language.
+https://github.com/openai/evals/pull/1083,https://chat.openai.com/share/4aeb8ed6-6dff-4f26-a946-aefe8c2fa511,No,,,no code from ChatGPT
+https://github.com/KilianFt/Adaptive-HCI/pull/3,https://chat.openai.com/share/ea0acac8-6f59-4762-9fc0-764acbbd4119,Yes,Exact code,users.py,
+https://github.com/23-OSSCA-python-mysql-replication/python-mysql-replication/pull/79,https://chat.openai.com/share/8857034c-873f-477f-915a-1846683bcbae,No,,,Justify the change for Type hint.
+https://github.com/opensearch-project/opensearch-migrations/pull/297,https://chat.openai.com/share/08649025-20e3-42e6-abba-32c29722dc0c,No,,,Using chatgpt to explain logging config
+https://github.com/picobyte/stable-diffusion-webui-wd14-tagger/pull/4,https://chat.openai.com/share/92b7a453-70c1-4136-a3f4-bbaca159d34c,No,,,"ChatGPT link, error-404"
+https://github.com/PolicyEngine/policyengine-us/pull/2764,https://chat.openai.com/share/6d013c41-719c-483c-9cf5-b684220303d4,No,,,ask for variable name suggestion
+https://github.com/pyspark-ai/pyspark-ai/pull/1,https://chat.openai.com/share/0b7b9fec-30b4-40dd-b887-fb7328f303f2,No,,,Ask for a suggestion about an API
+https://github.com/pyspark-ai/pyspark-ai/pull/157,https://chat.openai.com/share/2bd66613-5dc1-427e-9277-fb45b317438a,No,,,Ask about an api
+https://github.com/reworkd/AgentGPT/pull/897,https://chat.openai.com/share/01ba1f78-371b-4ebc-bddd-32b88e4770f7,No,,,Ask about n8n to learn and no code
+https://github.com/RND247/Pype-Synthetic-Data-for-Testing/pull/16,https://chat.openai.com/share/776c0d11-1a6c-4005-8ff7-9ea63f765b74,No,,,Make suggestion with an explanation from ChatGPT
+https://github.com/roboflow/supervision/pull/177,https://chat.openai.com/share/acd17c82-87f6-499a-9d09-0b675b4ef4ea,No,,,No code from ChatGPT
+https://github.com/roslinmahmud/easy-hire-backend/pull/11,https://chat.openai.com/share/8ca38ab8-e2c5-4913-a908-1f76b0b0f0fd,No,,,"ChatGPT link, error-404"
+https://github.com/simonw/llm/pull/65,https://chat.openai.com/share/c8d2accd-798b-41b0-937e-18014151c79a,No,,,No code from ChatGPT
+https://github.com/skrub-data/skrub/pull/581,https://chat.openai.com/share/d4a00de6-d10b-4c5a-af19-43757fb795cf,No,,,No code from ChatGPT
+https://github.com/tinygrad/tinygrad/pull/1661,https://chat.openai.com/share/30ab0b7e-d72c-444f-a228-620b132e9500,No,,,Format code with ChatGPT
+https://github.com/dotCMS/core/pull/25432,https://chat.openai.com/share/70bfe9b5-7897-4210-ad20-9a2c10e5f0d5,No,,,Resolving an issue with ChatGPT
+https://github.com/adobe/aem-core-forms-components/pull/878,,,,,Cannot find the link from the large discussion
+https://github.com/datastax/cassandra/pull/752,https://chat.openai.com/share/29a25377-786f-4690-b146-12acb6acb75b,No,,,No code from ChatGPT
+https://github.com/mcagov/beacons/pull/539,https://chat.openai.com/share/f2b7484c-8455-47e2-bb45-1725138dcdb0,No,,,Ask ChaGPT to learn about Spring related issues
+https://github.com/yzpocket/spring-cafeservice/pull/21,https://chat.openai.com/share/88445359-cc0e-41b9-955f-c446bbd2fc95,No,,,No code from ChatGPT
+https://github.com/prgrms-be-devcourse/springboot-jpa/pull/248,https://chat.openai.com/share/a91172f5-5778-43d1-9c66-8321720753be,No,,,Ask a clarification question to ChatGPT

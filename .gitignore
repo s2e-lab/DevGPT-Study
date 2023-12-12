@@ -166,3 +166,4 @@ cython_debug/
 #.idea/
 ./scripts/RQ2/Repo
 database/
+./RQ2/

@@ -1,0 +1,51 @@
+PR_Links,Done,Tags,Reason
+https://github.com/4dn-dcic/foursight-core/pull/50,TRUE,"boto3, aws-sdk, localstack, endpoint-url, global-setup, integration-testing",
+https://github.com/SWM14-Architect/moview-core-service/pull/12,FALSE,,Foreign Lang
+https://github.com/aemartinez/gpt-latex-translator/pull/2,TRUE,"PromptEngineering, Translation, Context, LaTexCode, LaTexText",
+https://github.com/aiplanethub/genai-stack/pull/21,TRUE,"pydantic, to_dict, code-suggestion",
+https://github.com/alteryx/locust-grasshopper/pull/25,TRUE,"code-change, lstrip, string-manipulation",
+https://github.com/app-sre/qontract-reconcile/pull/3630,TRUE,"integration-testing, ticket-creation, jira, jiralert",
+https://github.com/BenGriffith/cryptocurrency/pull/52,TRUE,"testing, datetime, freeze-time, decorator",
+https://github.com/chitalian/gptask/pull/2,TRUE,"code-refactoring, command-line, argument-flag",
+https://github.com/databrickslabs/pyspark-ai/pull/1,TRUE,"PySparkAI, exec, logging",
+https://github.com/Email-Generation/email_generation/pull/2,TRUE,"linting, formatting-checks, testing, react-app, fastapi, openai-authentication, endpoint-testing, optimization, docker",
+https://github.com/wafflestudio/wacruit-server/pull/26,FALSE,,Foreign Lang
+https://github.com/VOICEVOX/voicevox_core/pull/555,FALSE,,Foreign Lang
+https://github.com/bbelderbos/htmx-demo/pull/2,FALSE,,No Information
+https://github.com/erobitschek/med-ml/pull/2,TRUE,"type-hints, type-checking, mypi, python, optional-dict",
+https://github.com/VOICEVOX/voicevox_engine/pull/716,FALSE,,Foreign Lang
+https://github.com/erobitschek/med-ml/pull/5,TRUE,"python, typing, callable",
+https://github.com/gradio-app/gradio/pull/5179,TRUE,"audio-streaming, wav-file, chrome-browser, browser-compatibility, mp3-format",
+https://github.com/Hochfrequenz/kohlrahbi/pull/158,TRUE,"csharp, python, deep-copy",
+https://github.com/IararIV/karaok.ai/pull/1,TRUE,"track-matching, queue-management, credentials",
+https://github.com/jefftriplett/frontmatter-cli/pull/6,TRUE,"enhancement, dependencies, documentation, bug-fix, python-3.11, conventional-commits",
+https://github.com/VOICEVOX/voicevox_core/pull/538,FALSE,,Foreign Lang
+https://github.com/kolibril13/ipyMolecularNodes/pull/1,TRUE,"dependency-management, setup.py, pyproject.toml",
+"word-removal, ux-feedback,konfuzio-sdk",TRUE,"word-removal, ux-feedback",
+https://github.com/lcompilers/lpython/pull/2323,TRUE,"build-system, PRId64, SCNd64, printf, scanf, c",
+https://github.com/Miller-RS/DistributedMiningNetwork/pull/8,TRUE,"networking, client-server, message-exchange",
+https://github.com/mindee/doctr/pull/1205,TRUE,"tensorflow, pytorch, tests, documentation, parseq, enhancement",
+https://github.com/monarch-initiative/oai-monarch-plugin/pull/39,TRUE,"monarch-initiative, api, phenotype-search, gene-disease-search",
+https://github.com/nylas/nylas-python/pull/279,TRUE,"nylas-sdk, testing, code-example, api-client",
+https://github.com/VOICEVOX/voicevox_core/pull/532,FALSE,,Foreign Lang
+https://github.com/openai/evals/pull/1083,TRUE,"gpt4, PromptEngineering, PatternRecognition",
+https://github.com/KilianFt/Adaptive-HCI/pull/3,FALSE,,No Information
+https://github.com/23-OSSCA-python-mysql-replication/python-mysql-replication/pull/79,FALSE,,Foreign Lang
+https://github.com/opensearch-project/opensearch-migrations/pull/297,TRUE,"mdc, tech-debt, threadlocal, logging, testing",
+https://github.com/picobyte/stable-diffusion-webui-wd14-tagger/pull/4,TRUE,"c++, installation-issue, error, troubleshooting, compatibility",
+https://github.com/PolicyEngine/policyengine-us/pull/2764,TRUE,"pell-grant, emergency-broadband-benefit, affordable-connectivity-program, policy-engine",
+https://github.com/pyspark-ai/pyspark-ai/pull/1,TRUE,"exec-function, code-execution, code-generation, python",
+https://github.com/pyspark-ai/pyspark-ai/pull/157,TRUE,"data-loading, index-files, ordereddict, file-path, pysparkai",
+https://github.com/reworkd/AgentGPT/pull/897,TRUE,"change-history, revision-history ",
+https://github.com/RND247/Pype-Synthetic-Data-for-Testing/pull/16,TRUE,"pandas, dataframe, groupby-function, data-analysis",
+https://github.com/roboflow/supervision/pull/177,TRUE,"debugging, code-interpreter, numpy",
+https://github.com/roslinmahmud/easy-hire-backend/pull/11,TRUE,"bug-fix, upload-error, file-format",
+https://github.com/simonw/llm/pull/65,TRUE,"CodeDevelopment, PluginHook, RegisterModels",
+https://github.com/skrub-data/skrub/pull/581,TRUE,"skrub-library, job-titles, data-manipulation, pandas",
+https://github.com/tinygrad/tinygrad/pull/1661,TRUE,"code-readability, code-comments, clean-code",
+https://github.com/dotCMS/core/pull/25432,TRUE,"components, clickable, web-development, Device Selector Component",
+https://github.com/adobe/aem-core-forms-components/pull/878,TRUE,"javascript, import-syntax, es6, code-consistency",
+https://github.com/datastax/cassandra/pull/752,TRUE,"brute-force, query-limit, row-calculation",
+https://github.com/mcagov/beacons/pull/539,TRUE,"testing-strategy, user-setup, assertions, test-update",
+https://github.com/yzpocket/spring-cafeservice/pull/21,,,Foreign Lang
+https://github.com/prgrms-be-devcourse/springboot-jpa/pull/248,,,Foreign Lang

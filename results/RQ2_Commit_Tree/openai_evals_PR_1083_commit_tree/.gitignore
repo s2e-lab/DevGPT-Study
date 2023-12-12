@@ -1,9 +1,0 @@
-__pycache__/
-evals.egg-info/
-
-.venv/
-venv/
-
-# MacOS folder metadata
-.DS_Store
-.vscode/

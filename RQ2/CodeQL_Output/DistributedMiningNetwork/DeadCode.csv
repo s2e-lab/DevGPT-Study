@@ -1,1 +1,0 @@
-"Dead field","Fields that are never read are likely unnecessary.","recommendation","The field ip is entirely unread.","/src/main/java/com/servidortareas/Servidor.java","11","10","11","11"

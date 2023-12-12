@@ -1,1 +1,0 @@
-"Insecure JavaMail SSL Configuration","Configuring a Java application to use authenticated mail session over SSL without certificate validation makes the session susceptible to a man-in-the-middle attack.","warning","Java mailing has insecure SSL configuration.","/dotCMS/src/main/java/com/dotmarketing/util/EmailUtils.java","183","27","183","62"

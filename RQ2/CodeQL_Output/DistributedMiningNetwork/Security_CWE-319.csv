@@ -1,1 +1,0 @@
-"Failure to use SSL","Non-SSL connections can be intercepted by third parties.","recommendation","Stream using vulnerable non-SSL socket.","/src/main/java/com/servidortareas/Servidor.java","27","66","27","85"

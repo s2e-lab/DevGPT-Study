@@ -1,0 +1,21 @@
+Advisory,Missing Javadoc for public method or constructor,87
+Advisory,Non-final immutable field,11
+Advisory,Missing Javadoc for public type,8
+Advisory,Non-private field,7
+Advisory,Multiple statements on line,5
+Advisory,Misnamed variable,2
+Advisory,Missing Override annotation,1
+Advisory,Non-terminated if-else-if chain,1
+Architecture,Unused Maven dependency (binary),8
+DeadCode,Useless parameter,19
+DeadCode,Dead method,9
+DeadCode,Dead class,5
+DeadCode,Dead field,3
+Security,Hard-coded credential in API call,1
+Security,Hard-coded credential in sensitive call,1
+Violations_of_Best_Practice,Auto boxing or unboxing,17
+Violations_of_Best_Practice,Unused local variable,17
+Violations_of_Best_Practice,Unread local variable,5
+Violations_of_Best_Practice,Assignment to parameter,1
+Violations_of_Best_Practice,Explicit garbage collection,1
+Violations_of_Best_Practice,Implicit import,1

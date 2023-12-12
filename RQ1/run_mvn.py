@@ -5,7 +5,7 @@ import os
 import time
 import csv
 
-maven_project_path = "/Users/lindsayroney/research/DevGPT-Study/Java_maven"
+maven_project_path = "/Users//research/DevGPT-Study/Java_maven"
 
 tested_projects = set()  # Initialize an empty set to keep track of tested projects
 output = []  # Accumulates all results

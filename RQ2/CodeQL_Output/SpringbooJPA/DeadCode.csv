@@ -1,3 +1,0 @@
-"Dead method","Dead methods add unnecessary complexity.","recommendation","The method Customer is entirely unused.","/src/main/java/kr/co/prgrms/jpaintro/domain/Customer.java","20","1","20","50"
-"Dead method","Dead methods add unnecessary complexity.","recommendation","The method beforeAll is entirely unused.","/src/test/java/kr/co/prgrms/jpaintro/domain/CustomerRepositoryTest.java","26","10","26","18"
-"Dead class","Dead classes add unnecessary complexity.","recommendation","The class CustomerRepository is entirely unused.","/src/main/java/kr/co/prgrms/jpaintro/domain/CustomerRepository.java","5","18","5","35"

@@ -1,0 +1,1 @@
+"Missing Javadoc for public type","A public class or interface that does not have a Javadoc comment affects maintainability.","recommendation","This type does not have a non-trivial Javadoc comment.","/src/main/java/Main.java","1","14","1","17"

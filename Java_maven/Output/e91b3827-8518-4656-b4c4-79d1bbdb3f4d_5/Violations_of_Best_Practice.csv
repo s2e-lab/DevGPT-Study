@@ -1,0 +1,2 @@
+"Unread local variable","A local variable that is never read is redundant.","recommendation","Variable 'int value' is never read.","/src/main/java/MyClass.java","12","9","12","31"
+"Unused local variable","A local variable that is not initialized, assigned, or read may indicate incomplete code.","recommendation","Variable value is not used.","/src/main/java/MyClass.java","12","9","12","31"

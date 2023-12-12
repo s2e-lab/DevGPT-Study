@@ -1,0 +1,3 @@
+"Missing Javadoc for public type","A public class or interface that does not have a Javadoc comment affects maintainability.","recommendation","This type does not have a non-trivial Javadoc comment.","/src/main/java/Main.java","5","14","5","17"
+"Missing Javadoc for public method or constructor","A public method or constructor that does not have a Javadoc comment affects maintainability.","recommendation","This method does not have a non-trivial Javadoc comment.","/src/main/java/Main.java","6","24","6","27"
+"Multiple statements on line","More than one statement per line decreases readability.","recommendation","This statement is followed by another on the same line.","/src/main/java/Main.java","8","9","8","70"

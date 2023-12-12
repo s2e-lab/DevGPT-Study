@@ -1,0 +1,1 @@
+"Inner class could be static","A non-static nested class keeps a reference to the enclosing object, which makes the nested class bigger and may cause a memory leak.","recommendation","Shape should be made static, since the enclosing instance is not used.","/src/main/java/Main.java","2","27","2","31"

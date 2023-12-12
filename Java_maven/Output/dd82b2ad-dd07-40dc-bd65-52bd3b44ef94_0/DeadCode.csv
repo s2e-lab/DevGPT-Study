@@ -1,0 +1,3 @@
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method doSomething is entirely unused.","/src/main/java/Service.java","5","10","5","20"
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method doSomething is only used from dead code originating at [[""doSomething""|""relative:///src/main/java/Service.java:5:10:5:20""]].","/src/main/java/Service.java","12","17","12","27"
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method doSomething is only used from dead code originating at [[""doSomething""|""relative:///src/main/java/Service.java:5:10:5:20""]].","/src/main/java/Service.java","21","17","21","27"

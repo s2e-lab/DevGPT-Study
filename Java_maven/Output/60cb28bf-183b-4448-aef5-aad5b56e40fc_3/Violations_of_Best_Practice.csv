@@ -1,0 +1,2 @@
+"Unread local variable","A local variable that is never read is redundant.","recommendation","Variable 'String caminhoImagem' is never read.","/src/main/java/Main.java","8","9","8","85"
+"Unused local variable","A local variable that is not initialized, assigned, or read may indicate incomplete code.","recommendation","Variable caminhoImagem is not used.","/src/main/java/Main.java","8","9","8","85"

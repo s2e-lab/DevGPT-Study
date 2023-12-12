@@ -1,0 +1,2 @@
+"Dead field","Fields that are never read are likely unnecessary.","recommendation","The field beanName is only read from dead code originating at [[""getBeanName""|""relative:///src/main/java/Main.java:32:19:32:29""]].","/src/main/java/Main.java","21","20","21","27"
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method getBeanName is entirely unused.","/src/main/java/Main.java","32","19","32","29"

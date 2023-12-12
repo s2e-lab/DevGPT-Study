@@ -1,0 +1,1 @@
+"Unused Maven dependency (binary)","Unnecessary Maven dependencies are a maintenance burden.","recommendation","Maven dependency on the binary package com.fasterxml.jackson.dataformat:jackson-dataformat-xml is unused.","/pom.xml","27","9","31","22"

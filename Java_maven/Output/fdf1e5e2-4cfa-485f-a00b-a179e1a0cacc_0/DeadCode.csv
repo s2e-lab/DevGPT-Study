@@ -1,0 +1,2 @@
+"Dead class","Dead classes add unnecessary complexity.","recommendation","The class Main is entirely unused.","/src/main/java/Main.java","1","14","1","17"
+"Dead class","Dead classes add unnecessary complexity.","recommendation","The class MyClass is entirely unused.","/src/main/java/Main.java","3","17","3","23"

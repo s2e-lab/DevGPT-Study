@@ -1,0 +1,1 @@
+"Unused Maven dependency (binary)","Unnecessary Maven dependencies are a maintenance burden.","recommendation","Maven dependency on the binary package com.fasterxml.jackson.core:jackson-databind is unused.","/pom.xml","28","9","32","22"

@@ -1,0 +1,2 @@
+"Commented-out code","Commented-out code makes the remaining code more difficult to read.","warning","This comment appears to contain commented-out code.","/src/main/java/GarbageCollectionExample.java","10","9","10","52"
+"Explicit garbage collection","Triggering garbage collection explicitly may either have no effect or may trigger unnecessary garbage collection.","recommendation","Explicit garbage collection. This should only be used in benchmarking code.","/src/main/java/GarbageCollectionExample.java","9","9","9","19"

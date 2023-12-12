@@ -1,0 +1,1 @@
+"Unused classes and interfaces","A non-public class or interface that is not used anywhere in the program wastes programmer resources.","recommendation","Unused class: MyClass is not referenced within this codebase. If not used as an external API it should be removed.","/src/main/java/Main.java","3","17","3","23"

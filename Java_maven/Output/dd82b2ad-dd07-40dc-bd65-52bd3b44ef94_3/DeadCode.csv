@@ -1,0 +1,2 @@
+"Dead class","Dead classes add unnecessary complexity.","recommendation","The class MyServiceUser is entirely unused.","/src/main/java/MyServiceUser.java","4","14","4","26"
+"Dead class","Dead classes add unnecessary complexity.","recommendation","The class MyService is entirely unused.","/src/main/java/MyServiceUser.java","14","11","14","19"

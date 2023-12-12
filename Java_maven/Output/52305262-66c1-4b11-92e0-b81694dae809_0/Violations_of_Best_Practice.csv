@@ -1,0 +1,1 @@
+"Implicit import","An implicit import obscures the dependencies of a file and may cause confusing compile-time errors.","recommendation","It is advisable to make imports explicit.","/src/main/java/Main.java","1","1","1","19"

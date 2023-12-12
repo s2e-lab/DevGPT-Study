@@ -1,0 +1,2 @@
+"Hard-coded credential in sensitive call","Using a hard-coded credential in a sensitive call may compromise security.","error","Hard-coded value flows to [[""sensitive call""|""relative:///src/main/java/Main.java:22:49:22:56""]].","/src/main/java/Main.java","20","27","20","32"
+"Hard-coded credential in sensitive call","Using a hard-coded credential in a sensitive call may compromise security.","error","Hard-coded value flows to [[""sensitive call""|""relative:///src/main/java/Main.java:22:59:22:66""]].","/src/main/java/Main.java","21","27","21","39"

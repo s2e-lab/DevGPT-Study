@@ -1,0 +1,3 @@
+"Dead class","Dead classes add unnecessary complexity.","recommendation","The class Example is entirely unused.","/src/main/java/Example.java","1","14","1","20"
+"Useless parameter","Parameters that are not used add unnecessary complexity to an interface.","recommendation","The parameter 'x' is never used.","/src/main/java/Example.java","2","21","2","25"
+"Useless parameter","Parameters that are not used add unnecessary complexity to an interface.","recommendation","The parameter 'x' is never used.","/src/main/java/Example.java","6","21","6","28"

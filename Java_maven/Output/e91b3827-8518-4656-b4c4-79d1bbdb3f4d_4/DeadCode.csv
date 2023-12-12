@@ -1,0 +1,3 @@
+"Dead class","Dead classes add unnecessary complexity.","recommendation","The class ParentClass is only used from dead code originating at [[""someMethod""|""relative:///src/main/java/ParentClass.java:15:10:15:19""]].
+The class ParentClass is only used from dead code originating at [[""ChildClass""|""relative:///src/main/java/ParentClass.java:14:7:14:16""]].","/src/main/java/ParentClass.java","3","14","3","24"
+"Dead class","Dead classes add unnecessary complexity.","recommendation","The class ChildClass is entirely unused.","/src/main/java/ParentClass.java","14","7","14","16"

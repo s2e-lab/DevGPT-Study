@@ -1,0 +1,2 @@
+"Missing Javadoc for public type","A public class or interface that does not have a Javadoc comment affects maintainability.","recommendation","This type does not have a non-trivial Javadoc comment.","/src/main/java/PointDeserializer.java","8","14","8","30"
+"Missing Javadoc for public method or constructor","A public method or constructor that does not have a Javadoc comment affects maintainability.","recommendation","This constructor does not have a non-trivial Javadoc comment.","/src/main/java/Point.java","5","12","5","16"

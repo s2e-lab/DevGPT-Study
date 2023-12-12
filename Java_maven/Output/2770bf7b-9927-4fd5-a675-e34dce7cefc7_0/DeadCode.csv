@@ -1,0 +1,1 @@
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method someMethod is entirely unused.","/src/main/java/GarbageCollectionExample.java","15","17","15","26"

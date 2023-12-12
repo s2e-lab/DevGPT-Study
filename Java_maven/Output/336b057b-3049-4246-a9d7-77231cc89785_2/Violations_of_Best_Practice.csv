@@ -1,0 +1,4 @@
+"Unread local variable","A local variable that is never read is redundant.","recommendation","Variable 'RSAPrivateKey rsaPrivateKey' is never read.","/src/main/java/Main.java","14","9","14","97"
+"Unread local variable","A local variable that is never read is redundant.","recommendation","Variable 'RSAPublicKey rsaPublicKey' is never read.","/src/main/java/Main.java","18","9","18","92"
+"Unused local variable","A local variable that is not initialized, assigned, or read may indicate incomplete code.","recommendation","Variable rsaPrivateKey is not used.","/src/main/java/Main.java","14","9","14","97"
+"Unused local variable","A local variable that is not initialized, assigned, or read may indicate incomplete code.","recommendation","Variable rsaPublicKey is not used.","/src/main/java/Main.java","18","9","18","92"

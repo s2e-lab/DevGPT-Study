@@ -1,0 +1,2 @@
+"Assignment to parameter","Changing a parameter's value in a method or constructor may decrease code readability.","recommendation","Assignment to parameters may decrease code readability.","/src/main/java/BoothAlgorithm.java","15","9","15","66"
+"Assignment to parameter","Changing a parameter's value in a method or constructor may decrease code readability.","recommendation","Assignment to parameters may decrease code readability.","/src/main/java/BoothAlgorithm.java","16","9","16","70"

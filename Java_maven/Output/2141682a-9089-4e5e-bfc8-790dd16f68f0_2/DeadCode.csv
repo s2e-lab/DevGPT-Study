@@ -1,0 +1,1 @@
+"Dead field","Fields that are never read are likely unnecessary.","recommendation","The field name is entirely unread.","/src/main/java/Main.java","2","22","2","25"

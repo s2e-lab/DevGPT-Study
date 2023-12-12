@@ -1,0 +1,2 @@
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method deductFees is entirely unused.","/src/main/java/Main.java","4","18","4","27"
+"Dead method","Dead methods add unnecessary complexity.","recommendation","The method getBalance is entirely unused.","/src/main/java/Main.java","12","19","12","28"

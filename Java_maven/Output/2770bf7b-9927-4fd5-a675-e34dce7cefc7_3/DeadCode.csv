@@ -1,0 +1,1 @@
+"Dead field","Fields that are never read are likely unnecessary.","recommendation","The field staticVar is entirely unread.","/src/main/java/MyClass.java","2","23","2","31"

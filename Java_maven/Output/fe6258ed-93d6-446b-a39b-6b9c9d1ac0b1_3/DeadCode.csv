@@ -1,0 +1,2 @@
+"Dead field","Fields that are never read are likely unnecessary.","recommendation","The field y is entirely unread.","/src/main/java/Point.java","3","26","3","26"
+"Dead field","Fields that are never read are likely unnecessary.","recommendation","The field x is entirely unread.","/src/main/java/Point.java","2","26","2","26"

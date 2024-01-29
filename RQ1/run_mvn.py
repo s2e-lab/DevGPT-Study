@@ -34,12 +34,7 @@ for root, dirs, files in os.walk(maven_project_path):
             process_output, process_error = process.communicate(timeout=45)
 
             # Handle output or errors if needed
-<<<<<<< HEAD
-            # print(process_output.decode('utf-8'))
-            print(process_error.decode('utf-8'))
-=======
             print(process_output.decode('utf-8'))
->>>>>>> 4495a190cb3cac8e9b230c0337df8adad0099de6
 
             # Add the tested project to the set
             tested_projects.add(project)
